@@ -36,9 +36,10 @@
     {
       "name": "internet of things",
       "keywords": [
+        "Hardware",
+        "Low power systems",
         "Arduino",
-        "TI CC2650",
-        ""
+        "TI CC2650"
       ]
     },
     {
@@ -62,11 +63,11 @@
       "name": "Languages and Frameworks",
       "level": "",
       "keywords": [
-        "C",
-        "C++",
+        "Python",
         "Java",
         "Javascript",
-        "Python",
+        "C",
+        "C++",
         "SQL"
       ]
     },
