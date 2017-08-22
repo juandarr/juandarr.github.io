@@ -23,7 +23,7 @@
       {
         "network": "linkedin",
         "username": "juandarr",
-        "url": "http://linkedin.com/in/juandarr"
+        "url": "http://linkedin.com/in/juan-david-ríos-ruiz-81474b54"
       },
       {
         "network": "twitter",
@@ -84,12 +84,32 @@
   ],
   "education": [
     {
+      "institution": "Udacity",
+      "area": "AI Engineer",
+      "studyType": "Nanodegree",
+      "startDate": "2017-02-01",
+      "endDate": "2017-12-10",
+      "gpa": "",
+      "courses": [
+      ]
+    },
+    {
       "institution": "University of Florida, Gainesville, FL",
       "area": "Electrical and Computer Engineering",
-      "studyType": "MSc.",
+      "studyType": "MSc",
       "startDate": "2012-06-12",
       "endDate": "2013-12-10",
       "gpa": "3.8",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "University EAFIT, Medellín, Colombia",
+      "area": "Engineering Physics",
+      "studyType": "BASc",
+      "startDate": "2005-06-10",
+      "endDate": "2010-12-17",
+      "gpa": "",
       "courses": [
       ]
     }
