@@ -37,17 +37,23 @@
       "name": "internet of things",
       "keywords": [
         "Arduino",
-        "TI MSP430"
+        "TI CC2650",
+        ""
       ]
     },
     {
-      "name": "data mining",
+      "name": "web development",
       "keywords": [
+        "spring framework",
+        "bootstrap",
+        "semantic ui"
       ]
     },
     {
       "name": "artificial intelligence",
       "keywords": [
+        "machine learning",
+        "deep learning"
       ]
     }
   ],
@@ -60,8 +66,8 @@
         "C++",
         "Java",
         "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "Python",
+        "SQL"
       ]
     },
     {
@@ -69,21 +75,21 @@
       "level": "",
       "keywords": [
         "MacOS",
+        "Windows",
         "Ubuntu",
         "Git/GitHub",
-        "g++",
         "TI LaunchPad"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
-      "gpa": "",
+      "institution": "University of Florida, Gainesville, FL",
+      "area": "Electrical and Computer Engineering",
+      "studyType": "MSc.",
+      "startDate": "2012-06-12",
+      "endDate": "2013-12-10",
+      "gpa": "3.8",
       "courses": [
       ]
     }
