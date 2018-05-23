@@ -45,7 +45,7 @@
       "name": "robotics",
       "keywords": [
         "computer vision",
-        "eletronics design"
+        "eletronic design"
       ]
     },
     {
@@ -85,9 +85,9 @@
       "keywords": [
         "MacOS",
         "Windows",
-        "Ubuntu",
+        "Linux",
         "Git/GitHub",
-        "TI LaunchPad"
+        "Agile"
       ]
     }
   ],
@@ -125,15 +125,16 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "Driblet Labs, Boston, MA",
+      "position": "Senior firware engineer",
       "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "startDate": "2015-03-01",
+      "endDate": "2016-07-01",
+      "summary": "Lead electronics and firmware engineer",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "I was part of the foundational team of an early stage startup located in the Cambridge Innovation Center",
+        "Leaded the conception, design and development of a smart water meter and took the project from the prototype phase to manufacturing (pilot tests) in a period of time of about one and a half years.",
+        "As part of the Cambridge innovation center I was exposed and actively involved to Boston’s startup ecosystem, learning best practices and tools to thrive in an entrepreneurial and highly demanding environment. "
       ]
     },
     {
