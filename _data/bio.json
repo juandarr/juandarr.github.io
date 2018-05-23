@@ -76,6 +76,8 @@
         "Javascript",
         "C",
         "C++",
+        "Lisp",
+        "Objective-C",
         "SQL"
       ]
     },
@@ -103,7 +105,7 @@
       ]
     },
     {
-      "institution": "University of Florida, Gainesville, FL",
+      "institution": "University of Florida, Gainesville, FL, USA",
       "area": "Electrical and Computer Engineering",
       "studyType": "MSc",
       "startDate": "2012-06-12",
@@ -132,75 +134,80 @@
       "endDate": "2016-07-01",
       "summary": "Lead electronics and firmware engineer",
       "highlights": [
-        "I was part of the foundational team of an early stage startup located in the Cambridge Innovation Center",
+        "I was part of the foundational team of an early stage startup located in the Cambridge Innovation Center.",
         "Leaded the conception, design and development of a smart water meter and took the project from the prototype phase to manufacturing (pilot tests) in a period of time of about one and a half years.",
-        "As part of the Cambridge innovation center I was exposed and actively involved to Boston’s startup ecosystem, learning best practices and tools to thrive in an entrepreneurial and highly demanding environment. "
+        "As part of the Cambridge innovation center I was exposed and actively involved to Boston’s startup ecosystem, learning best practices and tools to thrive in an entrepreneurial and highly demanding environment."
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
+      "company": "Softbank Robotics",
+      "position": "Robotics engineer",
+      "website": "https://www.softbankrobotics.com/us/",
+      "startDate": "2014-02-01",
+      "endDate": "2015-02-28",
+      "summary": "Robotics support and repair engineer",
+      "highlights": [
+        "Worked in the repair and analysis of defective cases using hardware and software tools to troubleshot the company's robotic systems",
+        "My line of work focused it two different humanoid robots: Pepper, an emotional robot used in retail and NAO, used in research, education and the treatment of autistic children.",
+        "I also traveled to Paris and Tokyo to support the operations in those cities and learned a lot from the way they work and interact with each other."
+      ]
+    },
+    {
+      "company": "Chime",
+      "position": "Cofounder and CTO",
       "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "startDate": "2013-05-01",
+      "endDate": "2013-12-01",
+      "summary": "Early stage startup Cofounder and CTO",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Chime was a musical device to create music from motion using embedded systems, sensors, artificial intelligence and music theory.",
+        "The original idea was conceived in an international Hackathon -Angelhack-  in Atlanta, Georgia where I and my team won the first prize.",
+        "Eventually I and my co-founder created a multidisciplinary group of four people to improve the prototype and demoed it in Silicon Valley."
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
+      "company": "TDM Transportes",
+      "position": "Operations research engineer",
+      "website": "http://www.tdm.com.co/",
+      "startDate": "2011-03-01",
+      "endDate": "2012-08-01",
       "summary": "",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Developed applications for the optimization and management of the company own-trucks and critical resources using python and visual basic",
+        "I also supported the direction staff in the decision taking process providing valuable business intelligence through research and data analytics."
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "Angelhack hackathon winner",
+      "date": "2013",
+      "awarder": "Angelhack",
+      "summary": "Angelhack Atlanta summer 2013 winners. Received travel tickets and an invitation to Silicon Valley in San Francisco to continue with the winner project."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Colfuturo Scholarship",
+      "date": "2012",
+      "awarder": "Colfuturo",
+      "summary": "Awarded  by Colfuturo  to support the graduate studies of excelled people abroad."
+    },
+    {
+      "title": "LAC Scholarship for graduate studies",
+      "date": "2012-2013",
+      "awarder": "University of Florida",
+      "summary": "Awarded by the University of Florida to outstanding graduate students coming from Latin America."
+    },
+    {
+      "title": "B.Sc. Laureate thesis",
+      "date": "2010",
+      "awarder": "Universidad EAFIT",
+      "summary": "Design  and  construction of a magnetic  levitation system employing linear control  techniques."
+    },
+    {
+      "title": "City of Medellin undergraduate scholarship",
+      "date": "2006-2010",
+      "awarder": "Medellin government, Colombia",
+      "summary": "Awarded by the city of Medellin to students with best scores at high school national standard test (ICFES). First place."
     }
   ],
   "references": [
