@@ -127,6 +127,18 @@
   ],
   "work": [
     {
+      "company": "Startup",
+      "position": "Software engineer",
+      "website": "",
+      "startDate": "2016-08-01",
+      "endDate": "2017-09-20",
+      "summary": "Full stack developer",
+      "highlights": [
+        "As a full stack developer I helped to develop a web app and cloud computing platform to monitor and schedule the working hours of personal in contexts such as amusement parks, hospitals and cafeterias.",
+        "Designed and built a biometric system backend and control software based in fingerprint detection to monitor arrival/departure of employees from work."
+      ]
+    },
+    {
       "company": "Driblet Labs, Boston, MA",
       "position": "Senior firware engineer",
       "website": "",
