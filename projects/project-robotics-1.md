@@ -10,7 +10,7 @@ labels:
   - Computer Vision
   - Arduino
   - C++
-summary: I developed a robotic system for surveillance. The system is equipped with a camera which used computer vision algorithms for object detection, sonar sensors and bumpers for obstacle avoidance and an array of IR sensors for line tracking.
+summary: I developed a robotic system for surveillance. The system features an android camera with computer vision algorithms for object detection, sonar sensors and bumpers for obstacle avoidance and an array of IR sensors for line tracking.
 ---
 
 <div class="ui small rounded images">
