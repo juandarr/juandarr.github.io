@@ -1,24 +1,29 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
+image: images/smartmeter/smartmeter-prototype.jpg
 title: Smart water meter
 permalink: projects/smartMeter
-date: 2015
+date: 2015-2016
 labels:
   - IoT
   - 6LowPAN
   - Bluetooth
   - C/C++
-summary: My team developed a prototyp of a smart water meter to control and measure water flow in pipes of different diameters. For this purpose we developed a custom flow sensor and circuit board based on the TI2560, powered by a lipo battery.
+summary: My team developed a prototype of a smart water meter to control and measure water flow in pipes of different diameters. For this purpose we developed a custom flow sensor and circuit board based on the TI2560, powered by a lipo battery. The data provided by the system can then be processed/analized via a web or mobile app.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+<div class="ui small rounded images">
+  <img class="ui image" src="../images/smartmeter/smartmeter-prototype.jpg">
+  <img class="ui image" src="../images/smartmeter/smartmeter-cc2650.jpg">
+  <img class="ui image" src="../images/smartmeter/smartmeter-pcbs.png">
+</div>
+I was part of the foundational team of a startup located in the Cambridge Innovation Center. Leaded the conception, design and development of a smart water meter, vale and hub as a solution for business to control and monitor the water consumptions in their facilities. Working from the perspectiva of hardware and firmware development I took the project from prototype to manufacturing (pilot tests) phase in a period of time of about one and a half years. The data was collected in the cloud using AWS. A webapp was designed to work in pair with the hardware for analytics, management and visualization of water consumption and device status.
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
+<img class="ui medium right floated rounded image" src="../images/smartmeter/smartmeter-setting.jpg">
 
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming.
+Also, as a member of the Cambridge innovation center I was exposed and actively involved to Boston’s startup ecosystem, learning best practices and tools to thrive in an
+entrepreneurial and highly demanding environment.
 
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+More information here: <a href="https://techcrunch.com/2014/01/08/driblets-smart-water-meter-wants-to-track-your-home-water-usage/"><i class="large github icon"></i>Driblet</a>
