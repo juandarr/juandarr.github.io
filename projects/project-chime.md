@@ -2,15 +2,15 @@
 layout: project
 type: project
 image: images/vacay-square.png
-title: Smart water meter
-permalink: projects/smartMeter
+title: Chime
+permalink: projects/vacay
 date: 2015
 labels:
+  - Music
   - IoT
-  - 6LowPAN
   - Bluetooth
-  - C/C++
-summary: My team developed a prototyp of a smart water meter to control and measure water flow in pipes of different diameters. For this purpose we developed a custom flow sensor and circuit board based on the TI2560, powered by a lipo battery.
+  - Arduino
+summary: I designed and built a musical device to create music from motion and spatial gestures. The device takes inputs from different physical variables from the environment via an accelerometer, gyroscope, microphone, temperature and humidity sensor. This inputs are taken in consideration to generate music procedurally according to variations in the sensed values.
 ---
 
 <img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
