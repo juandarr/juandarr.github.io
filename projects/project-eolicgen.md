@@ -13,7 +13,7 @@ summary: I designed and built an eolic energy generator. Faraday induction is us
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/eolic/eolic-explosion.jpg">
+  <img class="ui image" src="../images/eolic/eolic-explosion.png">
   <img class="ui image" src="../images/eolic/eolic-model.jpg">
   <img class="ui image" src="../images/eolic/eolic-mechanism.jpg">
   <img class="ui image" src="../images/eolic/eolic-real.jpg">
