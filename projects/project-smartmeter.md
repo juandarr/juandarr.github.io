@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/smartmeter/smartmeter-prototype.jpg
 title: Smart water meter
-permalink: projects/smartMeter
+permalink: projects/smartmeter
 date: 2015-2016
 labels:
   - IoT
@@ -12,7 +12,6 @@ labels:
   - C/C++
 summary: My team developed a prototype of a smart water meter to control and measure water flow in pipes of different diameters. For this purpose we developed a custom flow sensor and circuit board based on the TI2560, powered by a lipo battery. The data provided by the system can then be processed/analized via a web or mobile app.
 ---
-
 
 <div class="ui small rounded images">
   <img class="ui image" src="../images/smartmeter/smartmeter-prototype.jpg">
