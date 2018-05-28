@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/chime/chime-logo2.png
+image: images/chime/chime-main.jpg
 title: Chime
 permalink: projects/chime
 date: 2013
@@ -12,6 +12,12 @@ labels:
   - Arduino
 summary: I designed and built a musical device to create music from motion and spatial gestures. The device takes inputs from different physical variables from the environment via an accelerometer, gyroscope, microphone, temperature and humidity sensor. This inputs are taken in consideration to generate music procedurally according to variations in the sensed values.
 ---
+<div class="ui small rounded images">
+  <img class="ui image" src="../images/chime/chime-colour.jpg">
+  <img class="ui image" src="../images/chime/chime-hackerhouse.jpg">
+  <img class="ui image" src="../images/chime/chime-internals.jpg">
+  <img class="ui image" src="../images/chime/chime-wood.jpg">
+</div>
 
 <img class="ui medium right floated rounded image" src="../images/chime/chime-logo.png">
 
