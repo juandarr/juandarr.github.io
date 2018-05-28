@@ -4,7 +4,7 @@ type: project
 image: images/smartmeter/smartmeter-prototype.jpg
 title: Smart water meter
 permalink: projects/smartmeter
-date: 2015-2016
+date: 2016
 labels:
   - IoT
   - 6LowPAN
