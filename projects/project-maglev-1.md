@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
+image: images/maglev/maglev-system.jpg
 title: Magnetic Levitation System
 permalink: projects/maglev
 date: 2009
@@ -9,22 +9,20 @@ labels:
   - Magnetic  levitation
   - Linear control
   - Arduino
-  - C++
+  - C/C++
 summary: During my undergraduate thesis I designed and built a magnetic levitation system using linear control techniques. The control system was implemented with an arduino like board know as Pinguino and levitation was achieved for objects of different shapes at around 1.2 cm from the core of the coil.
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
+  <img class="ui image" src="../images/maglev/maglev-system.jpg">
+  <img class="ui image" src="../images/maglev/maglev-structure.jpg">
+  <img class="ui image" src="../images/maglev/maglev-sensors.jpg">
+  <img class="ui image" src="../images/maglev/maglev-electronics.jpg">
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+I designed this magnetic levitation system aplying all the engineering concepts learned in my major, including analog and digital circuit design, conceptual design (the whole and the relationship of the parts at different levels: mechanical, electrical, interaction among subsystems,etc.), firmware programming with C/C++, control design and implementation. The final result is shown in the following video, you can see the levitation of objects of different materials, geometry, mass and dimension. One interesting fact about the system is that it was designed to levitate a spherical body of fixed mass and located at a fixed equilibrium position respect to the coil core, however this limitation, levitation can be achieved for considerable changes in mass, shape and other parameters.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
-
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pp8TWlxj1Ng" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 
