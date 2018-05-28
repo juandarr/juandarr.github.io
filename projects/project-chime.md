@@ -4,7 +4,7 @@ type: project
 image: images/vacay-square.png
 title: Chime
 permalink: projects/vacay
-date: 2015
+date: 2013
 labels:
   - Music
   - IoT
