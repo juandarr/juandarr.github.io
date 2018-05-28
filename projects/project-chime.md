@@ -13,7 +13,7 @@ labels:
 summary: I designed and built a musical device to create music from motion and spatial gestures. The device takes inputs from different physical variables from the environment via an accelerometer, gyroscope, microphone, temperature and humidity sensor. This inputs are taken in consideration to generate music procedurally according to variations in the sensed values.
 ---
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/chime/chime-colour.jpg">
+  <img class="ui image" src="../images/chime/chime-color.jpg">
   <img class="ui image" src="../images/chime/chime-hackerhouse.jpg">
   <img class="ui image" src="../images/chime/chime-internals.jpg">
   <img class="ui image" src="../images/chime/chime-wood.jpg">
@@ -25,4 +25,4 @@ Chime is a musical device to create music from motion and spatial gestures. It u
 
 This prototype was built using the [Arduino](https://www.arduino.cc/) (variations MEGA 2560 and nano were used in different versions of the prototype) and a set of sensors providing input data from the environment: sonar, temperature, humidity, accelerometer and gyroscope. The data was captured by the arduino board and sent wirelessly via Bluetooth to a music engine we built in Python for PC. The music engine is based on the [Pyo](https://github.com/belangeo/pyo) module for Python, a library for audio signal processing.
 
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+Source: <a href="https://github.com/juandarr/chime"><i class="large github icon"></i>Chime</a>
