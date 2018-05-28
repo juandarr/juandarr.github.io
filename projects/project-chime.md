@@ -1,9 +1,9 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
+image: images/chime/chime-logo2.png
 title: Chime
-permalink: projects/vacay
+permalink: projects/chime
 date: 2013
 labels:
   - Music
@@ -13,7 +13,7 @@ labels:
 summary: I designed and built a musical device to create music from motion and spatial gestures. The device takes inputs from different physical variables from the environment via an accelerometer, gyroscope, microphone, temperature and humidity sensor. This inputs are taken in consideration to generate music procedurally according to variations in the sensed values.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+<img class="ui medium right floated rounded image" src="../images/chime/chime-logo.png">
 
 Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
 
