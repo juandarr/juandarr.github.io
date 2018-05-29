@@ -14,37 +14,42 @@ summary: I developed a robotic system for surveillance. The system features an a
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/robot/robot-field.png">
+  <img class="ui image" src="../images/robot/robot-origins3.png">
   <img class="ui image" src="../images/robot/robot-track.png">
   <img class="ui image" src="../images/robot/robot-pointing.png">
   <img class="ui image" src="../images/robot/robot-main.jpg">
 </div>
 
-AlienBot is an autonomous wheeled robot which can be used for surveillance using a smartphone camera and pattern recognition algorithms (for face, object and motion recognition). It also include a set of ultrasonic modules for obstacle avoidance and an array of IR sensors to detect patterns in flat surfaces.
+<img class="ui medium right floated rounded image" src="../images/robot/robot-field.png">
+I designed and built an autonomous wheeled robot to surveil physical spaces using an android camera and pattern recognition algorithms for face, object and motion recognition. The system also features a set of ultrasonic modules for obstacle avoidance and an array of IR sensors to detect patterns in flat surfaces such as black lines over a white surface, which is used here to design the robot's line tracking capabilities.
 
-<div class="ui small rounded images">
-  <img class="ui image" src="../images/robot/robot-origins.jpg">
-  <img class="ui image" src="../images/robot/robot-origins2.png">
-  <img class="ui image" src="../images/robot/robot-origins3.jpg">
-</div>
+## Functional description
 
-AlienBot can follow lines (with IR sensors), perform object tracking  and avoid obstacles. If the robot reaches a dead end (this is, there is no trajectory or lines to follow), it will move forward avoiding obstacles (with a configuration of sonar sensors) until finds a colored object. Then the robot will use a laser (controlled by a pan/tilt system) to point over whatever is ahead and an alarm will turn on, indicating gun fire. In order to perform color tracking, the robot uses the built-in camera of an android smartphone with OpenCV and Python. The robot is composed by a simple two wheeled platform with an extra support caster wheel in the back. The priority order of the actions done by the robot is as follows:
+As far as functionality goes, the robot can follow lines, perform object tracking and avoid obstacles.  The priority order of the actions done by the robot is as follows:
 
 1. Avoid obstacles
 2. Object recognition
 3. Line tracking
 4. Move forward
 
-## Collision avoidance
-<iframe width="560" height="315" src="https://www.youtube.com/embed/o0P5m1t8Hhg?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+<img class="ui medium right floated rounded image" src="../images/robot/robot-origins2.png">
 
-## Object recognition
+Normally the robot will move forward until it finds lines to follow or a colored object (green color in the demo video) or obstacles to avoid. In the latter case, the robot will turn around and if there are no more obstacles ahead will choose among actions 2,3 and 4 as the next action to follow. When the robot's camera detects and object, it will stop and the device will start to follow the object with the attached pan/tilt system. Once the object of attention is in the center ofr the frame the robot will use a laser (also attached and controlled by the pan/tilt system) to point over whatever is ahead and an alarm will go on, indicating gun fire. The object tracking software uses the built-in camera of an android smartphone with OpenCV and Python. When the robot detects lines to follow it will try to stay on track unless there is an obstacle ahead. The robot body actuation is achieved by two 9V DC motor controlled by an H-bridge connected to an arduino board. This system moves a simple two wheeled platform with an extra support caster wheel in the back.
+
+## Demos
+### Collision avoidance
+<iframe width="560" height="315" src="https://www.youtube.com/embed/o0P5m1t8Hhg?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+### Object recognition
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LN0dzoi4bZw?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-## Line tracking
+### Line tracking
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wj9VCHaooy4?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-## Manual operation mode
+### Manual operation mode
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zWjKY17BtYQ?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+### Pan/tilt system testing
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QPomn0754iE?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+You can learn more at [Robot final report](https://www.mil.ufl.edu/5666/papers/IMDL_Report_Fall_12/Final%20Reports/Juan_Rios/Juan_Rios.pdf).
