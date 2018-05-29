@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
+image: images/robot/robot-main.jpg
 title: Surveillance robot
 permalink: projects/robot
 date: 2013
@@ -14,17 +14,37 @@ summary: I developed a robotic system for surveillance. The system features an a
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
+  <img class="ui image" src="../images/robot/robot-field.png">
+  <img class="ui image" src="../images/robot/robot-track.png">
+  <img class="ui image" src="../images/robot/robot-pointing.png">
+  <img class="ui image" src="../images/robot/robot-main.jpg">
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+AlienBot is an autonomous wheeled robot which can be used for surveillance using a smartphone camera and pattern recognition algorithms (for face, object and motion recognition). It also include a set of ultrasonic modules for obstacle avoidance and an array of IR sensors to detect patterns in flat surfaces.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+<div class="ui small rounded images">
+  <img class="ui image" src="../images/robot/robot-origins.jpg">
+  <img class="ui image" src="../images/robot/robot-origins2.png">
+  <img class="ui image" src="../images/robot/robot-origins3.jpg">
+</div>
 
+AlienBot can follow lines (with IR sensors), perform object tracking  and avoid obstacles. If the robot reaches a dead end (this is, there is no trajectory or lines to follow), it will move forward avoiding obstacles (with a configuration of sonar sensors) until finds a colored object. Then the robot will use a laser (controlled by a pan/tilt system) to point over whatever is ahead and an alarm will turn on, indicating gun fire. In order to perform color tracking, the robot uses the built-in camera of an android smartphone with OpenCV and Python. The robot is composed by a simple two wheeled platform with an extra support caster wheel in the back. The priority order of the actions done by the robot is as follows:
+
+1. Avoid obstacles
+2. Object recognition
+3. Line tracking
+4. Move forward
+
+## Collision avoidance
+<iframe width="560" height="315" src="https://www.youtube.com/embed/o0P5m1t8Hhg?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
 
+## Object recognition
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LN0dzoi4bZw?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+## Line tracking
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wj9VCHaooy4?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+## Manual operation mode
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zWjKY17BtYQ?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
