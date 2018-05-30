@@ -2,9 +2,8 @@
 
   <div class="ui stackable centered four cards">
     <!-- {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}-->
-    {% assign project_pages = site.pages | where: "type", "project" | group_by: "featured" %}
-    {% assign project_sorted = project_pages | sort: "date" | reverse %}
-    {% for page in project_sorted %}
+    {% assign project_pages = site.pages | where: "type", "project" | group_by: "featured" | sort: "date" | reverse %}
+    {% for page in project_pages %}
       {% unless page.draft %}
         {% include project-card.html page=page %}
       {% endunless %}
