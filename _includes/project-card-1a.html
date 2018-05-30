@@ -2,7 +2,7 @@
 
 
 <a class="card" href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl}}{{ include.page.url }}{% endif %}">
-  {% if page.featured %}
+  {% if include.page.featured == true %}
   <i class="big red heart icon" style="position: absolute;z-index: 100;align-content: center;"></i>
   {% endif %}
   {% if include.page.image %}
