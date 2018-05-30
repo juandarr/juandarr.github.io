@@ -3,8 +3,9 @@ layout: project
 type: project
 image: images/eolic/eolic-real.jpg
 title: Eolic energy generator
-permalink: projects/vacay
+permalink: projects/eolic
 date: 2006
+featured: 5
 labels:
   - Eolic energy
   - Mechanical design

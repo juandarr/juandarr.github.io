@@ -5,6 +5,7 @@ image: images/smartmeter/smartmeter-test.jpg
 title: Smart water meter, valve and hub
 permalink: projects/smartmeter
 date: 2016
+featured: 10
 labels:
   - IoT
   - 6LowPAN
