@@ -5,7 +5,7 @@ image: images/chime/chime-main.jpg
 title: Chime
 permalink: projects/chime
 date: 2013
-featured: 10
+featured: true
 labels:
   - IoT
   - Python

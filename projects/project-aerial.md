@@ -5,7 +5,7 @@ image: images/aerial/aerial-main.jpg
 title: Video system for Unmanned Aerial System
 permalink: projects/aerial
 date: 2011
-featured: 5
+featured: false
 labels:
   - UAV
   - Robotics
