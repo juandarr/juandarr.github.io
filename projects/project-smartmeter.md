@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/smartmeter/smartmeter-experimentation.jpg
+image: images/smartmeter/smartmeter-test.jpg
 title: Smart water meter, valve and hub
 permalink: projects/smartmeter
 date: 2016
@@ -14,8 +14,8 @@ summary: My team developed a prototype of a smart water meter, valve and hub to 
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/smartmeter/smartmeter-prototype.jpg">
   <img class="ui image" src="../images/smartmeter/smartmeter-smartvalve.jpg">
+  <img class="ui image" src="../images/smartmeter/smartmeter-prototype.jpg">
   <img class="ui image" src="../images/smartmeter/smartmeter-pcbs.png">
   <img class="ui image" src="../images/smartmeter/smartmeter-pcbdesign.jpg">
 </div>
