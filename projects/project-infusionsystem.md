@@ -5,7 +5,7 @@ image: images/infusion/infusion-inlab.jpg
 title: Infusion system
 permalink: projects/infusion
 date: 2007
-featured: 5
+featured: false
 labels:
   - C/C++
   - Medical devices

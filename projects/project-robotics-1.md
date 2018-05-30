@@ -5,7 +5,7 @@ image: images/robot/robot-main.jpg
 title: Surveillance robot
 permalink: projects/robot
 date: 2013
-featured: 10
+featured: true
 labels:
   - Robotics
   - Computer Vision

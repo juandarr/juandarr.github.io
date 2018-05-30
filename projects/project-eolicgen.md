@@ -5,7 +5,7 @@ image: images/eolic/eolic-real.jpg
 title: Eolic energy generator
 permalink: projects/eolic
 date: 2006
-featured: 5
+featured: false
 labels:
   - Eolic energy
   - Mechanical design
