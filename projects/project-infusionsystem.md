@@ -5,8 +5,9 @@ image: images/infusion/infusion-inlab.jpg
 title: Infusion system
 permalink: projects/infusion
 date: 2007
+featured: 5
 labels:
-  - C++
+  - C/C++
   - Medical devices
   - Embedded electronics
   - Industrial design

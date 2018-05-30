@@ -5,11 +5,13 @@ image: images/robot/robot-main.jpg
 title: Surveillance robot
 permalink: projects/robot
 date: 2013
+featured: 10
 labels:
   - Robotics
   - Computer Vision
   - Arduino
-  - C++
+  - C/C++
+  - Android
 summary: I developed a robotic system for surveillance. The system features an android camera with computer vision algorithms for object detection, sonar sensors and bumpers for obstacle avoidance and an array of IR sensors for line tracking.
 ---
 
