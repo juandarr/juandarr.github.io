@@ -5,7 +5,7 @@ image: images/maglev/maglev-system.jpg
 title: Magnetic Levitation System
 permalink: projects/maglev
 date: 2009
-featured: 10
+featured: true
 labels:
   - Magnetic  levitation
   - Linear control
