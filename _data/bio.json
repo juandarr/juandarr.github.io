@@ -29,6 +29,11 @@
         "network": "twitter",
         "username": "juandarr",
         "url": "http://twitter.com/juandarr"
+      },
+      {
+        "network": "medium",
+        "username": "overcode",
+        "url": "https://medium.com/@overcode"
       }
     ]
   },  
