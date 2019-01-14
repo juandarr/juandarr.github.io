@@ -100,16 +100,6 @@
   ],
   "education": [
     {
-      "institution": "Udacity",
-      "area": "AI Engineer",
-      "studyType": "Nanodegree",
-      "startDate": "2017-02-01",
-      "endDate": "2018-04-01",
-      "gpa": "",
-      "courses": [
-      ]
-    },
-    {
       "institution": "University of Florida, Gainesville, FL, USA",
       "area": "Electrical and Computer Engineering",
       "studyType": "MSc",
@@ -128,7 +118,28 @@
       "gpa": "",
       "courses": [
       ]
+    },
+    {
+      "institution": "Udacity",
+      "area": "AI Engineer",
+      "studyType": "Nanodegree",
+      "startDate": "2017-02-01",
+      "endDate": "2018-04-01",
+      "gpa": "",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "Udacity",
+      "area": "Self driving cars",
+      "studyType": "Nanodegree",
+      "startDate": "2018-11-14",
+      "endDate": "2019-05-14",
+      "gpa": "",
+      "courses": [
+      ]
     }
+
   ],
   "work": [
     {
