@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/maglev/maglev-system.jpg
+image: images/maglev/maglev-sphere.jpg
 title: Magnetic Levitation System
 permalink: projects/maglev
 date: 2009
