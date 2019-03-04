@@ -48,15 +48,37 @@
       {% include home-network-links.html %}
     </p>
     <p style="text-align: center">
-      <a href="{{ site.baseurl}}/projects/">
-        <button class="huge ui teal button">Projects ({{ num_projects }})</button>
+      <a href="{{ site.baseurl }}/projects" class=" {% if include.active == "projects" %} active {% endif %}item">
+        <div class="huge ui animated fade teal button" tabindex="0">
+          <div class="visible content">
+            Projects ({{ num_projects }})</div>
+          <div class="hidden content">
+              <i class="large terminal icon"></i>
+          </div>
+        </div>
       </a>
-      <a href="{{ site.baseurl}}/essays/">
-        <button class="huge ui purple button">Essays ({{ num_essays }})</button>
+      <a href="{{ site.baseurl }}/essays" class=" {% if include.active == "essays" %} active {% endif %} item">
+        <div class="huge ui animated fade purple button" tabindex="0">
+          <div class="visible content">
+            Essays ({{ num_essays }})</div>
+          <div class="hidden content">
+            <i class="large pencil alternate icon"></i>
+          </div>
+        </div>
       </a>
+      <a href="{{ site.baseurl }}/bio" class=" {% if include.active == "bio" %} active {% endif %} item">
+        <div class="huge ui animated fade orange button" tabindex="0">
+          <div class="visible content">
+            {{ site.bio-page-label }}</div>
+          <div class="hidden content">
+              <i class="large thumbs up outline icon"></i>
+          </div>
+        </div>
+      </a>
+      <!--
       <a href="{{ site.baseurl}}/bio/">
         <button class="huge ui orange button">{{ site.bio-page-label }}</button>
-      </a>
+      </a>-->
     </p>
   </div>
 </div>
