@@ -8,7 +8,7 @@
 <div class="nonprintable">
   <nav class="ui stackable menu" style="background: khaki; font-size: 20px; font-weight: bold !important;"> <!--#a7bd0d-->
     <a href="{{ site.baseurl}}/" class="brand item">
-      <img class="ui avatar image" src="{{ site.data.bio.basics.picture }}"><!--<span>Home<!--{{ site.data.bio.basics.name }}</span> -->
+      <img class="ui small circular image" src="{{ site.data.bio.basics.picture }}"><!--<span>Home<!--{{ site.data.bio.basics.name }}</span>ui avatar image -->
     </a>
     {% if num_projects > 0 %}
     
@@ -17,8 +17,8 @@
       <button class="huge ui teal button">Projects ({{ num_projects }})</button></a>
     {% endif %}
     {% if num_essays > 0 %}
-    <a href="{{ site.baseurl }}/essays" class=" {% if include.active == "essays" %} active {% endif %} item"><button class="huge ui orange button">Essays ({{ num_essays }})</button></a>
+    <a href="{{ site.baseurl }}/essays" class=" {% if include.active == "essays" %} active {% endif %} item"><button class="huge ui purple button">Essays ({{ num_essays }})</button></a>
     {% endif %}
-    <a href="{{ site.baseurl }}/bio" class=" {% if include.active == "bio" %} active {% endif %} item"><button class="huge ui purple button">{{ site.bio-page-label }}</button></a>
+    <a href="{{ site.baseurl }}/bio" class=" {% if include.active == "bio" %} active {% endif %} item"><button class="huge ui orange button">{{ site.bio-page-label }}</button></a>
   </nav>
 </div>
