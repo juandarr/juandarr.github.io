@@ -8,18 +8,19 @@
 <div class="nonprintable">
   <nav class="ui stackable menu" style="background: khaki; font-size: 20px; font-weight: bold !important;"> <!--#a7bd0d-->
     <a href="{{ site.baseurl}}/" class="brand item">
-      <img class="ui mini circular image" src="{{ site.data.bio.basics.picture }}"><!--<span>Home<!--{{ site.data.bio.basics.name }}</span>ui avatar image -->
+      <img class="ui tiny circular image" src="{{ site.data.bio.basics.picture }}"><!--<span>Home<!--{{ site.data.bio.basics.name }}</span>ui avatar image -->
     </a>
     {% if num_projects > 0 %}
     
+    <a href="{{ site.baseurl }}/projects" class=" {% if include.active == "projects" %} active {% endif %}item">
     <div class="huge ui animated fade teal button" tabindex="0">
-      <div class="visible content"><a href="{{ site.baseurl }}/projects" class=" {% if include.active == "projects" %} active {% endif %}item">
-      
-        Projects ({{ num_projects }})</a></div>
+      <div class="visible content">
+        Projects ({{ num_projects }})</div>
       <div class="hidden content">
-        <i class="bicycle icon"></i>
+        <i class="large bicycle icon"></i>
       </div>
     </div>
+  </a>
     <!--
     <a href="{{ site.baseurl }}/projects" class=" {% if include.active == "projects" %} active {% endif %}item">
       
