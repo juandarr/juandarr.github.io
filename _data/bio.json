@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Juan David Ríos",
-    "label": "Engineer, entrepreneur, coder",
+    "name": "Juan Ríos",
+    "label": "Engineer, maker, coder",
     "picture": "https://juandarr.github.io/images/juan.jpg",
     "email": "juandarr@gmail.com",
     "phone": "316-3882856",
     "website": "https://juandarr.github.io",
-    "summary": "Welcome to my home page. I am a passionate engineer with drive to solve problems in the world by means of engineering, science, entrepreneurship and coding. My range of exploration has gone from magnetic levitation systems, eolic energy generators, drones for aerial photography to robots for surveillance in closed spaces and medical assistance of the elderly, a smart water meter and a musical device to create music from motion and spatial gestures. During these experiences I learned what is needed to create software and physical devices by facilitating the convergence of disciplines such as mathematics, physical modeling, computer science, hardware and design in the context of a multidisciplinary and multicultural work team. If you are interested in my work, please check my projects and essays sections.",
+    "summary": "I am a passionate engineer driven to solve real world problems by means of science, engineering, coding and entrepreneurship.",
     "location": {
       "address": "",
       "postalCode": "",
