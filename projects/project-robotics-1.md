@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/robot/robot-main.jpg
+image: images/robot/robot-pointing.png
 title: Surveillance robot
 permalink: projects/robot
 date: 2013
