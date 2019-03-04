@@ -48,8 +48,8 @@
       {% include home-network-links.html %}
     </p>
     <p style="text-align: center">
-      <a href="{{ site.baseurl }}/projects" class=" {% if include.active == "projects" %} active {% endif %}item">
-        <div class="huge ui animated fade teal button" tabindex="0">
+      <a href="{{ site.baseurl }}/projects" class=" {% if include.active == "projects" %} active {% endif %} item">
+        <div class="huge ui animated fade teal button" tabindex="1">
           <div class="visible content">
             Projects ({{ num_projects }})</div>
           <div class="hidden content">
@@ -67,7 +67,7 @@
         </div>
       </a>
       <a href="{{ site.baseurl }}/bio" class=" {% if include.active == "bio" %} active {% endif %} item">
-        <div class="huge ui animated fade orange button" tabindex="2">
+        <div class="huge ui animated fade orange button" tabindex="1">
           <div class="visible content">
             {{ site.bio-page-label }}</div>
           <div class="hidden content">
