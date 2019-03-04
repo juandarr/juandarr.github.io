@@ -15,7 +15,7 @@
   <div class="column">
     <h1 class="header no-bottom">{{ site.data.bio.basics.name }}</h2>
     <p class="">{{ site.data.bio.basics.label }}</p>
-    <p class="">
+    <p class="" style="text-align:justify !important;">
       <!--{{ site.data.bio.basics.summary }}-->
       <h2 class="header no-bottom">Welcome to my home page!</h3>
       <br>
@@ -37,7 +37,9 @@
       <br>
       Please check out my projects and essays sections for more information!
     </p>
-    <p>Interests:
+    <br>
+    <br>
+    <p style="font-size:14px !important;"> Interests:
       {% for interest in site.data.bio.interests %}
         {{ interest.name }}{% if forloop.last != true %}, {% endif %}
       {% endfor %}
