@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/smartmeter/smartmeter-pcbs.png
+image: images/smartmeter/smartmeter-pcbdesign.jpg"
 title: Smart water meter, valve and hub
 permalink: projects/smartmeter
 date: 2016
@@ -18,7 +18,7 @@ summary: My team developed a prototype of a smart water meter, valve and hub to 
   <img class="ui image" src="../images/smartmeter/smartmeter-smartvalve.jpg">
   <img class="ui image" src="../images/smartmeter/smartmeter-prototype.jpg">
   <img class="ui image" src="../images/smartmeter/smartmeter-test.jpg">
-  <img class="ui image" src="../images/smartmeter/smartmeter-pcbdesign.jpg">
+  <img class="ui image" src="../images/smartmeter/smartmeter-pcbs.png">
 </div>
 I was part of the foundational team of a startup located in the Cambridge Innovation Center. Leaded the conception, design and development of a smart water meter, vale and hub as a solution for business to control and monitor the water consumptions in their facilities. Working from the perspectiva of hardware and firmware development I took the project from prototype to manufacturing (pilot tests) phase in a period of time of about one and a half years. The data was collected in the cloud using AWS and mongoDB. A webapp was designed with meteor to work in pair with the hardware for analytics, management and visualization of water consumption and device status.
 
