@@ -28,9 +28,19 @@
       
       <button class="huge ui teal button">Projects ({{ num_projects }})</button></a>-->
     
+    <a href="{{ site.baseurl }}/bio" class=" {% if include.active == "bio" %} active {% endif %} item">
+      <div class="huge ui animated fade purple button" tabindex="0">
+        <div class="visible content">
+          {{ site.bio-page-label }}</div>
+        <div class="hidden content">
+            <i class="large thumbs up outline icon"></i>
+        </div>
+      </div>
+    </a>
+
     {% if num_essays > 0 %}
     <a href="{{ site.baseurl }}/essays" class=" {% if include.active == "essays" %} active {% endif %} item">
-      <div class="huge ui animated fade purple button" tabindex="0">
+      <div class="huge ui animated fade orange button" tabindex="0">
         <div class="visible content">
           Blog ({{ num_essays }})</div>
         <div class="hidden content">
@@ -39,14 +49,7 @@
       </div>
     </a>
     {% endif %}
-    <a href="{{ site.baseurl }}/bio" class=" {% if include.active == "bio" %} active {% endif %} item">
-      <div class="huge ui animated fade orange button" tabindex="0">
-        <div class="visible content">
-          {{ site.bio-page-label }}</div>
-        <div class="hidden content">
-            <i class="large thumbs up outline icon"></i>
-        </div>
-      </div>
-    </a>
+
+
   </nav>
 </div>
