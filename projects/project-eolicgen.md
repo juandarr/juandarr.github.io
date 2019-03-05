@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/eolic/eolic-real.jpg
+image: images/eolic/eolic-model.jpg
 title: Eolic energy generator
 permalink: projects/eolic
 date: 2006
