@@ -1,3 +1,9 @@
+/* Custom definitions */
+
 emoji {
     font-size:150%;
+}
+
+.no-padding-bottom {
+  padding-bottom: 0px !important;  
 }
