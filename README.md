@@ -5,10 +5,11 @@ I you want to get in toouch just send me a message via Twitter or Gmail.
 
 ## TODO 
 
-1. [ ] Define a color palette and stick to it
-2. [ ] Improve description of each project. Text in card should be brief, then explanations must be created from an experienced engineer POV. 
-3. [ ] JD logo
-
+- [ ] Define a color palette and stick to it.
+- [ ] Improve description of each project. Text in card should be brief, then explanations must be created from an experienced engineer POV. 
+- [ ] JD logo.
+- [ ] Improve description of project in projects page. They should be short and concise.
+- [ ] Improve style of blog page. Consider a better look for the essay card and then the content.
 
 ## The original framework
 
