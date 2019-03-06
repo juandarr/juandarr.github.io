@@ -4,8 +4,8 @@ emoji {
     font-size:150%;
 }
 
-i.icon:hover {
-    color: #FFF200;
+.p-icon.big.icon.icon-color:hover {
+    color: #E4D800;
     transform: scale(1.3);
 }
 
