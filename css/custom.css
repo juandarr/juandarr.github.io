@@ -4,7 +4,7 @@ emoji {
     font-size:150%;
 }
 
-.p-icon.big.icon.icon-color:hover {
+.p-icon {
     color: #E4D800;
     transform: scale(1.3);
 }
