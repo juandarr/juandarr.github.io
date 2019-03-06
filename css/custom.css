@@ -5,9 +5,13 @@ emoji {
 }
 
 .p-icon:hover {
-    color: #E4D800;
+    color: #9627ba;
     transform: scale(1.3);
     transition: 0.35s ease;
+}
+
+.hlink:hover {
+    color: #9627ba;
 }
 
 .no-padding-bottom {
