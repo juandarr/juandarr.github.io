@@ -18,7 +18,7 @@ summary: I designed and built an infusion system to provide liquid medicine to p
   <img class="ui image" src="../images/infusion/infusion-diagram.png">
   <img class="ui image" src="../images/infusion/infusion-cad.jpg">
   <img class="ui image" src="../images/infusion/infusion-schematic.png">
-  <img class="ui image" src="../images/infusion/infusion-main3.jpg">
+  <img class="ui image" src="../images/infusion/infusion-main4.jpg">
 </div>
 
 An infusion system infuses fluids, medications or nutrients into a patient's circulatory system. Infusion pumps can administer fluids in ways that would be impractically expensive or unreliable if performed manually by nursing staff.
