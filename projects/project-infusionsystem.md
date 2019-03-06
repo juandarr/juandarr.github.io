@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/infusion/infusion-main.jpg
+image: images/infusion/infusion-main.png
 title: Infusion system
 permalink: projects/infusion
 date: 2007
