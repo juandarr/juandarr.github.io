@@ -11,7 +11,7 @@ emoji {
 }
 
 .hlink:hover {
-    color: #9627ba;
+    color: #9627ba !important;
 }
 
 .no-padding-bottom {
