@@ -14,11 +14,13 @@ summary: I designed and built an eolic energy generator. Faraday induction is us
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/eolic/eolic-explosion.png">
+  <img class="ui image" src="../images/eolic/eolic-explosion.jpg">
   <img class="ui image" src="../images/eolic/eolic-model.jpg">
   <img class="ui image" src="../images/eolic/eolic-mechanism.jpg">
   <img class="ui image" src="../images/eolic/eolic-real.jpg">
 </div>
+
+<img class="ui medium right floated rounded image" src="../images/eolic/eolic-diagram.jpg">
 
 The goal of this project was to design and build a device able to convert mechanical energy obtained from the air flow into eletrical energy. In this project I learned basic concepts about mechanism design and applied it in conjuntion with physics and engineering concepts. Faraday induction explains the physical phenomenon behind energy generation: electrical energy can be obtained aplying the Faraday's law in which the induced electromotive force (EMF or electric potential) in any closed circuit is equal to the time rate of change of the magnetic flux through the circuit.
 
