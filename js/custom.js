@@ -1,3 +1,4 @@
+/*
 var x = document.getElementsByClassName("cardjig");
 var i;
 for (i = 0; i < x.length; i++) {
@@ -10,18 +11,11 @@ function jiggle() {
     for (i = 0; i < x.length; i++) {
       x[i].transition('jiggle');
     } 
-}
-/*
-object.addEventListener("mouseover", jiggle);
-object.addEventListener("mouseover", tada);
+}*/
 
-function jiggle() {
-    $('.cardjig')
-  .transition('jiggle');
-}
+$(document).ready(function() {
+    $('.cardjig').hover(function(){
+        $(this).transition('jiggle');
+    }, function(){});
+});
 
-function tada() {
-    $('.p-icon')
-  .transition('tada');
-}
-*/
