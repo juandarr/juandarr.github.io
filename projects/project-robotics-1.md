@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/robot/robot-pointing.png
+image: images/robot/robot-pointing.jpg
 title: Surveillance robot
 permalink: projects/robot
 date: 2013
@@ -16,13 +16,13 @@ summary: I developed a robotic system for surveillance. The system features an a
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/robot/robot-origins3.png">
-  <img class="ui image" src="../images/robot/robot-track.png">
-  <img class="ui image" src="../images/robot/robot-pointing.png">
+  <img class="ui image" src="../images/robot/robot-origins3.jpg">
+  <img class="ui image" src="../images/robot/robot-track.jpg">
+  <img class="ui image" src="../images/robot/robot-pointing.jpg">
   <img class="ui image" src="../images/robot/robot-main.jpg">
 </div>
 
-<img class="ui medium right floated rounded image" src="../images/robot/robot-field.png">
+<img class="ui medium right floated rounded image" src="../images/robot/robot-field.jpg">
 I designed and built an autonomous wheeled robot to surveil physical spaces using an android camera and pattern recognition algorithms for face, object and motion recognition. The system also features a set of ultrasonic modules for obstacle avoidance and an array of IR sensors to detect patterns in flat surfaces such as black lines over a white surface, which is used here to design the robot's line tracking capabilities.
 
 ## Functional description
