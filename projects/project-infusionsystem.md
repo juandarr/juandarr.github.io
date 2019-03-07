@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/infusion/infusion-main.png
+image: images/infusion/infusion-main.jpg
 title: Infusion system
 permalink: projects/infusion
 date: 2007
@@ -15,9 +15,9 @@ summary: I designed and built an infusion system to provide liquid medicine to p
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/infusion/infusion-diagram.png">
+  <img class="ui image" src="../images/infusion/infusion-diagram.jpg">
   <img class="ui image" src="../images/infusion/infusion-cad.jpg">
-  <img class="ui image" src="../images/infusion/infusion-schematic.png">
+  <img class="ui image" src="../images/infusion/infusion-schematic.jpg">
   <img class="ui image" src="../images/infusion/infusion-main4.jpg">
 </div>
 
