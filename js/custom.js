@@ -16,7 +16,7 @@ function jiggle() {
 $(document).ready(function() {
 
     //var colors = ['coral', 'cornflowerblue', 'crimson','deepskyblue','gold','darkseagreen'];
-    var colors =['#4CC8C3','#FFF761','#B254D0','#FFA761','#63cff3','cornflowerblue','darkseagreen']
+    var colors =['#4CC8C3','#FFF761','#B254D0','#FFA761','#63cff3','cornflowerblue','darkseagreen'];
     var random_color;
 
     var x = document.getElementsByClassName('cardjig');
