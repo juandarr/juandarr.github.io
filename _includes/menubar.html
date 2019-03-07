@@ -6,14 +6,14 @@
 {% assign num_projects = project_pages.size %}
 
 <div class="nonprintable">
-  <nav class="ui stackable menu" style="background: khaki; font-size: 20px; font-weight: bold !important;width: 70%;margin-left: auto;margin-right: auto;height: 115px;"> <!--#a7bd0d-->
-    <a href="{{ site.baseurl}}/" class="brand item" style="padding-left: 10px;padding-right: 10px;"">
+  <nav class="ui stackable menu" style="background: #FFFA9E; font-size: 20px; font-weight: bold !important;width: 70%;margin-left: auto;margin-right: auto;height: 115px;"> <!--#a7bd0d-->
+    <a href="{{ site.baseurl}}/" class="brand item" style="padding-left: 10px;padding-right: 10px;">
       <img class="ui tiny circular image" src="{{ site.data.bio.basics.picture }}"><!--<span>Home<!--{{ site.data.bio.basics.name }}</span>ui avatar image -->
     </a>
     {% if num_projects > 0 %}
     
     <a href="{{ site.baseurl }}/projects" class=" {% if include.active == "projects" %} active {% endif %} item">
-      <div class="huge ui animated fade teal button" tabindex="0">
+      <div class="huge ui animated fade purple button" tabindex="0">
         <div class="visible content">
           Projects <!--({{ num_projects }})-->
         </div>
@@ -29,7 +29,7 @@
       <button class="huge ui teal button">Projects ({{ num_projects }})</button></a>-->
     
     <a href="{{ site.baseurl }}/bio" class=" {% if include.active == "bio" %} active {% endif %} item">
-      <div class="huge ui animated fade purple button" tabindex="0">
+      <div class="huge ui animated fade teal button" tabindex="0">
         <div class="visible content">
           {{ site.bio-page-label }}</div>
         <div class="hidden content">
