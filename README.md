@@ -1,7 +1,7 @@
 # Personal portfolio
 
 This is my personal webpage. My goal is to showcase the kind of projects I have worked on in the past and hihglight the kind of experience I am bringing to the table.
-I you want to get in toouch just send me a message via Twitter or Gmail.
+I you want to get in touch just send me a message via Twitter or Gmail.
 
 ## TODO 
 
@@ -14,7 +14,7 @@ I you want to get in toouch just send me a message via Twitter or Gmail.
 
 ## Color palette
 
-Here is the chosen color palette. It uses teal as the base color. Its complementary color (orange) is part of the set. Purple and yellow in its variation are part of the palette too. 
+Here is the chosen color palette. It uses teal as the base color. Its complementary color (orange) is part of the set. Purple and yellow in its variations are part of the palette too. 
 
 #####  Color Palette by Paletton.com
 #####  Palette URL: http://paletton.com/#uid=43h1j0kw0DljNJppqFjD8szFqmi
