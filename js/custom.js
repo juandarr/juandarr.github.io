@@ -16,7 +16,9 @@ function jiggle() {
 $(document).ready(function() {
 
     //var colors = ['coral', 'cornflowerblue', 'crimson','deepskyblue','gold','darkseagreen'];
-    var colors =['#FFF761','#4CC8C3','#B254D0','#FFA761','lightgreen','#e98ebc','#ccf88a','#63cff3'];
+    //var colors =['#FFF761','#4CC8C3','#B254D0','#FFA761','lightgreen','#e98ebc','#ccf88a','#63cff3'];
+    //faded color palette
+    var colors = ['#FFF76133','#4CC8C333','#B254D033','#FFA76133'];
     var color_index =Math.floor(Math.random() * colors.length) ;
 
     var x = document.getElementsByClassName('cardjig');
