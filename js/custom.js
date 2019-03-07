@@ -1,6 +1,5 @@
-object.addEventListener("mouseover", jiggle);
-
-function jiggle() {
+object.addEventListener("mouseover", function jiggle() {
     $('.cardjig')
   .transition('jiggle');
-}
+});
+
