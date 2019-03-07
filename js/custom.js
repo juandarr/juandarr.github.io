@@ -16,14 +16,17 @@ function jiggle() {
 $(document).ready(function() {
 
     //var colors = ['coral', 'cornflowerblue', 'crimson','deepskyblue','gold','darkseagreen'];
-    var colors =['#4CC8C3','#FFF761','#B254D0','#FFA761','#63cff3','cornflowerblue','darkseagreen'];
-    var random_color;
+    var colors =['#FFF761','#4CC8C3','#B254D0','#FFA761','lightgreen','#e98ebc','#ccf88a','#63cff3'];
+    var color_index =Math.floor(Math.random() * colors.length) ;
 
     var x = document.getElementsByClassName('cardjig');
     var i;
     for (i = 0; i < x.length; i++) {
-        random_color = colors[Math.floor(Math.random() * colors.length)];
-        x[i].style.background = random_color;
+        x[i].style.background = colors[color_index];
+        color_index++;
+        if (color_index == colors.length) {
+          color_index = 0;
+        }
     }  
 
     $('.cardjig').hover(function(){
