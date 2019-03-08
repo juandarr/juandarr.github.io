@@ -14,8 +14,8 @@ labels:
 summary: I worked for a couple of years in the design and construction of the avionics box of a Mini Robot Aerial Vehicle. One of the aspects I worked with was the integration of a video system to take videos and photos from the air.
 ---
 <div class="ui small rounded images">
-  <img class="ui medium right floated rounded image" src="../images/aerial/aerial-main.jpg">
-  <img class="ui medium right floated rounded image" src="../images/aerial/aerial-desert.jpg">
+  <img class="ui image" src="../images/aerial/aerial-main.jpg">
+  <img class="ui image" src="../images/aerial/aerial-desert.jpg">
 </div>
 
 <img class="ui medium right floated rounded image" src="../images/aerial/eolic-diagram.jpg">

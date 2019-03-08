@@ -34,7 +34,7 @@ As far as functionality goes, the robot can follow lines, perform object trackin
 3. Line tracking
 4. Move forward
 
-<img class="ui medium left floated rounded image" src="../images/robot/robot-origins2.png">
+<img class="ui medium left floated rounded image" src="../images/robot/robot-origins2.jpg">
 
 Normally the robot will move forward until it finds lines to follow or a colored object (green color in the demo video) or obstacles to avoid. In the latter case, the robot will turn around and if there are no more obstacles ahead will choose among actions 2,3 and 4 as the next action to follow. When the robot's camera detects and object, it will stop and the device will start to follow the object with the attached pan/tilt system. Once the object of attention is in the center ofr the frame the robot will use a laser (also attached and controlled by the pan/tilt system) to point over whatever is ahead and an alarm will go on, indicating gun fire. The object tracking software uses the built-in camera of an android smartphone with OpenCV and Python. When the robot detects lines to follow it will try to stay on track unless there is an obstacle ahead. The robot body actuation is achieved by two 9V DC motor controlled by an H-bridge connected to an arduino board. This system moves a simple two wheeled platform with an extra support caster wheel in the back.
 
