@@ -1,10 +1,10 @@
 <!-- Used by theme-projects-builtin-1a, entire card is the link. -->
 
 
-<a class="card" href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl}}{{ include.page.url }}{% endif %}">
+<a class="card pheart" href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl}}{{ include.page.url }}{% endif %}">
   
   {% if include.page.image %}
-  <div class="image pheart">
+  <div class="image">
     <img src="{{ site.baseurl }}/{{ include.page.image }}">
   </div>
   {% endif %}
