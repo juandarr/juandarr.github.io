@@ -55,6 +55,6 @@ emoji {
   }
 }
 
-.image.pheart:hover + .big.red.heart.outline.icon {
+.card.pheart:hover .big.red.heart.outline.icon {
   animation: heartbeat 1s infinite;
 }
