@@ -21,22 +21,37 @@ emoji {
 @keyframes heartbeat
 {
   0% {
-    transform: scale( .75 );
+    transform: scale(1);
+  }
+  10% {
+    transform: scale( 0.90 );
   }
   20% {
-    transform: scale( 1 );
+    transform: scale( 0.85);
+  }
+  30% {
+    transform: scale( 0.80 );
   }
   40% {
-    transform: scale( .75 );
+    transform: scale( 0.75 );
+  }
+  50% {
+    transform: scale( 0.70 );
   }
   60% {
-    transform: scale( 1 );
+    transform: scale( 0.75 );
+  }
+  70% {
+    transform: scale( 0.80 );
   }
   80% {
-    transform: scale( .75 );
+    transform: scale( 0.85 );
+  }
+  90% {
+    transform: scale( 0.90 );
   }
   100%{
-    transform: scale( .75 );
+    transform: scale(1);
   }
 }
 
