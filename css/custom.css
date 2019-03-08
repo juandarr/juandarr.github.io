@@ -50,11 +50,11 @@ emoji {
   90% {
     transform: scale( 0.90 );
   }
-  100%{
+  100% {
     transform: scale(1);
   }
 }
 
-.big.red.heart.outline.icon:hover {
-    animation: heartbeat 1s infinite;
+.image.pheart:hover + .big.red.heart.outline.icon {
+  animation: heartbeat 1s infinite;
 }
