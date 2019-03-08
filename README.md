@@ -8,6 +8,7 @@ I you want to get in touch just send me a message via Twitter or Gmail.
 - [x] Define a color palette and stick to it.
 - [x] Improve style of blog page. Consider a better look for the essay card and then the content.
 - [ ] Improve description of each project. Text in card should be brief, then explanations must be created from an experienced engineer POV. 
+- [ ] Create responsive design to improve experience in a mobile device
 - [ ] JD logo.
 
 
