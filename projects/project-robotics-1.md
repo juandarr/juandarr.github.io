@@ -54,4 +54,4 @@ Normally the robot will move forward until it finds lines to follow or a colored
 ### Pan/tilt system testing
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QPomn0754iE?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-You can learn more at the following link: [Robot final report](https://www.mil.ufl.edu/5666/papers/IMDL_Report_Fall_12/Final%20Reports/Juan_Rios/Juan_Rios.pdf).
+You can learn more at the following link: <a href="https://www.mil.ufl.edu/5666/papers/IMDL_Report_Fall_12/Final%20Reports/Juan_Rios/Juan_Rios.pdf"><i class="file pdf outline icon"></i>Robot final report</a>.

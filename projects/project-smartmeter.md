@@ -27,4 +27,4 @@ I was part of the foundational team of a startup located in the Cambridge Innova
 Also, as a member of the Cambridge innovation center I was exposed and actively involved to Boston’s startup ecosystem, learning best practices and tools to thrive in an
 entrepreneurial and highly demanding environment.
 
-More information here: <a href="https://techcrunch.com/2014/01/08/driblets-smart-water-meter-wants-to-track-your-home-water-usage/"><i class="large github icon"></i>Driblet</a>
+More information here: <a href="https://techcrunch.com/2014/01/08/driblets-smart-water-meter-wants-to-track-your-home-water-usage/"><i class="bookmark outline icon"></i>Driblet</a>
