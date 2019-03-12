@@ -11,7 +11,7 @@ labels:
   - Linear control
   - Arduino
   - C/C++
-summary: During my undergraduate thesis I designed and built a magnetic levitation system using linear control techniques. The control system was implemented with an arduino like board know as Pinguino and levitation was achieved for objects of different shapes at around 1.2 cm from the core of the coil.
+summary: This system uses linear control techniques implemented with an arduino like board, IR sensors and magnetic fields to levitate a steel object at around 1.2 cm from the magnetic force source. 
 ---
 
 <div class="ui small rounded images">

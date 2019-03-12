@@ -11,7 +11,7 @@ labels:
   - Robotics
   - Videography
   - Electronics
-summary: I worked for a couple of years in the design and construction of the avionics box of a Mini Robot Aerial Vehicle. One of the aspects I worked with was the integration of a video system to take videos and photos from the air.
+summary: The avionics box was developed as the main brain for a mini robot aerial vehicle. Besides a main embedded computer, the system features a video system to take videos and photos from the air.
 ---
 <div class="ui small rounded images">
   <img class="ui image" src="../images/aerial/aerial-main.jpg">

@@ -12,7 +12,7 @@ labels:
   - Arduino
   - C/C++
   - Android
-summary: I developed a robotic system for surveillance. The system features an android camera with computer vision algorithms for object detection, sonar sensors and bumpers for obstacle avoidance and an array of IR sensors for line tracking.
+summary: This autonomous wheeled robot features an android camera with computer vision algorithms for object detection. Besides, it incorporates sonar sensors, an array of IR sensors for line tracking and bumpers for obstacle avoidance.
 ---
 
 <div class="ui small rounded images">

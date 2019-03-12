@@ -11,7 +11,7 @@ labels:
   - Medical devices
   - Embedded electronics
   - Industrial design
-summary: I designed and built an infusion system to provide liquid medicine to patients via bloodstream using a syringe, a step motor, sensors and embedded devices.
+summary: This infusion device is designed to provide liquid medicine to ill patients via bloodstream using a syringe. The solution integrates a step motors, rotary sensors and embedded microcontrollers to control the dosification process.
 ---
 
 <div class="ui small rounded images">

@@ -10,7 +10,7 @@ labels:
   - Eolic energy
   - Mechanical design
   - Turbine
-summary: I designed and built an eolic energy generator. Faraday induction is used here to transform kinetic of a rotor energy into electric energy. The convertion process starts when wind power pushes an arrangement of 2 propellers whose inclination can be change by means of a gear mechanism. The propellers transform this eolic energy in mechanical rotation for a straigh axis where a set of 4 magnets are attached. Relative motion between the set of magnets and two coils generates electricity.
+summary:  The eolic energy generator is based on the Faraday induction principle and includes a customized circuit board to receive and transform the AC energy coming from the induction sources to DC energy.
 ---
 
 <div class="ui small rounded images">
