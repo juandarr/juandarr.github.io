@@ -118,6 +118,18 @@
       "gpa": "",
       "courses": [
       ]
+    }
+  ],
+  "complementary-education": [
+    {
+      "institution": "Udacity",
+      "area": "Self driving cars",
+      "studyType": "Nanodegree",
+      "startDate": "2018-11-14",
+      "endDate": "2019-05-14",
+      "gpa": "",
+      "courses": [
+      ]
     },
     {
       "institution": "Udacity",
@@ -128,18 +140,7 @@
       "gpa": "",
       "courses": [
       ]
-    },
-    {
-      "institution": "Udacity",
-      "area": "Self driving cars",
-      "studyType": "Nanodegree",
-      "startDate": "2018-11-14",
-      "endDate": "2019-05-14",
-      "gpa": "",
-      "courses": [
-      ]
     }
-
   ],
   "work": [
     {
