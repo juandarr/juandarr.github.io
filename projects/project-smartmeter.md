@@ -11,7 +11,7 @@ labels:
   - 6LowPAN
   - Bluetooth
   - C/C++
-summary: My team developed a prototype of a smart water meter, valve and hub to control and measure water flow in pipes of different diameters. For this purpose we developed a custom flow sensor and circuit boards based on the TI2560, powered by a lipo battery. The data provided by this IoT solution can then be processed and analized via web or mobile app.
+summary: This IoT solution was designed to control and measure water flow in pipes of different diameters. The system includes a smart water meter, valve, hub, customized circuit boards based on the TI2560 and Web/iOS apps.
 ---
 
 <div class="ui small rounded images">

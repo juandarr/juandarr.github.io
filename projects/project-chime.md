@@ -12,7 +12,7 @@ labels:
   - Arduino
   - Bluetooth
   - Music
-summary: I designed and built a musical device to create music from motion and spatial gestures. The device takes inputs from different physical variables from the environment via an accelerometer, gyroscope, microphone, temperature and humidity sensor. This inputs are taken in consideration to generate music procedurally according to variations in the sensed values.
+summary: This musical device creates music from motion and spatial gestures. Chime takes inputs from different physical variables via an accelerometer, gyroscope, microphone, temperature and humidity sensors. Variations in these inputs are used to generate music.
 ---
 <div class="ui small rounded images">
   <img class="ui image" src="../images/chime/chime-color.jpg">

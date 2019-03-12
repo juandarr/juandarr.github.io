@@ -11,7 +11,7 @@ labels:
   - Java
   - Angular
   - SQL
-summary: I designed and build a biometrics time punching solution for companies to register the arrival/departure of their employees from the workplace. To create the solution I used a fingerprint sensor to register unique identification data. A desktop and web applications were developed to manage and visualize the information.
+summary: This biometrics time punching desktop/web app solution allows the control of arrival/departure times of the workforce of companies. The software incorporates a fingerprint sensor to register unique identification data and tools for process metrics visualization.
 ---
 
 <img class="ui medium right floated rounded image" src="../images/fingerprint/fingerprint-u.jpg">
