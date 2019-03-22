@@ -18,7 +18,7 @@ summary: The avionics box was developed as the main brain for a mini robot aeria
   <img class="ui image zoom" src="../images/aerial/aerial-desert.jpg">
 </div>
 
-<img class="ui medium right floated rounded image" src="../images/aerial/aerial-diagram.jpg">
+<img class="ui medium right floated rounded image zoom" src="../images/aerial/aerial-diagram.jpg">
 
 I worked for a couple of years in the design and construction of the avionics box of a Mini Robot Aerial Vehicle. One of the aspects I worked with was the integration of a video system to take videos and photos from the air. The designed system can be divided in two subsystems: the onboard system (video sender), and the ground system (video receptor). The image at the right shows the components integrated to construct this system, which was attached to the mini-helicopter XCell Gas Graphite to take aerial video.
 
