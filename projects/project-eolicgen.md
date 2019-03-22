@@ -14,10 +14,10 @@ summary:  The eolic energy generator is based on the Faraday induction principle
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/eolic/eolic-explosion.jpg">
-  <img class="ui image" src="../images/eolic/eolic-model.jpg">
-  <img class="ui image" src="../images/eolic/eolic-mechanism.jpg">
-  <img class="ui image" src="../images/eolic/eolic-real.jpg">
+  <img class="ui image zoom" src="../images/eolic/eolic-explosion.jpg">
+  <img class="ui image zoom" src="../images/eolic/eolic-model.jpg">
+  <img class="ui image zoom" src="../images/eolic/eolic-mechanism.jpg">
+  <img class="ui image zoom" src="../images/eolic/eolic-real.jpg">
 </div>
 
 <img class="ui medium right floated rounded image" src="../images/eolic/eolic-diagram.jpg">

@@ -16,10 +16,10 @@ summary: This autonomous wheeled robot features an android camera with computer 
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/robot/robot-origins3.jpg">
-  <img class="ui image" src="../images/robot/robot-track.jpg">
-  <img class="ui image" src="../images/robot/robot-pointing.jpg">
-  <img class="ui image" src="../images/robot/robot-main.jpg">
+  <img class="ui image zoom" src="../images/robot/robot-origins3.jpg">
+  <img class="ui image zoom" src="../images/robot/robot-track.jpg">
+  <img class="ui image zoom" src="../images/robot/robot-pointing.jpg">
+  <img class="ui image zoom" src="../images/robot/robot-main.jpg">
 </div>
 
 <img class="ui medium right floated rounded image" src="../images/robot/robot-field.jpg">

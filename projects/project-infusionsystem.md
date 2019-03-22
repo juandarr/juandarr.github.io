@@ -15,9 +15,9 @@ summary: This infusion device is designed to provide liquid medicine to ill pati
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/infusion/infusion-diagram.jpg">
-  <img class="ui image" src="../images/infusion/infusion-cad.jpg">
-  <img class="ui image" src="../images/infusion/infusion-main4.jpg">
+  <img class="ui image zoom" src="../images/infusion/infusion-diagram.jpg">
+  <img class="ui image zoom" src="../images/infusion/infusion-cad.jpg">
+  <img class="ui image zoom" src="../images/infusion/infusion-main4.jpg">
 </div>
 
 <img class="ui medium right floated rounded image" src="../images/infusion/infusion-schematic.jpg">

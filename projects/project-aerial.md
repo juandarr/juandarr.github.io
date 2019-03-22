@@ -14,8 +14,8 @@ labels:
 summary: The avionics box was developed as the main brain for a mini robot aerial vehicle. Besides a main embedded computer, the system features a video system to take videos and photos from the air.
 ---
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/aerial/aerial-main.jpg">
-  <img class="ui image" src="../images/aerial/aerial-desert.jpg">
+  <img class="ui image zoom" src="../images/aerial/aerial-main.jpg">
+  <img class="ui image zoom" src="../images/aerial/aerial-desert.jpg">
 </div>
 
 <img class="ui medium right floated rounded image" src="../images/aerial/aerial-diagram.jpg">
