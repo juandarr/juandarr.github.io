@@ -60,14 +60,14 @@ emoji {
 }
 
 .zoom {
-  padding: 50px;
-  background-color: green;
-  transition: transform .2s; /* Animation */
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
+  transition: transform .3s; /* Animation */
 }
 
 .zoom:hover {
-  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(2.2);
+  z-index: 1;
+  border-style: groove;
+  border-width: 1px;
+  border: 0.5px solid #f2711c;
+  box-shadow: 0 1px 2px 0 #00b5ad;
 }

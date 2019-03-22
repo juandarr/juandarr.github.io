@@ -15,10 +15,10 @@ labels:
 summary: This musical device creates music from motion and spatial gestures. Chime takes inputs from different physical variables via an accelerometer, gyroscope, microphone, temperature and humidity sensors. Variations in these inputs are used to generate music.
 ---
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/chime/chime-color.jpg">
-  <img class="ui image" src="../images/chime/chime-hackerhouse.jpg">
-  <img class="ui image" src="../images/chime/chime-internals.jpg">
-  <img class="ui image" src="../images/chime/chime-wood.jpg">
+  <img class="ui image zoom" src="../images/chime/chime-color.jpg">
+  <img class="ui image zoom" src="../images/chime/chime-hackerhouse.jpg">
+  <img class="ui image zoom" src="../images/chime/chime-internals.jpg">
+  <img class="ui image zoom" src="../images/chime/chime-wood.jpg">
 </div>
 
 <img class="ui medium right floated rounded image" src="../images/chime/chime-logo.jpg">
