@@ -71,3 +71,11 @@ emoji {
   border: 0.5px solid #fff0d7;
   box-shadow: 0 1px 2px 0 #e0f6e8;
 }
+
+.medium_amp1_3:hover {
+  transform: scale(1.3) !important;
+}
+
+.medium_amp2:hover {
+  transform: scale(2.0) !important;
+}
