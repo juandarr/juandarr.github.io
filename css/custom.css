@@ -85,12 +85,15 @@ emoji {
 }
 
 .floating-menu {
-  font-family: sans-serif;
+  /*font-family: sans-serif;*/
   background: yellowgreen;
   padding: 5px;;
-  width: 130px;
+  width: auto;
   z-index: 100;
   position: fixed;
+  margin-top: 20px;
+  border-radius: 10px;
+  margin-left: 10px;
 }
 .floating-menu a, 
 .floating-menu h3 {
