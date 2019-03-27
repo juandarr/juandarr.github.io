@@ -8,7 +8,7 @@ layout: default
     {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
     {% for page in project_pages %}
       {% unless page.draft %}
-        <a href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl}}{{ include.page.url }}{% endif %}">{{page.title}}</a>
+        <a href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl}}{{page.url}}{% endif %}">{{page.title}}</a>
       {% endunless %}
     {% endfor %}
 </nav>
