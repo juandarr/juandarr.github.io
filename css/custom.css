@@ -103,24 +103,31 @@ emoji {
 }
 
 :root {
-  --mainColor: #ff9800;
+  --mainColor: #a333c8;
 }
 
 .floating-menu a{
   background:
      linear-gradient(
-       to bottom, var(--mainColor) 0%,
-       var(--mainColor) 100%
+       to right,
+       var(--mainColor) 0%,
+       var(--mainColor) 5px,
+       transparent 5px
      );
-    background-position: 0 100%;
     background-repeat: repeat-x;
-    background-size: 4px 4px;
-    color: white;
+    background-size: 100%;
+  color: white;
+  padding-left: 10px;
   text-decoration: none;
-  transition: background-size .2s;
 }
 
 .floating-menu a:hover {
-  background-size: 4px 50px;
+  background:
+     linear-gradient(
+       to right,
+       var(--mainColor) 0%,
+       var(--mainColor) 5px,
+       transparent
+     );
 }
 
