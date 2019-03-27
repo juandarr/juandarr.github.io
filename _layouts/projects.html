@@ -4,11 +4,13 @@ layout: default
 
 {% include menubar.html active="projects" %}
 <nav class="floating-menu">
-    <h3>Floating Menu</h3>
-    <a href="/css/">CSS</a>
-    <a href="/html/">HTML</a>
-    <a href="/coldfusion/">ColdFusion</a>
-    <a href="/database/">Database</a>
+    <h3>Projects menu</h3>
+    {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
+    {% for page in project_pages %}
+      {% unless page.draft %}
+        <a href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl}}{{ include.page.url }}{% endif %}">{{page.title}}</a>
+      {% endunless %}
+    {% endfor %}
 </nav>
 {{ content }}
 
