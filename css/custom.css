@@ -86,7 +86,7 @@ emoji {
 
 .floating-menu {
   /*font-family: sans-serif;*/
-  background: #00b5ad;
+  background: #a333c869;
   padding: 15px 5px 15px 5px;
   width: auto;
   z-index: 100;
@@ -97,6 +97,7 @@ emoji {
 }
 .floating-menu h3 {
   font-size: 1em;
+  text-transform: capitalize;
   display: block;
   margin: 0 0.5em;
   color: white;
@@ -111,8 +112,8 @@ emoji {
      linear-gradient(
        to right,
        var(--mainColor) 0%,
-       var(--mainColor) 5px,
-       transparent 5px
+       var(--mainColor) 1px,
+       transparent 2px
      );
     background-repeat: repeat-x;
     background-size: 100%;
