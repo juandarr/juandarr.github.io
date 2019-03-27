@@ -27,12 +27,14 @@ summary: This autonomous wheeled robot features an android camera with computer 
 
 ## Functional description
 
-<p class="pjustify">As far as functionality goes, the robot can follow lines, perform object tracking and avoid obstacles.  The priority order of the actions done by the robot is as follows:
+<p class="pjustify">As far as functionality goes, the robot can follow lines, perform object tracking and avoid obstacles.  The priority order of the actions done by the robot is as follows:</p>
 
-1. Avoid obstacles
-2. Object recognition
-3. Line tracking
-4. Move forward </p>
+<ol style="text-align:left !important;">
+  <li>Avoid obstacles</li>
+  <li>Object recognition</li>
+  <li>Line tracking</li>
+  <li>Move forward</li>
+</ol>
 
 <img class="ui medium left floated rounded image zoom" src="../images/robot/robot-origins2.jpg">
 
