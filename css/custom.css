@@ -79,3 +79,7 @@ emoji {
 .medium_amp2:hover {
   transform: scale(2.0) !important;
 }
+
+.pjustify {
+  text-align: justify;
+}
