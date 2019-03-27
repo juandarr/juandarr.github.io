@@ -86,8 +86,8 @@ emoji {
 
 .floating-menu {
   /*font-family: sans-serif;*/
-  background: yellowgreen;
-  padding: 5px;;
+  background: #00b5ad;
+  padding: 15px 5px 15px 5px;
   width: auto;
   z-index: 100;
   position: fixed;
@@ -95,10 +95,32 @@ emoji {
   border-radius: 10px;
   margin-left: 10px;
 }
-.floating-menu a, 
 .floating-menu h3 {
-  font-size: 0.9em;
+  font-size: 1em;
   display: block;
   margin: 0 0.5em;
   color: white;
 }
+
+:root {
+  --mainColor: #ff9800;
+}
+
+.floating-menu a{
+  background:
+     linear-gradient(
+       to bottom, var(--mainColor) 0%,
+       var(--mainColor) 100%
+     );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+    color: white;
+  text-decoration: none;
+  transition: background-size .2s;
+}
+
+.floating-menu a:hover {
+  background-size: 4px 50px;
+}
+
