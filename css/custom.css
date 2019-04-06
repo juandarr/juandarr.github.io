@@ -249,7 +249,8 @@ emoji {
 @media only screen and (max-width: 490px) {
   
   .medium-amp2, .medium-amp1_3 {
-    float: none;
+    float: none !important;
+    display: inline-flex;
   }
 }
 
