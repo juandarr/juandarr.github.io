@@ -80,11 +80,11 @@ emoji {
   box-shadow: 0 1px 2px 0 #e0f6e8;
 }
 
-.medium_amp1_3:hover {
+.medium-amp1_3:hover {
   transform: scale(1.3) !important;
 }
 
-.medium_amp2:hover {
+.medium-amp2:hover {
   transform: scale(2.0) !important;
 }
 
@@ -243,6 +243,14 @@ emoji {
     margin-bottom: 5px;
   }
 
+}
+
+/* For screen width less than 490px */
+@media only screen and (max-width: 490px) {
+  
+  .medium-amp2, .medium-amp1_3 {
+    float: none;
+  }
 }
 
 
