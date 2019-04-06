@@ -159,3 +159,8 @@ emoji {
   }
 }
 
+.menu-custom {
+  background: none;
+  box-shadow: none;
+  border: none;
+}
