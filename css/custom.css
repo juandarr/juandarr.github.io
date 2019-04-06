@@ -177,7 +177,7 @@ emoji {
 }
 
 .top-pad {
-  padding-top: 10%;
+  padding-top: 5% !important;
 }
 
 /* For mobile phones */
@@ -208,12 +208,6 @@ emoji {
     height: inherit;
   }
 
-/* For screen width less than 1050px phones */
-@media only screen and (max-width: 768px) {
-  .top-pad {
-    padding-top: 5% !important;
-  }
-
   .ui.stackable.menu {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -222,8 +216,6 @@ emoji {
   }
 
 }
-
-
 
 
 
