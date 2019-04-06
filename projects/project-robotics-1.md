@@ -66,4 +66,4 @@ summary: This autonomous wheeled robot features an android camera with computer 
     <iframe class="resp-iframe" src="https://www.youtube.com/embed/QPomn0754iE?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" gesture="media"  allowfullscreen></iframe>
 </div>
 
-<p class="pjustify">You can learn more at the following link: <a href="https://www.mil.ufl.edu/5666/papers/IMDL_Report_Fall_12/Final%20Reports/Juan_Rios/Juan_Rios.pdf"><i class="file pdf outline icon"></i>Robot final report</a>.</p>
+<p class="pjustify">You can learn more at the following link: <a class="hlink" href="https://www.mil.ufl.edu/5666/papers/IMDL_Report_Fall_12/Final%20Reports/Juan_Rios/Juan_Rios.pdf"><i class="file pdf outline icon"></i>Robot final report</a>.</p>

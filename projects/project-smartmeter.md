@@ -26,4 +26,4 @@ summary: This IoT solution was designed to control and measure water flow in pip
 
 <p class="pjustify">Also, as a member of the Cambridge innovation center I was exposed and actively involved to Boston’s startup ecosystem, learning best practices and tools to thrive in an entrepreneurial and highly demanding environment.</p>
 
-<p class="pjustify">More information here: <a href="https://techcrunch.com/2014/01/08/driblets-smart-water-meter-wants-to-track-your-home-water-usage/"><i class="bookmark outline icon"></i>Driblet</a> </p>
+<p class="pjustify">More information here: <a class="hlink" href="https://techcrunch.com/2014/01/08/driblets-smart-water-meter-wants-to-track-your-home-water-usage/"><i class="bookmark outline icon"></i>Driblet</a> </p>
