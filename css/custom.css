@@ -167,7 +167,7 @@ emoji {
 }
 
 /* For screen width less than 1050px phones */
-@media only screen and (min-width: 1650px) {
+@media only screen and (max-width: 1650px) {
   .floating-menu {
     display: none;
   }
