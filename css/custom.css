@@ -145,6 +145,13 @@ emoji {
   margin-left: 10px;
 }
 
+.menu-custom {
+  background: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+
 /* For mobile phones */
 @media only screen and (max-width: 450px) {
   .footer-custom {
@@ -159,8 +166,10 @@ emoji {
   }
 }
 
-.menu-custom {
-  background: none !important;
-  box-shadow: none !important;
-  border: none !important;
+/* For screen width less than 1050px phones */
+@media only screen and (min-width: 1650px) {
+  .floating-menu {
+    display: none;
+  }
 }
+
