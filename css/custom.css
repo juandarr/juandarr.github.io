@@ -185,7 +185,7 @@ emoji {
 /* For screen width less than 1050px phones */
 @media only screen and (max-width: 890px) {
   .stackable-custom {
-    height: none;
+    height: inherit;
   }
 
   .ui.stackable.menu {
