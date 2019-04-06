@@ -152,12 +152,12 @@ emoji {
 }
 
 .stackable-custom {
-  background: #FFFA9E; 
-  font-size: 20px; 
+  background: #FFFA9E !important; 
+  font-size: 20px !important; 
   font-weight: bold !important;
   width: 70%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: auto !important;
+  margin-right: auto !important;
   height: 115px;
 }
 
@@ -187,5 +187,13 @@ emoji {
   .stackable-custom {
     height: none;
   }
+
+  .ui.stackable.menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
 }
 
