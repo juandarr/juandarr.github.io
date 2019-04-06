@@ -20,7 +20,7 @@ summary: This infusion device is designed to provide liquid medicine to ill pati
   <img class="ui image zoom" src="../images/infusion/infusion-main4.jpg">
 </div>
 
-<img class="ui medium right floated rounded image zoom" src="../images/infusion/infusion-schematic.jpg">
+<img class="ui medium right floated rounded image zoom medium-amp2" src="../images/infusion/infusion-schematic.jpg">
 
 <p class="pjustify">An infusion system infuses fluids, medications or nutrients into a patient's circulatory system. Infusion pumps can administer fluids in ways that would be impractically expensive or unreliable if performed manually by nursing staff.
 The development of this system involved the use of embedded systems (microcontrollers), sensors (liquid volume and rotor speed) and mechanical design. Programming skills were required to write all the code behind every function in the device and hardware integration.</p>
