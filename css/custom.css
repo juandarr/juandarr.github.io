@@ -151,6 +151,15 @@ emoji {
   border: none !important;
 }
 
+.stackable-custom {
+  background: #FFFA9E; 
+  font-size: 20px; 
+  font-weight: bold !important;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 115px;
+}
 
 /* For mobile phones */
 @media only screen and (max-width: 450px) {
@@ -170,6 +179,13 @@ emoji {
 @media only screen and (max-width: 1650px) {
   .floating-menu {
     display: none;
+  }
+}
+
+/* For screen width less than 1050px phones */
+@media only screen and (max-width: 890px) {
+  .stackable-custom {
+    height: none;
   }
 }
 
