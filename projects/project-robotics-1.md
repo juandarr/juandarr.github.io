@@ -42,18 +42,28 @@ summary: This autonomous wheeled robot features an android camera with computer 
 
 ## Demos
 ### Collision avoidance
-<iframe width="560" height="315" src="https://www.youtube.com/embed/o0P5m1t8Hhg?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div class="resp-container">
+    <iframe class="resp-iframe" src="https://www.youtube.com/embed/o0P5m1t8Hhg?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" gesture="media"  allowfullscreen></iframe>
+</div>
 
 ### Object recognition
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LN0dzoi4bZw?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div class="resp-container">
+    <iframe class="resp-iframe" src="https://www.youtube.com/embed/LN0dzoi4bZw?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" gesture="media"  allowfullscreen></iframe>
+</div>
 
 ### Line tracking
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wj9VCHaooy4?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div class="resp-container">
+    <iframe class="resp-iframe" src="https://www.youtube.com/embed/wj9VCHaooy4?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" gesture="media"  allowfullscreen></iframe>
+</div>
 
 ### Manual operation mode
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zWjKY17BtYQ?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div class="resp-container">
+    <iframe class="resp-iframe" src="https://www.youtube.com/embed/zWjKY17BtYQ?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" gesture="media"  allowfullscreen></iframe>
+</div>
 
 ### Pan/tilt system testing
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QPomn0754iE?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div class="resp-container">
+    <iframe class="resp-iframe" src="https://www.youtube.com/embed/QPomn0754iE?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" gesture="media"  allowfullscreen></iframe>
+</div>
 
 <p class="pjustify">You can learn more at the following link: <a href="https://www.mil.ufl.edu/5666/papers/IMDL_Report_Fall_12/Final%20Reports/Juan_Rios/Juan_Rios.pdf"><i class="file pdf outline icon"></i>Robot final report</a>.</p>
