@@ -132,6 +132,11 @@ emoji {
      );
 }
 
+.profile-pic {
+  max-width: 400px;
+  border-radius: 20px;
+}
+
 .footer-custom {
   position: fixed;
   bottom: 0;
@@ -145,6 +150,12 @@ emoji {
   .footer-custom {
     display: none;
   }
+}
 
+/* For screen width less than 1050px phones */
+@media only screen and (max-width: 1050px) {
+  .profile-pic {
+    max-width: none;
+  }
 }
 
