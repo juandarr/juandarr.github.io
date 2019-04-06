@@ -191,7 +191,7 @@ emoji {
 
 /* For screen width less than 1050px phones */
 @media only screen and (max-width: 768px) {
-  .pad-top {
+  .top-pad {
     padding-top: 5% !important;
   }
 
