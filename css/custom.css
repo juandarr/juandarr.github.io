@@ -215,6 +215,11 @@ emoji {
     flex-direction: column;
   }
 
+  .zoom:hover {
+    transform: none;
+  }
+
+
 }
 
 /* For screen width less than 410px */
