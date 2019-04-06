@@ -224,11 +224,11 @@ emoji {
     flex-direction: column;
   }
 
-  .custom-padding {
-    padding-left: 37.5%;
-    padding-right: 37.5%;
+  .custom-margin {
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
-  
+
   .zoom:hover {
     transform: none !important;
   }
