@@ -142,7 +142,9 @@ emoji {
 
 /* For mobile phones */
 @media only screen and (max-width: 450px) {
-
+  .footer-custom {
+    display: none;
+  }
 
 }
 
