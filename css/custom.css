@@ -250,7 +250,7 @@ emoji {
   
   .medium-amp2, .medium-amp1_3 {
     float: none !important;
-    display: inline-flex;
+    display: inline-flex !important;
   }
 }
 
