@@ -226,6 +226,10 @@ emoji {
     flex-direction: column;
   }
 
+  .bottom-gap {
+    margin-bottom: 5px;
+  }
+
 }
 
 
