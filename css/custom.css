@@ -160,7 +160,7 @@ emoji {
 }
 
 .menu-custom {
-  background: none;
-  box-shadow: none;
-  border: none;
+  background: none !important;
+  box-shadow: none !important;
+  border: none !important;
 }
