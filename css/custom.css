@@ -133,8 +133,8 @@ emoji {
 }
 
 .profile-pic {
-  max-width: 400px;
-  border-radius: 20px;
+  max-width: 400px !important;
+  border-radius: 20px !important;
 }
 
 .footer-custom {
@@ -155,7 +155,7 @@ emoji {
 /* For screen width less than 1050px phones */
 @media only screen and (max-width: 1050px) {
   .profile-pic {
-    max-width: none;
+    max-width: 100% !important;
   }
 }
 
