@@ -188,6 +188,7 @@ emoji {
   padding-top: 5% !important;
 }
 
+
 /* For mobile phones */
 @media only screen and (max-width: 1550px) {
   .footer-custom {
@@ -216,13 +217,18 @@ emoji {
     height: inherit;
   }
 
-  .ui.stackable.menu {
+  .ui.menu {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
   }
 
+  .custom-padding {
+    padding-left: 37.5%;
+    padding-right: 37.5%;
+  }
+  
   .zoom:hover {
     transform: none !important;
   }

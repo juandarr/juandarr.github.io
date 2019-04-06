@@ -22,8 +22,9 @@ summary: This autonomous wheeled robot features an android camera with computer 
   <img class="ui image zoom" src="../images/robot/robot-main.jpg">
 </div>
 
-<img class="ui medium right floated rounded image zoom" src="../images/robot/robot-field.jpg">
 <p class="pjustify">I designed and built an autonomous wheeled robot to surveil physical spaces using an android camera and pattern recognition algorithms for face, object and motion recognition. The system also features a set of ultrasonic modules for obstacle avoidance and an array of IR sensors to detect patterns in flat surfaces such as black lines over a white surface, which is used here to design the robot's line tracking capabilities.</p>
+
+<img style="display: inline-flex;" class="ui medium rounded image zoom medium-amp2" src="../images/robot/robot-field.jpg">
 
 ## Functional description
 
