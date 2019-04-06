@@ -4,7 +4,7 @@
 {% assign num_essays = essay_pages.size %}
 {% assign num_projects = project_pages.size %}
 
-<div style="padding-top:75px;" class="ui middle aligned two column centered stackable grid container">
+<div class="ui middle aligned two column centered stackable grid container top-pad">
 
   <div style="text-align: center" class="column">
     <div  class="ui rounded image" style="background: none;padding: 1px;border-radius: 20px;border-style: dashed;border-width: 1px;">
@@ -12,7 +12,7 @@
     </div>
   </div>
 
-  <div class="column">
+  <div class="column" style="text-align: justify;">
     <h1 class="header no-padding-bottom" style="font-size: xx-large;margin-bottom: 10px;">{{ site.data.bio.basics.name }}</h1>
     <p class=""><!--{{ site.data.bio.basics.label }}-->Engineer <emoji>&#x1F468&#x200D&#x1F527</emoji>, maker <emoji>&#x1F468&#x200D&#x1F3A8</emoji> and coder <emoji>&#x1F468&#x200D&#x1F4BB</emoji></p>
     <p class="" style="text-align:justify !important;">
