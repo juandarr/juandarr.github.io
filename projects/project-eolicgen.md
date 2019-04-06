@@ -26,4 +26,6 @@ summary:  The eolic energy generator is based on the Faraday induction principle
 
 <p class="pjustify">A flux of air enters through a semiclosed cilindrical cavity, and according to its force and the wings' inclination, the rotor moves along with four magnets. The relative movement between these magnets and the coil generates an induced electromotive force which moves the electrons of the metallic material and then, produces an electrical current (electrical energy generation). A video that exemplify the mechanical movement of the system, and the idea behind this project is shown next:</p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/--vAqtKbqyM?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
+<div class="resp-container">
+    <iframe class="resp-iframe" src="https://www.youtube.com/embed/--vAqtKbqyM?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" gesture="media"  allowfullscreen></iframe>
+</div>
