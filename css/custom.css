@@ -195,14 +195,14 @@ emoji {
   }
 }
 
-/* For screen width less than 1050px phones */
+/* For screen width less than 1650px */
 @media only screen and (max-width: 1650px) {
   .floating-menu {
     display: none;
   }
 }
 
-/* For screen width less than 1050px phones */
+/* For screen width less than 890px */
 @media only screen and (max-width: 890px) {
   .stackable-custom {
     height: inherit;
@@ -217,12 +217,15 @@ emoji {
 
 }
 
-#container {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  min-width: 410px;
-  padding: 20px;
-  width: 100%;
+/* For screen width less than 410px */
+@media only screen and (max-width: 410px) {
+  .menu-custom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
 }
 
 
