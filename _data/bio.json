@@ -39,11 +39,10 @@
   },  
   "interests": [
     {
-      "name": "internet of things",
+      "name": "artificial intelligence",
       "keywords": [
-        "Hardware",
-        "Low power systems",
-        "Wireless"
+        "machine learning",
+        "deep learning"
       ]
     },
     {
@@ -54,6 +53,14 @@
       ]
     },
     {
+      "name": "internet of things",
+      "keywords": [
+        "Hardware",
+        "Low power systems",
+        "Wireless"
+      ]
+    },
+    {
       "name": "web development",
       "keywords": [
         "spring framework",
@@ -61,13 +68,6 @@
         "SQL",
         "bootstrap",
         "semantic ui"
-      ]
-    },
-    {
-      "name": "artificial intelligence",
-      "keywords": [
-        "machine learning",
-        "deep learning"
       ]
     }
   ],
