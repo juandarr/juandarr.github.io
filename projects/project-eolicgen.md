@@ -22,7 +22,7 @@ summary:  The eolic energy generator is based on the Faraday induction principle
 
 
 
-<p class="pjustify">The goal of this project was to design and build a device able to convert mechanical energy obtained from the air flow into eletrical energy. In this project I learned basic concepts about mechanism design and applied it in conjuntion with physics and engineering concepts. 
+<p class="pjustify">The goal of this project was to design and build a device able to convert mechanical energy obtained from the air flow into eletrical energy. In this project I learned basic concepts about mechanism design and applied it in conjuntion with physics and engineering concepts. </p> 
 
 <img class="ui medium right floated rounded image zoom medium-amp2" src="../images/eolic/eolic-diagram.jpg">
 
