@@ -229,6 +229,12 @@ emoji {
     margin-right: auto !important;
   }
 
+  .custom-margin .active.item {
+    padding-left: 39.5%;
+    padding-right: 39.5%;
+    border-radius: inherit;
+  }
+
   .zoom:hover {
     transform: none !important;
   }
