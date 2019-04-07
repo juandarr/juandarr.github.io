@@ -230,9 +230,8 @@ emoji {
   }
 
   .ui.menu .active.item {
-    padding-left: 37.5%;
-    padding-right: 37.5%;
     border-radius: inherit;
+    width: 100%;
   }
 
   .zoom:hover {
