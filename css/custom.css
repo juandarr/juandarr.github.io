@@ -217,7 +217,7 @@ emoji {
     height: inherit;
   }
 
-  .ui.menu {
+  .ui.stackable.menu {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
