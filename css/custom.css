@@ -211,8 +211,8 @@ emoji {
   }
 }
 
-/* For screen width less than 890px */
-@media only screen and (max-width: 890px) {
+/* For screen width less than 928px */
+@media only screen and (max-width: 928px) {
   .stackable-custom {
     height: inherit;
   }
