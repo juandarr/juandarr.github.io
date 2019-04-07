@@ -231,7 +231,6 @@ emoji {
 
   .ui.menu .active.item {
     border-radius: inherit;
-    width: 100%;
   }
 
   .zoom:hover {
