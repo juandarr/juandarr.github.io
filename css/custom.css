@@ -190,7 +190,7 @@ emoji {
 
 
 /* For mobile phones */
-@media only screen and (max-width: 1550px) {
+@media only screen and (max-width: 1580px) {
   
   .ui.container.container-custom {
     display: flow-root;
