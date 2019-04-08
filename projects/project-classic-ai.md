@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/classic-ai/sudoku-agent.gif
+image: images/classic-ai/sudoku.gif
 title: Classic AI projects
 permalink: projects/classic-ai
 date: 2017
@@ -17,7 +17,7 @@ summary: As part of the nanodegree in Artificial Intelligence from Udacity I wor
 ## Sudoku agent
 <div class="ui small rounded images">
   <img class="ui image zoom" src="../images/classic-ai/sudoku-terminal.png">
-  <img class="ui image zoom" src="../images/classic-ai/sudoku-pyg.png">
+  <img class="ui image zoom" src="../images/classic-ai/sudoku-static.png">
 </div>
 
 <p class="pjustify">In this initial project, I built a simple AI using Constraint Propagation and Search to solve Sudoku puzzles. Contraint propagation strategies are extended to solve Diagonal Sudokus, and implement advanced Sudoku strategies such as the Naked Twins strategy. The sytstem prints the Sudoku solved on the terminal prompt and when the pygame dependencies are satified will show in a user interface how the solver fills the gaps in each new iteration.</p>

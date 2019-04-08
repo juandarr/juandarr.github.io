@@ -13,7 +13,7 @@ function jiggle() {
     } 
 }*/
 
-var staticGifSuffix = "-static.gif";
+var staticGifSuffix = "-static.png";
 var gifSuffix = ".gif";
 
 $(document).ready(function() {
