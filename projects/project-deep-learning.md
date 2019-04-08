@@ -1,20 +1,20 @@
 ---
 layout: project
 type: project
-image: images/classic-ai/sudoku-agent.gif
-title: Classic AI projects
-permalink: projects/classic-ai
-date: 2017
+image: images/deep-learning/deep-dream.gif
+title: Deep learning projects
+permalink: projects/deep-learning
+date: 2018
 featured: true
 labels:
-  - AI
-  - Search
-  - Planning
-  - Logic
-  - Probabilities
-summary: As part of the nanodegree in Artificial Intelligence from Udacity I worked on several AI projects exploring the realms of contraint satisfcation, search, logic and reasoning, automated planning and probabilistic models.
+  - Machine learning
+  - CNN
+  - RNN
+  - GAN
+summary: One of the great breakthroughs of AI today. This project collects my work on different deep network architectures such as CNN (computer vision), RNNs (sequences of data) and GANS (networks that compete with each other).
 ---
-## Sudoku agent
+## Dog breed classifier
+
 <div class="ui small rounded images">
   <img class="ui image zoom" src="../images/classic-ai/sudoku-terminal.png">
   <img class="ui image zoom" src="../images/classic-ai/sudoku-pyg.png">
@@ -24,7 +24,7 @@ summary: As part of the nanodegree in Artificial Intelligence from Udacity I wor
 
 <p class="pjustify">Source: <a class="hlink" href="https://github.com/juandarr/Sudoku-agent"><i class="large github icon"></i>Sudoku agent.</a></p>
 
-## Adversarial search in isolation
+## Time series prediction and text generation
 
 <img class="ui medium right floated rounded image chime zoom medium-amp1_3" src="../images/classic-ai/isolated-agent.jpeg">
 
@@ -32,7 +32,7 @@ summary: As part of the nanodegree in Artificial Intelligence from Udacity I wor
 
 <p class="pjustify">Source: <a class="hlink" href="https://github.com/juandarr/Adversarial-game-isolation"><i class="large github icon"></i>Adversarial game isolation.</a></p>
 
-## Domain independent planner 
+## Machine translation
 
 <img class="ui medium right floated rounded image chime zoom medium-amp1_3 h-img" src="../images/classic-ai/progression.png">
 
@@ -40,7 +40,7 @@ summary: As part of the nanodegree in Artificial Intelligence from Udacity I wor
 
 <p class="pjustify">Source: <a class="hlink" href="https://github.com/juandarr/Planning-search"><i class="large github icon"></i>Planning search.</a></p>
 
-## American sign language recognizer 
+## Deepdream
 
 <img class="ui medium right floated rounded image chime zoom medium-amp1_3 h-img" src="../images/classic-ai/asl-recognizer.png">
 
