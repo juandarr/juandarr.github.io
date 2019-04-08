@@ -13,6 +13,9 @@ function jiggle() {
     } 
 }*/
 
+var staticGifSuffix = "-static.gif";
+var gifSuffix = ".gif";
+
 $(document).ready(function() {
 
     //var colors = ['coral', 'cornflowerblue', 'crimson','deepskyblue','gold','darkseagreen'];
@@ -37,17 +40,24 @@ $(document).ready(function() {
             //duration   : '1s'
             });
     }, function(){});
-
-    $("#imgAnimate").hover(
-        function()
-        {
-            $(this).attr("src", "images/classic-ai/sudoku-agent.gif");
-        },
-        function()
-        {
-            $(this).attr("src", "images/classic-ai/sudoku-pyg.png");
-        });
-
+    
+    $(".img-animate").each(function () {
+  
+        $(this).hover(
+          function()
+          {
+              var originalSrc = $(this).attr("src");
+              $(this).attr("src", originalSrc.replace(staticGifSuffix, gifSuffix));
+          },
+          function()
+          {
+              var originalSrc = $(this).attr("src");
+              $(this).attr("src", originalSrc.replace(gifSuffix, staticGifSuffix));  
+          }
+        );
+  
+    });
+  
 
 });
 
