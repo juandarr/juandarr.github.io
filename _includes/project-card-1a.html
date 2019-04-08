@@ -1,14 +1,14 @@
 <!-- Used by theme-projects-builtin-1a, entire card is the link. -->
 
 
-<a class="card pheart " href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl}}{{ include.page.url }}{% endif %}">
+<a class="card pheart imgAnimate" href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl}}{{ include.page.url }}{% endif %}">
   
   {% if include.page.featured == true %}
   <i class="big red heart outline icon" style="position: absolute;padding: 3px 0px 0px 3px;z-index: 100;margin: 0px;align-content: center;"></i>
   {% endif %}
   {% if include.page.image %}
   <div class="image">
-    <img class="imgAnimate" src="{{ site.baseurl }}/{{ include.page.image }}">
+    <img src="{{ site.baseurl }}/{{ include.page.image }}">
   </div>
   {% endif %}
   

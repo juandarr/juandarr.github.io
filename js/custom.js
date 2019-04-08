@@ -47,12 +47,12 @@ $(document).ready(function() {
           function()
           {
               var originalSrc = $(this).attr("src");
-              $(this).attr("src", originalSrc.replace(staticGifSuffix, gifSuffix));
+              $(this)[0].children[1].attr("src", originalSrc.replace(staticGifSuffix, gifSuffix));
           },
           function()
           {
               var originalSrc = $(this).attr("src");
-              $(this).attr("src", originalSrc.replace(gifSuffix, staticGifSuffix));  
+              $(this)[0].children[1].attr("src", originalSrc.replace(gifSuffix, staticGifSuffix));  
           }
         );
   
