@@ -34,7 +34,7 @@ summary: As part of the nanodegree in Artificial Intelligence from Udacity I wor
 
 ## Domain independent planner 
 
-<img class="ui medium right floated rounded image chime zoom medium-amp1_3" src="../images/classic-ai/progression.png">
+<img class="ui medium right floated rounded image chime zoom medium-amp1_3 h-img" src="../images/classic-ai/progression.png">
 
 <p class="pjustify">The planner consists in a computer program that is able to reach new, logical conclusions from a given set of initial facts. In this case an airplane is located in an initial airport, and the planner is expected to take from its initial point to a `goal`, in the form of a destination airport. A set of operations are allowed. The main tools implemented to design the intelligent planner are propositional logic, search algorithms such as `A*`, BFS, DPS and axioms.</p>
 
@@ -42,7 +42,7 @@ summary: As part of the nanodegree in Artificial Intelligence from Udacity I wor
 
 ## American sign language recognizer 
 
-<img class="ui medium right floated rounded image chime zoom medium-amp1_3" src="../images/classic-ai/asl-recognizer.png">
+<img class="ui medium right floated rounded image chime zoom medium-amp1_3 h-img" src="../images/classic-ai/asl-recognizer.png">
 
 <p class="pjustify">This project explored the use of probabilistic inferential models to calculate the probability of certain events ocurring. In particular we use Hidden Markov Models to recognize American sign language given a sequence of movements, intermediate states are unobserved and a previous knowledge of expected sequences (but not of their probabilities). This final project is part of the section covering `bayesian networks`, `conditional probability` and `Bayes' rule`.</p>
 
