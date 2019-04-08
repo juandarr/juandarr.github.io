@@ -189,8 +189,8 @@ emoji {
 }
 
 .h-img {
-  height:250px;
-  width: auto;
+  height:250px !important;
+  width: auto !important;
 }
 
 /* For mobile phones */
