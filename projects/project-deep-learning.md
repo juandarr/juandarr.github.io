@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/deep-learning/deep-dream.gif
+image: images/classic-ai/sudoku-agent.gif
 title: Deep learning projects
 permalink: projects/deep-learning
 date: 2018
