@@ -41,7 +41,7 @@ $(document).ready(function() {
             });
     }, function(){});
     
-    $(".img-animate").each(function () {
+    $(".imgAnimate").each(function () {
   
         $(this).hover(
           function()
