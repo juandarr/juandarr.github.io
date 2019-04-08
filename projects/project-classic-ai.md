@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/classic-ai/sudoku.gif
+image: images/classic-ai/sudoku-static.png
 title: Classic AI projects
 permalink: projects/classic-ai
 date: 2017
