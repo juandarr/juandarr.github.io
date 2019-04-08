@@ -37,5 +37,17 @@ $(document).ready(function() {
             //duration   : '1s'
             });
     }, function(){});
+
+    $("#imgAnimate").hover(
+        function()
+        {
+            $(this).attr("src", "images/classic-ai/sudoku-agent.gif");
+        },
+        function()
+        {
+            $(this).attr("src", "images/classic-ai/sudoku-pyg.png");
+        });
+
+
 });
 
