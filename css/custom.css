@@ -188,6 +188,10 @@ emoji {
   padding-top: 5% !important;
 }
 
+.h-img {
+  height:250px;
+  width: auto;
+}
 
 /* For mobile phones */
 @media only screen and (max-width: 1580px) {
