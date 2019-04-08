@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/fingerprint/fingerprint-dp.jpg
-title: Time punching using biometrics
+title: Biometrics based webapp for time punching
 permalink: projects/fingerprint
 date: 2017
 featured: false
