@@ -46,13 +46,13 @@ $(document).ready(function() {
         $(this).hover(
           function()
           {
-              var originalSrc = $(this).children[1].attr("src");
-              $(this).children[1].attr("src", originalSrc.replace(staticGifSuffix, gifSuffix));
+              var originalSrc = $(this).children[1].children[0].attr("src");
+              $(this).children[1].children[0].attr("src", originalSrc.replace(staticGifSuffix, gifSuffix));
           },
           function()
           {
-              var originalSrc = $(this).children[1].attr("src");
-              $(this).children[1].attr("src", originalSrc.replace(gifSuffix, staticGifSuffix));  
+              var originalSrc = $(this).children[1].children[0].attr("src");
+              $(this).children[1].children[0].attr("src", originalSrc.replace(gifSuffix, staticGifSuffix));  
           }
         );
   
