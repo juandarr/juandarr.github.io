@@ -1,10 +1,13 @@
 <div style="padding-top: 20px" class="ui container ">
   <div class="ui stackable centered four cards">
-    {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
-    {% for page in project_pages %}
-      {% unless page.draft %}
-        {% include project-card-1a.html page=page %}
-      {% endunless %}
-    {% endfor %}
+      {% assign project_featured = site.pages | where: "type", "project" | group_by: "date" | sort: "date" | reverse %}
+      {% for pages in project_featured %}
+          {% assign featuredDateSorted = pages.items | sort: "featured" | reverse %}
+          {% for page in featuredDateSorted %}
+            {% unless page.draft %}
+              {% include project-card-1a.html page=page %}
+            {% endunless %}
+          {% endfor %}
+      {% endfor %}
   </div>
 </div>
