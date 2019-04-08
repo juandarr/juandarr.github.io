@@ -46,12 +46,12 @@ $(document).ready(function() {
         $(this).hover(
           function()
           {
-              var originalSrc = $(this).attr("src");
+              var originalSrc = $(this).children[1].attr("src");
               $(this).children[1].attr("src", originalSrc.replace(staticGifSuffix, gifSuffix));
           },
           function()
           {
-              var originalSrc = $(this).attr("src");
+              var originalSrc = $(this).children[1].attr("src");
               $(this).children[1].attr("src", originalSrc.replace(gifSuffix, staticGifSuffix));  
           }
         );
