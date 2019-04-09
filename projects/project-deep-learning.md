@@ -55,7 +55,9 @@ summary: One of the great breakthroughs of AI today. This project collects my wo
   <img class="ui image zoom" src="../images/deep-learning/me_conv2.jpg">
 </div>
 
-<img class="ui medium right floated rounded image chime zoom medium-amp2" src="../images/deep-learning/deep-dream-good.gif">
+
 <p class="pjustify">Deep dream is created with Convoluation Neural Networks. Once a CNN has been trained for image recognition, the network can also be run in reverse. In this context the network adjusts the original image slightly so that a given output neuron (e.g. the one for faces or certain animals) yields a higher confidence score. This can be used for visualizations to understand the emergent structure of the neural network better, and is the basis for the Deepdream concept. I played with this concept for a while. The first time I saw it in 2015 I was blown away. Here are some examples of my exploration. At the top there are two different activations  for an original picture at the left. At the right hand side you see the result of applying the algorithm iteratively on its own outputs and some zooming after each iteration. We get an endless stream of new impressions, exploring the set of things the network knows about.</p>
+
+<img class="ui medium right floated rounded image chime zoom medium-amp2" src="../images/deep-learning/deep-dream-good.gif">
 
 <p class="pjustify">Source: <a class="hlink" href="https://github.com/juandarr/Deep-dream"><i class="large github icon"></i>Deep dream.</a></p>
