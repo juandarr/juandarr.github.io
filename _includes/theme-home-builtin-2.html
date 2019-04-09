@@ -12,23 +12,23 @@
     </div>
   </div>
 
-  <div class="column" style="text-align: justify;">
-    <h1 class="header no-padding-bottom" style="font-size: xx-large;margin-bottom: 10px;">{{ site.data.bio.basics.name }}</h1>
-    <p class="" style="font-size: 17px;font-variant: all-petite-caps;"><!--{{ site.data.bio.basics.label }}--><strong>Engineer</strong> <emoji>&#x1F468&#x200D&#x1F527</emoji>, <em>maker</em> <emoji>&#x1F468&#x200D&#x1F3A8</emoji> and c0d3r <emoji>&#x1F468&#x200D&#x1F4BB</emoji></p>
+  <div class="column" style="text-align: justify; font-size: 15px;">
+    <h1 class="header no-padding-bottom" style="font-size: 40px;margin-bottom: 10px;">{{ site.data.bio.basics.name }}</h1>
+    <p class="" style="font-size: 18px;font-variant: all-petite-caps;"><!--{{ site.data.bio.basics.label }}--><strong>Engineer</strong> <emoji>&#x1F468&#x200D&#x1F527</emoji>, <em>maker</em> <emoji>&#x1F468&#x200D&#x1F3A8</emoji> and c0d3r <emoji>&#x1F468&#x200D&#x1F4BB</emoji></p>
     <p class="" style="text-align:justify !important;">
       <!--{{ site.data.bio.basics.summary }}-->
       <h2 class="header no-bottom">Welcome to my home page!</h2>
       <br>
       I am a passionate engineer driven to solve real world problems by means of science, engineering, coding and entrepreneurship.<br> 
       <br>
-      My areas of focus are AI, robotics and IoT. I am always thinking about exciting challenges in those fields and try to come up with simple solutions to complex problems.
+      My areas of interest are <strong>AI</strong>, <strong>robotics</strong> and <strong>IoT</strong>. I am always thinking about exciting challenges in those fields and try to come up with simple solutions to complex problems.
       Here are some examples of my work in these fields:
       <ul> 
         <li><a class="hlink" href="{{ site.baseurl}}/projects/ai-robotics">AI for robotics</a></li>
        <li><a class="hlink" href="{{ site.baseurl}}/projects/deep-learning">Deep learning projects</a></li>
        <li><a class="hlink" href="{{ site.baseurl}}/projects/classic-ai">Classic AI projects</a></li>
       </ul>
-      I also enjoy making things and working at the intersection of sotware and hardware. This journey has taken me to the exploration of a diverse set of topics in which mixed and multidisciplinary skills were always essential. For instance, 
+      I also enjoy <strong>making</strong> things and working at the intersection of <strong>software</strong> and <strong>hardware</strong>. This journey has taken me to the exploration of a diverse set of topics in which mixed and multidisciplinary skills were always essential. For instance, 
       <ul> 
         <li><a class="hlink" href="{{ site.baseurl}}/projects/maglev">Magnetic levitation system</a></li>
        <li><a class="hlink" href="{{ site.baseurl}}/projects/robot">Robot for surveillance in closed spaces and medical assistance for the elderly</a></li>
@@ -37,19 +37,17 @@
        <li><a class="hlink" href="{{ site.baseurl}}/projects/eolic">Eolic energy generator</a></li>
        <li><a  class="hlink" href="{{ site.baseurl}}/projects/aerial">Aerial photography with drone</a></li>
       </ul>
-      Most of these projects have required the integration of knowledge from mathematics, 
-      physical modeling, computer science, hardware and design.<br> 
+      Most of these projects have required the integration of knowledge from <strong>mathematics</strong>, 
+      <strong>physics</strong>, <strong>computer science</strong>, <strong>hardware</strong> and <strong>design</strong>.<br> 
       <br>
-      Please check out my projects, resume and blog sections for more information!
+      Please check out my projects, resume and blog sections for more information! If you want to stay in touch, twitter or email are the best places to find me (see below).
     </p>
-    <br>
-    <br>
-    <p style="font-size:14px !important;"> Interests:
+    <!--<p style="font-size:14px !important;"> Interests:
         {% for interest in site.data.bio.interests %}
           {{ interest.name }}{% if forloop.last != true %}, {% endif %}
         {% endfor %}
-    </p>
-    <p style="text-align: center">
+    </p>-->
+    <p style="text-align: center;margin-bottom: 20px;">
         {% include home-network-links.html %}
     </p>
 
