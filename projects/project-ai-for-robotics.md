@@ -107,7 +107,7 @@ The final result is shown in the right hand side image. Steps 3, 4, 5 and 6 are 
 
 <p class="pjustify">Summary in progress. In the mean time you can explore the Github source.</p>
 
-<p class="pjustify">Source: <a class="hlink" href="https://github.com/juandarr/PID-controllerhttps://github.com/juandarr/PID-controller"><i class="large github icon"></i>PID controller.</a></p>
+<p class="pjustify">Source: <a class="hlink" href="https://github.com/juandarr/PID-controller"><i class="large github icon"></i>PID controller.</a></p>
 
 ## Self driving car
 
