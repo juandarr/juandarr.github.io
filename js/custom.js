@@ -57,6 +57,67 @@ $(document).ready(function() {
   
     });
   
+    // function([string1, string2],target id,[color1,color2])    
+ consoleText(['Engineer', 'Maker', 'C0d3r'], 'text',['#FFA761','#4CC8C3','#B254D0'], ['<emoji>&#x1F468&#x200D&#x1F527</emoji>','<emoji>&#x1F468&#x200D&#x1F3A8</emoji>','<emoji>&#x1F468&#x200D&#x1F4BB</emoji>']);
+
+ function consoleText(words, id, colors, emojis) {
+   if (colors === undefined) colors = ['#fff'];
+   var visible = true;
+   var con = document.getElementById('console');
+   var letterCount = 1;
+   var x = 1;
+   var waiting = false;
+   var target = document.getElementById(id)
+   target.setAttribute('style', 'font-size:22px;font-variant: all-petite-caps; font-weight:bold;color:' + colors[0])
+   window.setInterval(function() {
+ 
+     if (letterCount === 0 && waiting === false) {
+       waiting = true;
+       target.innerHTML = words[0].substring(0, letterCount)
+       window.setTimeout(function() {
+         var usedEmoji = emojis.shift();
+         emojis.push(usedEmoji);
+
+         var usedColor = colors.shift();
+         colors.push(usedColor);
+
+         var usedWord = words.shift();
+         words.push(usedWord);
+         x = 1;
+         target.setAttribute('style', 'font-size:22px;font-variant: all-petite-caps; font-weight:bold;color:' + colors[0])
+         target.innerHTML = emojis[0]+ ' ' + target.innerHTML;
+         letterCount += x;
+         waiting = false;
+       }, 1000)
+     } else if (letterCount === words[0].length + 2 && waiting === false) {
+       waiting = true;
+       window.setTimeout(function() {
+         x = -1;
+         letterCount += x;
+         waiting = false;
+       }, 1000)
+     } else if (waiting === false) {
+       if (letterCount == words[0].length + 1) {
+        target.innerHTML = emojis[0]+ ' ' +words[0].substring(0, letterCount-1);
+       }else {
+        target.innerHTML = emojis[0]+ ' ' +words[0].substring(0, letterCount);
+       }
+       
+       letterCount += x;
+     }
+   }, 120)
+   window.setInterval(function() {
+     if (visible === true) {
+       con.className = 'console-underscore hidden'
+       visible = false;
+ 
+     } else {
+       con.className = 'console-underscore'
+ 
+       visible = true;
+     }
+   }, 400)
+ }
 
 });
 
