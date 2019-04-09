@@ -43,9 +43,8 @@ The final result is shown in the right hand side image. Steps 3, 4, 5 and 6 are 
 
 ### Traffic signed classifier with CNN
 
-<div class="ui small rounded images">
-  <img class="ui image zoom" src="../images/classic-ai/isolated-agent.jpeg">
-  <img class="ui image zoom" src="../images/classic-ai/isolated-agent.jpeg">
+<div class="ui medium rounded images">
+  <img class="ui image zoom medium-amp1_3" src="../images/ai-robotics/traffic-signs.png">
 </div>
 
 <p class="pjustify">Summary in progress. In the mean time you can explore the Github source.</p>
@@ -54,9 +53,8 @@ The final result is shown in the right hand side image. Steps 3, 4, 5 and 6 are 
 
 ### Behavioral cloning
 
-<div class="ui small rounded images">
-  <img class="ui image zoom" src="../images/classic-ai/isolated-agent.jpeg">
-  <img class="ui image zoom" src="../images/classic-ai/isolated-agent.jpeg">
+<div class="ui medium rounded images">
+  <img class="ui image zoom medium-amp1_3" src="../images/ai-robotics/behavioral-cloning.png">
 </div>
 
 <p class="pjustify">Summary in progress. In the mean time you can explore the Github source.</p>
@@ -67,9 +65,8 @@ The final result is shown in the right hand side image. Steps 3, 4, 5 and 6 are 
 
 ### Extended kalman filter
 
-<div class="ui small rounded images">
-  <img class="ui image zoom" src="../images/classic-ai/isolated-agent.jpeg">
-  <img class="ui image zoom" src="../images/classic-ai/isolated-agent.jpeg">
+<div class="ui medium rounded images">
+  <img class="ui image zoom medium-amp1_3" src="../images/ai-robotics/kalman-filter.png">
 </div>
 
 <p class="pjustify">Summary in progress. In the mean time you can explore the Github source.</p>
@@ -78,9 +75,8 @@ The final result is shown in the right hand side image. Steps 3, 4, 5 and 6 are 
 
 ### Particle filter
 
-<div class="ui small rounded images">
-  <img class="ui image zoom" src="../images/classic-ai/isolated-agent.jpeg">
-  <img class="ui image zoom" src="../images/classic-ai/isolated-agent.jpeg">
+<div class="ui medium rounded images">
+  <img class="ui image zoom medium-amp1_3" src="../images/ai-robotics/particle-filter.png">
 </div>
 
 <p class="pjustify">Summary in progress. In the mean time you can explore the Github source.</p>
@@ -89,9 +85,8 @@ The final result is shown in the right hand side image. Steps 3, 4, 5 and 6 are 
 
 ## Path planning
 
-<div class="ui small rounded images">
-  <img class="ui image zoom" src="../images/classic-ai/isolated-agent.jpeg">
-  <img class="ui image zoom" src="../images/classic-ai/isolated-agent.jpeg">
+<div class="ui medium rounded images">
+  <img class="ui image zoom medium-amp1_3" src="../images/ai-robotics/planning2.gif">
 </div>
 
 <p class="pjustify">Summary in progress. In the mean time you can explore the Github source.</p>
@@ -100,9 +95,8 @@ The final result is shown in the right hand side image. Steps 3, 4, 5 and 6 are 
 
 ## PID Controller 
 
-<div class="ui small rounded images">
-  <img class="ui image zoom" src="../images/classic-ai/isolated-agent.jpeg">
-  <img class="ui image zoom" src="../images/classic-ai/isolated-agent.jpeg">
+<div class="ui medium rounded images">
+  <img class="ui image zoom medium-amp1_3" src="../images/ai-robotics/PID-control.png">
 </div>
 
 <p class="pjustify">Summary in progress. In the mean time you can explore the Github source.</p>
@@ -111,9 +105,8 @@ The final result is shown in the right hand side image. Steps 3, 4, 5 and 6 are 
 
 ## Self driving car
 
-<div class="ui small rounded images">
-  <img class="ui image zoom" src="../images/classic-ai/isolated-agent.jpeg">
-  <img class="ui image zoom" src="../images/classic-ai/isolated-agent.jpeg">
+<div class="ui medium rounded images">
+  <img class="ui image zoom medium-amp1_3" src="../images/ai-robotics/carla.jpeg">
 </div>
 
 <p class="pjustify">Summary in progress. In the mean time you can explore the Github source.</p>
