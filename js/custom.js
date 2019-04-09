@@ -42,17 +42,18 @@ $(document).ready(function() {
     }, function(){});
     
     $(".imgAnimate").each(function () {
-  
         $(this).hover(
           function()
-          {
-              var originalSrc = $(this).getElementsByClassName("image")[0].children[0].attr("src");
-              $(this).getElementsByClassName("image")[0].children[0].attr("src", originalSrc.replace(staticGifSuffix, gifSuffix));
+          { 
+              var originalSrc = $(this)[0].getElementsByClassName("image")[0].children[0].attributes.src.value;
+              console.log(originalSrc.value);
+              $(this)[0].getElementsByClassName("image")[0].children[0].attributes.src.value = originalSrc.replace(staticGifSuffix, gifSuffix);
           },
           function()
           {
-              var originalSrc = $(this).getElementsByClassName("image")[0].children[0].attr("src");
-              $(this).getElementsByClassName("image")[0].children[0].attr("src", originalSrc.replace(gifSuffix, staticGifSuffix));  
+              var originalSrc = $(this)[0].getElementsByClassName("image")[0].children[0].attributes.src.value;
+              console.log(originalSrc.value);
+              $(this)[0].getElementsByClassName("image")[0].children[0].attributes.src.value = originalSrc.replace(gifSuffix, staticGifSuffix);  
           }
         );
   
