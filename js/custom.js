@@ -46,13 +46,11 @@ $(document).ready(function() {
           function()
           { 
               var originalSrc = $(this)[0].getElementsByClassName("image")[0].children[0].attributes.src.value;
-              console.log(originalSrc.value);
               $(this)[0].getElementsByClassName("image")[0].children[0].attributes.src.value = originalSrc.replace(staticGifSuffix, gifSuffix);
           },
           function()
           {
               var originalSrc = $(this)[0].getElementsByClassName("image")[0].children[0].attributes.src.value;
-              console.log(originalSrc.value);
               $(this)[0].getElementsByClassName("image")[0].children[0].attributes.src.value = originalSrc.replace(gifSuffix, staticGifSuffix);  
           }
         );
