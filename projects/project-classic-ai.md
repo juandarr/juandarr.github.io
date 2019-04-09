@@ -24,11 +24,11 @@ summary: As part of the nanodegree in Artificial Intelligence from Udacity I wor
 
 <p class="pjustify">Source: <a class="hlink" href="https://github.com/juandarr/Sudoku-agent"><i class="large github icon"></i>Sudoku agent.</a></p>
 
-## Adversarial search in isolation
+## Adversarial search for isolation
 
 <img class="ui medium right floated rounded image chime zoom medium-amp1_3" src="../images/classic-ai/isolated-agent.jpeg">
 
-<p class="pjustify">This project involves the implementation of a game playing environment and an agent that will try to maximize its probability to win while minimizing the probability of the oponent to win in an special format of the game isolation. Isolation is a game where an agent wins when the opponent has no more free space around it while the agent is free to move in at least one direction. In this format only `L` shaped movements are allowed. The main algorithm used in the adversarial tree search is `minimax`. `Minimax` is optimized with add-ons such as an `heuristic` score, `iterative deepening` and the addition of `alpha-beta prunning`.</p>
+<p class="pjustify">Isolation is a game where an agent wins when the opponent has no more free space around it while the agent is free to move in at least one direction. In this format only `L` shaped movements are allowed. This project involves the implementation of a game playing environment and an agent that will try to maximize its probability to win while minimizing the probability of the oponent to win in an special format of the game isolation. The main algorithm used in the adversarial tree search is `minimax`. `Minimax` is optimized with add-ons such as an `heuristic` score, `iterative deepening` and the addition of `alpha-beta prunning`.</p>
 
 <p class="pjustify">Source: <a class="hlink" href="https://github.com/juandarr/Adversarial-game-isolation"><i class="large github icon"></i>Adversarial game isolation.</a></p>
 
