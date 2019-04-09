@@ -103,7 +103,7 @@ The final result is shown in the right hand side image. Steps 3, 4, 5 and 6 are 
 
 <p class="pjustify">Source: <a class="hlink" href="https://github.com/juandarr/PID-controller"><i class="large github icon"></i>PID controller.</a></p>
 
-## Self driving car
+## Self driving car pipeline
 
 <div class="ui medium rounded images">
   <img class="ui image zoom medium-amp1_3" src="../images/ai-robotics/carla.jpeg">
