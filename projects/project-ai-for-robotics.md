@@ -1,19 +1,19 @@
 ---
 layout: project
 type: project
-image: images/deep-learning/deep-static.png
-title: Deep learning projects
-permalink: projects/deep-learning
-date: 2018
+image: images/ai-robotics/planning-static.png
+title: AI for robotics projects
+permalink: projects/ai-robotics
+date: 2019
 featured: true
 labels:
-  - Machine learning
-  - CNN
-  - RNN
-  - GAN
-summary: One of the great breakthroughs of AI today. This project collects my work on different deep network architectures such as CNN (computer vision), RNNs (sequences of data) and GANS (networks that compete with each other).
+  - Computer Vision
+  - Perception
+  - Planning
+  - Control
+summary: A series of projects designing the subsystems of an autonomous vehicle. These are perception (computer vision, sensor fusion and localization), planning (route planning, prediction, behavior planning, trajectory generation) and control (PID)
 ---
-## Dog breed classifier
+## Computer vision
 
 <div class="ui small rounded images">
   <img class="ui image zoom" src="../images/classic-ai/sudoku-terminal.png">
@@ -24,7 +24,7 @@ summary: One of the great breakthroughs of AI today. This project collects my wo
 
 <p class="pjustify">Source: <a class="hlink" href="https://github.com/juandarr/Sudoku-agent"><i class="large github icon"></i>Sudoku agent.</a></p>
 
-## Time series prediction and text generation
+## Sensor fusion and localization
 
 <img class="ui medium right floated rounded image chime zoom medium-amp1_3" src="../images/classic-ai/isolated-agent.jpeg">
 
@@ -32,7 +32,7 @@ summary: One of the great breakthroughs of AI today. This project collects my wo
 
 <p class="pjustify">Source: <a class="hlink" href="https://github.com/juandarr/Adversarial-game-isolation"><i class="large github icon"></i>Adversarial game isolation.</a></p>
 
-## Machine translation
+## Planning
 
 <img class="ui medium right floated rounded image chime zoom medium-amp1_3 h-img" src="../images/classic-ai/progression.png">
 
@@ -40,10 +40,14 @@ summary: One of the great breakthroughs of AI today. This project collects my wo
 
 <p class="pjustify">Source: <a class="hlink" href="https://github.com/juandarr/Planning-search"><i class="large github icon"></i>Planning search.</a></p>
 
-## Deepdream
+## Control
 
 <img class="ui medium right floated rounded image chime zoom medium-amp1_3 h-img" src="../images/classic-ai/asl-recognizer.png">
 
 <p class="pjustify">This project explored the use of probabilistic inferential models to calculate the probability of certain events ocurring. In particular we use Hidden Markov Models to recognize American sign language given a sequence of movements, intermediate states are unobserved and a previous knowledge of expected sequences (but not of their probabilities). This final project is part of the section covering `bayesian networks`, `conditional probability` and `Bayes' rule`.</p>
 
 <p class="pjustify">Source: <a class="hlink" href="https://github.com/juandarr/Sign-language-recognizer"><i class="large github icon"></i>Sign language recognizer.</a></p>
+
+## Self driving car
+
+In progress...
