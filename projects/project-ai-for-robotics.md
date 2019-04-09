@@ -34,7 +34,7 @@ summary: A series of projects where I design and implement core subsystems of an
 
 ## Planning
 
-<img class="ui medium right floated rounded image chime zoom medium-amp1_3 h-img" src="../images/classic-ai/isolated-agent.jpeg">
+<img class="ui medium right floated rounded image chime zoom medium-amp2 h-img" src="../images/classic-ai/isolated-agent.jpeg">
 
 <p class="pjustify">In progress.</p>
 
@@ -42,7 +42,7 @@ summary: A series of projects where I design and implement core subsystems of an
 
 ## Control
 
-<img class="ui medium right floated rounded image chime zoom medium-amp1_3 h-img" src="../images/classic-ai/isolated-agent.jpeg">
+<img class="ui medium right floated rounded image chime zoom medium-amp2 h-img" src="../images/classic-ai/isolated-agent.jpeg">
 
 <p class="pjustify">In progress.</p>
 

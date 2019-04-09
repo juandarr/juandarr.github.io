@@ -157,6 +157,7 @@ emoji {
   background: none !important;
   box-shadow: none !important;
   border: none !important;
+  margin-bottom: 40px !important;
 }
 
 .stackable-custom {
@@ -185,7 +186,7 @@ emoji {
 }
 
 .top-pad {
-  padding-top: 5% !important;
+  padding-top: 2% !important;
 }
 
 .h-img {
@@ -246,6 +247,9 @@ emoji {
     transform: none !important;
   }
 
+  .menu-custom {
+    margin-bottom: unset !important;
+  }
 
 }
 
