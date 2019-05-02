@@ -47,7 +47,16 @@ The final result is shown in the right hand side image. Steps 3, 4, 5 and 6 are 
   <img class="ui image zoom medium-amp1_3" src="../images/ai-robotics/traffic-signs.png">
 </div>
 
-<p class="pjustify">Summary in progress. In the mean time you can explore the Github source.</p>
+<p class="pjustify">An iterative approach was followed during this project to reach a satisfactory solution. The first architecture used was Lenet 5. This network has two convolutional and max-pooling sets. It also lacks of dropout implementation and includes three fully connected layers (including the final output layer). As far as first experiments go, no data augmentation was implemented and the data preprocessing used was grayscaling and image normalization. The performance achieved during this stage was about 88, 89 percent.
+
+After this initial setup, several hyperparameters were modified, the batch size was increased to 128, 256 and 512, the number of epochs was changed between 100 and 200 and I tried with different learning rates. The best ones were the values below 0.005. The architecture of the neural network was also modified. The depth of the convolutional layer was also modified, increases in their depth gave better accuracies during training and validation. The initial convolutional layers of the Lenet implementation had a depth of 6 and 16 respectively. This value was increased to 16 and 32, and finally to 32 and 64. Additional changes were defined in the output of the fully connected layers: I went from the values for the Lenet implementation, 120-84-43, to a bigger number of nodes 800-200-43 and 1000-500-43. After increases in the depth of the convolutional layer and output sizes of the fully connected layers, we got improvements in validaction accuracy between 1% and 3%. The final model results were:
+<ul>
+   <li> Training set accuracy of  98.4%.</li>
+   <li> Validation set accuracy of  97.2%.</li>
+   <li> Test set accuracy of 94.9%.</li>
+</ul>
+
+</p>
 
 <p class="pjustify">Source: <a class="hlink" href="https://github.com/juandarr/German-traffic-sign-classifier"><i class="large github icon"></i>Traffic sign classifier.</a></p>
 
