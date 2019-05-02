@@ -66,7 +66,9 @@ After this initial setup, several hyperparameters were modified, the batch size 
   <img class="ui image zoom medium-amp1_3" src="../images/ai-robotics/behavioral-cloning.png">
 </div>
 
-<p class="pjustify">Summary in progress. In the mean time you can explore the Github source.</p>
+<p class="pjustify">The overall strategy for deriving a model architecture was to follow an iterative method. Initially started with a simple fully connected layer. The results were not attractive since the vehicle was turning left and right in a constant basis and the moving was far from smooth. After this, I made a transition to a LeNet like network with three convolutional layers and just one fully connected layer at the end in addition to the output. During model training, the training loss was decreasing while validation loss changed randomly around a fixed value. In simulation testing, the car was able to drive in the straight road but could not complete the curves in several scenarios. The driving style was also far from smooth.
+
+The best result was achieved with an architecture similar to the one recommended in the video lectures. My final model consists of a deep convolutional neural network with a set of five convolutions at the beginning and three fully connected layers in addition to the output. The first 3 convolutional layers use a filter of size 5x5, stride of 2x2 and have depths of 24, 32 and 48 respectively. The other 2 convolutional layers use a filter of 3x3, stride of 1x1 and have a depth of 64 (both). To avoid overfitting, validation sets were defined as the 20% of the training set in each epoch. Dropout layers were also used in the convolutional layers. The batch size was set to 32 and Adam optimizer was used to train the model, so the learning rate was not tuned manually (model.py line 94). The activation function RELU was used in the convolutional layers. No activation function was used in the fully connected layers.</p>
 
 <p class="pjustify">Source: <a class="hlink" href="https://github.com/juandarr/Behavioral-cloning"><i class="large github icon"></i>Behavioral cloning.</a></p>
 
