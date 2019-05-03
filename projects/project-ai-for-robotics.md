@@ -76,6 +76,8 @@ The best result was achieved with an architecture similar to the one recommended
 
 ### Extended kalman filter
 
+In this project I implemented an enhanced Kalman Filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. The C++ code creates a server with uWebSockets and connects to a client simulator built on the Unity engine. The simulator shows the moving object, laser/radar/estimation data (as red dots, blue circles and green triangles respectively) and RMSE data for position and velocity values in the x and y axis.
+
 <div class="ui medium rounded images">
   <img class="ui image zoom medium-amp1_3" src="../images/ai-robotics/kalman-filter.png">
 </div>
