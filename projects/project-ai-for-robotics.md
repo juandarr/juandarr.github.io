@@ -76,13 +76,11 @@ The best result was achieved with an architecture similar to the one recommended
 
 ### Extended kalman filter
 
-In this project I implemented an enhanced Kalman Filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. The C++ code creates a server with uWebSockets and connects to a client simulator built on the Unity engine. The simulator shows the moving object, laser/radar/estimation data (as red dots, blue circles and green triangles respectively) and RMSE data for position and velocity values in the x and y axis.
+<p class="pjustify">In this project I implemented an enhanced Kalman Filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. The C++ code creates a server with uWebSockets and connects to a client simulator built on the Unity engine. The simulator shows the moving object, laser/radar/estimation data (as red dots, blue circles and green triangles respectively) and RMSE data for position and velocity values in the x and y axis.</p>
 
 <div class="ui medium rounded images">
   <img class="ui image zoom medium-amp1_3" src="../images/ai-robotics/kalman-filter.png">
 </div>
-
-<p class="pjustify">Summary in progress. In the mean time you can explore the Github source.</p>
 
 <p class="pjustify">Source: <a class="hlink" href="https://github.com/juandarr/Extended-kalman-filter"><i class="large github icon"></i>Extended kalman filter.</a></p>
 
@@ -92,7 +90,7 @@ In this project I implemented an enhanced Kalman Filter to estimate the state of
   <img class="ui image zoom medium-amp1_3" src="../images/ai-robotics/particle-filter.png">
 </div>
 
-<p class="pjustify">Summary in progress. In the mean time you can explore the Github source.</p>
+<p class="pjustify">In this project a robot has been kidnapped and transported to a new location. Luckily it has a map of this location, a (noisy) GPS estimate of its initial location, and lots of (noisy) sensor and control data. A two dimensional particle filter implemented in C++ is used to localize the robot from this data. The filter works in the context of a set of landmark data from a map and some initial localization information (similar to what a GPS would provide). At each time step the filter receives observation and control data. This data is then used to perform a set of steps: initilization, prediction, update and resampling.</p>
 
 <p class="pjustify">Source: <a class="hlink" href="https://github.com/juandarr/Particle-filter"><i class="large github icon"></i>Particle filter.</a></p>
 
