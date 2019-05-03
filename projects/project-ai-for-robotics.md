@@ -100,7 +100,16 @@ The best result was achieved with an architecture similar to the one recommended
   <img class="ui image zoom medium-amp1_3" src="../images/ai-robotics/planning2.gif">
 </div>
 
-<p class="pjustify">Summary in progress. In the mean time you can explore the Github source.</p>
+<p class="pjustify">The path planning algorithm implemented in this project allows the control of an autonomous vehicle in a high-speed highway by enabling behavior selection and trajectory generation features. A class was created containing the main properties (<em>current lane</em>, <em>changing lane</em> status, <em>too_close</em>, <em>too_close_left</em> and <em>too_close_right</em>) and methods required to reach a set of requirements that must be met, for instance:
+<ul>
+    <li>The car drives according to a speed limit of 50 miles per hour.</li>
+    <li>Max acceleration and jerk don't exceed 10 m/s2 and 10 m/s3 respectively.</li>
+    <li>The car doesn't have collisions.</li>
+    <li>The car stays in its lane, except for the time when it is changing lanes.</li>
+    <li>The car is able to change lanes.</li>
+    <li>The car is able to drive in simulation at least 4.32 Miles without incident, meaning any of the previous conditions are satisfied.</li>
+</ul>
+</p>
 
 <p class="pjustify">Source: <a class="hlink" href="https://github.com/juandarr/Path-planning"><i class="large github icon"></i>Path planning.</a></p>
 
