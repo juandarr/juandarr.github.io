@@ -48,11 +48,11 @@ summary: A series of projects where I design and implement core subsystems of an
 <p class="pjustify">An iterative approach was followed during this project to reach a satisfactory solution. The first architecture used was Lenet 5. This network has two convolutional and max-pooling sets. It also lacks of dropout implementation and includes three fully connected layers (including the final output layer). As far as first experiments go, no data augmentation was implemented and the data preprocessing used was grayscaling and image normalization. The performance achieved during this stage was about 88, 89 percent.
 
 After this initial setup, several hyperparameters were modified, the batch size was increased to 128, 256 and 512, the number of epochs was changed between 100 and 200 and I tried with different learning rates. The best ones were the values below 0.005. The architecture of the neural network was also modified. The depth of the convolutional layer was also modified, increases in their depth gave better accuracies during training and validation. The initial convolutional layers of the Lenet implementation had a depth of 6 and 16 respectively. This value was increased to 16 and 32, and finally to 32 and 64. Additional changes were defined in the output of the fully connected layers: I went from the values for the Lenet implementation, 120-84-43, to a bigger number of nodes 800-200-43 and 1000-500-43. After increases in the depth of the convolutional layer and output sizes of the fully connected layers, we got improvements in validaction accuracy between 1% and 3%. The final model results were:
-<ol>
+<ul style="text-align:left !important;">
    <li> Training set accuracy of  98.4%.</li>
    <li> Validation set accuracy of  97.2%.</li>
    <li> Test set accuracy of 94.9%.</li>
-</ol>
+</ul>
 
 </p>
 
@@ -60,9 +60,7 @@ After this initial setup, several hyperparameters were modified, the batch size 
 
 ### Behavioral cloning
 
-<div class="ui medium rounded images">
-  <img class="ui image zoom medium-amp1_3" src="../images/ai-robotics/behavioral-cloning.png">
-</div>
+<img class="ui medium right floated rounded image chime zoom medium-amp2" src="../images/ai-robotics/behavioral-cloning.png">
 
 <p class="pjustify">The overall strategy for deriving a model architecture was to follow an iterative method. Initially started with a simple fully connected layer. The results were not attractive since the vehicle was turning left and right in a constant basis and the moving was far from smooth. After this, I made a transition to a LeNet like network with three convolutional layers and just one fully connected layer at the end in addition to the output. During model training, the training loss was decreasing while validation loss changed randomly around a fixed value. In simulation testing, the car was able to drive in the straight road but could not complete the curves in several scenarios. The driving style was also far from smooth.
 
@@ -74,18 +72,18 @@ The best result was achieved with an architecture similar to the one recommended
 
 ### Extended kalman filter
 
-<p class="pjustify">In this project I implemented an enhanced Kalman Filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. The C++ code creates a server with uWebSockets and connects to a client simulator built on the Unity engine. The simulator shows the moving object, laser/radar/estimation data (as red dots, blue circles and green triangles respectively) and RMSE data for position and velocity values in the x and y axis.</p>
-
 <div class="ui medium rounded images">
-  <img class="ui image zoom medium-amp1_3" src="../images/ai-robotics/kalman-filter.png">
+  <img class="ui image zoom medium-amp2" src="../images/ai-robotics/kalman-filter.png">
 </div>
+
+<p class="pjustify">In this project I implemented an enhanced Kalman Filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. The C++ code creates a server with uWebSockets and connects to a client simulator built on the Unity engine. The simulator shows the moving object, laser/radar/estimation data (as red dots, blue circles and green triangles respectively) and RMSE data for position and velocity values in the x and y axis.</p>
 
 <p class="pjustify">Source: <a class="hlink" href="https://github.com/juandarr/Extended-kalman-filter"><i class="large github icon"></i>Extended kalman filter.</a></p>
 
 ### Particle filter
 
 <div class="ui medium rounded images">
-  <img class="ui image zoom medium-amp1_3" src="../images/ai-robotics/particle-filter.png">
+  <img class="ui image zoom medium-amp2" src="../images/ai-robotics/particle-filter.png">
 </div>
 
 <p class="pjustify">In this project a robot has been kidnapped and transported to a new location. Luckily it has a map of this location, a (noisy) GPS estimate of its initial location, and lots of (noisy) sensor and control data. A two dimensional particle filter implemented in C++ is used to localize the robot from this data. The filter works in the context of a set of landmark data from a map and some initial localization information (similar to what a GPS would provide). At each time step the filter receives observation and control data. This data is then used to perform a set of steps: initilization, prediction, update and resampling.</p>
@@ -99,7 +97,7 @@ The best result was achieved with an architecture similar to the one recommended
 </div>
 
 <p class="pjustify">The path planning algorithm implemented in this project allows the control of an autonomous vehicle in a high-speed highway by enabling behavior selection and trajectory generation features. A class was created containing the main properties (<em>current lane</em>, <em>changing lane</em> status, <em>too_close</em>, <em>too_close_left</em> and <em>too_close_right</em>) and methods required to reach a set of requirements that must be met, for instance:
-<ul>
+<ul style="text-align: left !important;">
     <li>The car drives according to a speed limit of 50 miles per hour.</li>
     <li>Max acceleration and jerk don't exceed 10 m/s2 and 10 m/s3 respectively.</li>
     <li>The car doesn't have collisions.</li>
