@@ -26,7 +26,7 @@ summary: A series of projects where I design and implement core subsystems of an
 
 <img class="ui medium right floated rounded image chime zoom medium-amp2" src="../images/ai-robotics/estimations-warped.png">
 
-<p class="pjustify">In this project, I developed a software pipeline to identify the lane boundaries of a road in a video. A series of steps are followed to identify the lanes:
+<p class="pjustify">In this project, I developed a software pipeline to identify the lane boundaries of a road in a video. A series of steps are followed to identify the lanes:</p>
 
 <ol style="text-align: justify !important;"> 
 <li> Compute the camera calibration matrix and distortion coefficients given a set of chessboard images. </li> 
@@ -36,25 +36,23 @@ summary: A series of projects where I design and implement core subsystems of an
 <li> Detect lane pixels and fit to find the lane boundary. </li> 
 <li> Determine the curvature of the lane and vehicle position with respect to center </li> 
 <li> Warp the detected lane boundaries back onto the original image. </li>
-<li> Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position. </li></ol>
-The final result is shown in the right hand side image. Steps 3, 4, 5 and 6 are illustrated in the collection of images above.</p>
+<li> Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position. </li></ol>  
+<p style="text-align:left !important;">The final result is shown in the right hand side image. Steps 3, 4, 5 and 6 are illustrated in the collection of images above.</p>
 
 <p class="pjustify">Source: <a class="hlink" href="https://github.com/juandarr/Advanced-lane-line-tracking"><i class="large github icon"></i>Advanced lane line tracking.</a></p>
 
 ### Traffic signed classifier with CNN
 
-<div class="ui medium rounded images">
-  <img class="ui image zoom medium-amp1_3" src="../images/ai-robotics/traffic-signs.png">
-</div>
+<img class="ui medium right floated rounded image chime zoom medium-amp2" src="../images/ai-robotics/traffic-signs.png">
 
 <p class="pjustify">An iterative approach was followed during this project to reach a satisfactory solution. The first architecture used was Lenet 5. This network has two convolutional and max-pooling sets. It also lacks of dropout implementation and includes three fully connected layers (including the final output layer). As far as first experiments go, no data augmentation was implemented and the data preprocessing used was grayscaling and image normalization. The performance achieved during this stage was about 88, 89 percent.
 
 After this initial setup, several hyperparameters were modified, the batch size was increased to 128, 256 and 512, the number of epochs was changed between 100 and 200 and I tried with different learning rates. The best ones were the values below 0.005. The architecture of the neural network was also modified. The depth of the convolutional layer was also modified, increases in their depth gave better accuracies during training and validation. The initial convolutional layers of the Lenet implementation had a depth of 6 and 16 respectively. This value was increased to 16 and 32, and finally to 32 and 64. Additional changes were defined in the output of the fully connected layers: I went from the values for the Lenet implementation, 120-84-43, to a bigger number of nodes 800-200-43 and 1000-500-43. After increases in the depth of the convolutional layer and output sizes of the fully connected layers, we got improvements in validaction accuracy between 1% and 3%. The final model results were:
-<ul>
+<ol>
    <li> Training set accuracy of  98.4%.</li>
    <li> Validation set accuracy of  97.2%.</li>
    <li> Test set accuracy of 94.9%.</li>
-</ul>
+</ol>
 
 </p>
 
