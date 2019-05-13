@@ -43,7 +43,7 @@ summary: A series of projects where I design and implement core subsystems of an
 
 ### Traffic signed classifier with CNN
 
-<img class="ui medium right floated rounded image chime zoom medium-amp2" src="../images/ai-robotics/traffic-signs.png">
+<img class="ui medium right floated rounded image chime zoom medium-amp1_3" src="../images/ai-robotics/traffic-signs.png">
 
 <p class="pjustify">In this project, I used Convolutional Neural Networks to classify traffic signs. An iterative approach was followed to reach a satisfactory solution. The first architecture used was Lenet 5. This network has two convolutional and max-pooling sets. It also lacks dropout implementation and includes three fully connected layers (if we consider the output layer). No data augmentation was implemented and data preprocessing was included in the form of grayscaling and image normalization. The performance achieved during this stage was about 89 percent.
 
