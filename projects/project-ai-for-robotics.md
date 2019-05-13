@@ -28,7 +28,8 @@ summary: A series of projects where I design and implement core subsystems of an
 
 <p class="pjustify">In this project, I developed a software pipeline to identify the lane boundaries of a road in a video. A series of steps are followed to identify the lanes:</p>
 
-<ol style="text-align: justify !important;"> 
+<ol style="text-align: justify !important; font-weight:bold;">
+<span style="font-weight: normal;"> 
 <li> Compute the camera calibration matrix and distortion coefficients given a set of chessboard images. </li> 
 <li> Apply a distortion correction to raw images. </li> 
 <li> Use color transforms, gradients, etc., to create a thresholded binary image. </li> 
@@ -36,7 +37,7 @@ summary: A series of projects where I design and implement core subsystems of an
 <li> Detect lane pixels and fit to find the lane boundary. </li> 
 <li> Determine the curvature of the lane and vehicle position with respect to center </li> 
 <li> Warp the detected lane boundaries back onto the original image. </li>
-<li> Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position. </li></ol>  
+<li> Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position. </li> </span></ol>  
 <p style="text-align:left !important;">The final result is shown in the right hand side image. Steps 3, 4, 5 and 6 are illustrated in the collection of images above.</p>
 
 <p class="pjustify">Source: <a class="hlink" href="https://github.com/juandarr/Advanced-lane-line-tracking"><i class="large github icon"></i>Advanced lane line tracking.</a></p>
