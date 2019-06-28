@@ -3,6 +3,17 @@ layout: default
 ---
 
 {% include menubar.html active="projects" %}
-
+<nav class="floating-menu">
+        <ul style="list-style-type: none;padding-left: 5px;">
+            <li><h3>Projects menu</h3></li>
+            <br>
+            {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
+            {% for page in project_pages %}
+            {% unless page.draft %}
+                <li style="padding-bottom: 2px;"><a href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl}}{{page.url}}{% endif %}">{{page.title}}</a></li>
+            {% endunless %}
+            {% endfor %}    
+        </ul>
+</nav>
 {{ content }}
 

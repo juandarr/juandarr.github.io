@@ -4,6 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="mobile-web-app-capable" content="yes">
 
+
   <title>
     {% if page.title %}
       {{ page.title }} |
@@ -14,6 +15,7 @@
   <!-- Load Javascript and CSS for Semantic UI -->
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <script src="{{ site.baseurl }}/css/semantic-ui/semantic.min.js"></script>
+  <script src="{{ site.baseurl }}/js/custom.js"></script>
   <link rel="stylesheet" href="{{ site.baseurl }}/css/semantic-ui/semantic.min.css">
 
   <!-- Load Techfolio CSS customizations -->
@@ -23,11 +25,15 @@
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/print-default.css" media="print">
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/print-customizations.css" media="print">
 
+  <!-- Load custom CSS for the personal webpage speficific design -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/custom.css">
+  
+
   <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
   {% if site.mathjax %}
   <script type="text/javascript"
           src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
   {% endif %}
 
-
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 </head>
