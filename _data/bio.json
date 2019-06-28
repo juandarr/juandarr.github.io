@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Juan David Ríos",
-    "label": "Engineer, entrepreneur, coder",
+    "name": "Juan Ríos",
+    "label": "Engineer, maker, coder",
     "picture": "https://juandarr.github.io/images/juan.jpg",
     "email": "juandarr@gmail.com",
     "phone": "316-3882856",
     "website": "https://juandarr.github.io",
-    "summary": "Welcome to my home page. I am a passionate engineer with drive to solve problems in the world by means of engineering, science, entrepreneurship and coding. My range of exploration has gone from magnetic levitation systems, eolic energy generators, drones for aerial photography to robots for surveillance in closed spaces and medical assistance of the elderly, a smart water meter and a musical device to create music from motion and spatial gestures. During these experiences I have learned what is needed to create software and physical devices by facilitating the convergence of disciplines such as mathematics, physical modeling, computer science, hardware and design, with the support of a multidisciplinary and multicultural work team. If you are interested in my work, please check my projects and essays sections.",
+    "summary": "I am a passionate engineer driven to solve real world problems by means of science, engineering, coding and entrepreneurship.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -39,11 +39,10 @@
   },  
   "interests": [
     {
-      "name": "internet of things",
+      "name": "artificial intelligence",
       "keywords": [
-        "Hardware",
-        "Low power systems",
-        "Wireless"
+        "machine learning",
+        "deep learning"
       ]
     },
     {
@@ -54,6 +53,14 @@
       ]
     },
     {
+      "name": "internet of things",
+      "keywords": [
+        "Hardware",
+        "Low power systems",
+        "Wireless"
+      ]
+    },
+    {
       "name": "web development",
       "keywords": [
         "spring framework",
@@ -61,13 +68,6 @@
         "SQL",
         "bootstrap",
         "semantic ui"
-      ]
-    },
-    {
-      "name": "artificial intelligence",
-      "keywords": [
-        "machine learning",
-        "deep learning"
       ]
     }
   ],
@@ -100,16 +100,6 @@
   ],
   "education": [
     {
-      "institution": "Udacity",
-      "area": "AI Engineer",
-      "studyType": "Nanodegree",
-      "startDate": "2017-02-01",
-      "endDate": "2018-04-01",
-      "gpa": "",
-      "courses": [
-      ]
-    },
-    {
       "institution": "University of Florida, Gainesville, FL, USA",
       "area": "Electrical and Computer Engineering",
       "studyType": "MSc",
@@ -122,9 +112,31 @@
     {
       "institution": "University EAFIT, Medellín, Colombia",
       "area": "Engineering Physics",
-      "studyType": "BASc",
+      "studyType": "BSc",
       "startDate": "2005-06-10",
       "endDate": "2010-12-17",
+      "gpa": "",
+      "courses": [
+      ]
+    }
+  ],
+  "complementary-education": [
+    {
+      "institution": "Udacity",
+      "area": "Self driving cars",
+      "studyType": "Nanodegree",
+      "startDate": "2018-11-14",
+      "endDate": "2019-05-14",
+      "gpa": "",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "Udacity",
+      "area": "AI Engineer",
+      "studyType": "Nanodegree",
+      "startDate": "2017-02-01",
+      "endDate": "2018-04-01",
       "gpa": "",
       "courses": [
       ]
@@ -158,7 +170,7 @@
     {
       "company": "Driblet Labs, Boston, MA",
       "position": "Senior firware engineer",
-      "website": "",
+      "website": "https://www.linkedin.com/company/driblet/about/",
       "startDate": "2015-03-01",
       "endDate": "2016-07-01",
       "summary": "Lead electronics and firmware engineer",

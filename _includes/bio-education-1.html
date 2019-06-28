@@ -11,8 +11,8 @@
 
   <div class="ui grid">
     <div class="twelve wide column no-bottom">
-      <p class="ui no-bottom"><b>{{ entry.institution }}</b></p>
-      <p class="ui no-bottom">{{ entry.studyType }}, {{ entry.area }}</p>
+      <p class="ui no-bottom"><b>{{ entry.studyType }}, {{ entry.area }}</b></p>
+      <p class="ui no-bottom">{{ entry.institution }}</p>
       {% if entry.courses %}
       <ul style="margin: 0px;">
         {% for course in entry.courses %}
