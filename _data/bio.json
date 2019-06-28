@@ -132,6 +132,18 @@
   ],
   "work": [
     {
+      "company": "Kiwibot",
+      "position": "AI engineer and roboticist",
+      "website": "https://kiwicampus.com/",
+      "startDate": "2019-05-12",
+      "endDate": "Current",
+      "summary": "AI engineer",
+      "highlights": [
+        "I have been working in the application of several deep learning architectures for perception, planning and control.",
+        "Designed and tested different sensor systems to allow smart capabilities (object tracking, obstacle avoidance, etc.) in a semi-autonomous food delivery robot."
+      ]
+    },
+    {
       "company": "Startup",
       "position": "Software engineer",
       "website": "",
