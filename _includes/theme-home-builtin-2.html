@@ -11,6 +11,9 @@
       <div  class="ui rounded image" style="background: none;padding: 1px;border-radius: 20px;border-style: dashed;border-width: 1px;">
         <img class="profile-pic" src="{{ site.data.bio.basics.picture }}">
       </div>
+      <p style="text-align: center;margin-bottom: 20px;">
+        {% include home-network-links.html %}
+     </p>
     </div>
 
     <div class="column" style="text-align: justify; font-size: 15px;">
@@ -51,9 +54,6 @@
             {{ interest.name }}{% if forloop.last != true %}, {% endif %}
           {% endfor %}
       </p>-->
-      <p style="text-align: center;margin-bottom: 20px;">
-          {% include home-network-links.html %}
-      </p>
 
 
         <div class = "ui three item menu menu-custom">
