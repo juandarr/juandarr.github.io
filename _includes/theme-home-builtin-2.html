@@ -4,87 +4,89 @@
 {% assign num_essays = essay_pages.size %}
 {% assign num_projects = project_pages.size %}
 
-<div class="ui middle aligned two column centered stackable grid container top-pad">
+<div style="padding-top: 20px" class="ui container ">
+  <div class="ui middle aligned two column centered stackable grid container top-pad">
 
-  <div style="text-align: center" class="column">
-    <div  class="ui rounded image" style="background: none;padding: 1px;border-radius: 20px;border-style: dashed;border-width: 1px;">
-      <img class="profile-pic" src="{{ site.data.bio.basics.picture }}">
+    <div style="text-align: center" class="column">
+      <div  class="ui rounded image" style="background: none;padding: 1px;border-radius: 20px;border-style: dashed;border-width: 1px;">
+        <img class="profile-pic" src="{{ site.data.bio.basics.picture }}">
+      </div>
     </div>
-  </div>
 
-  <div class="column" style="text-align: justify; font-size: 15px;">
-    <h1 class="header no-padding-bottom" style="font-size: 44px;margin-bottom: 10px;">{{ site.data.bio.basics.name }}</h1>
-    <p class="" style="font-size: 22px;"> <!--font-variant: all-petite-caps;text-transform:full-width;-->
-      <div class='console-container'><strong>#</strong> <emoji></emoji><span id='text' ></span><div class='console-underscore' id='console'>&#95;</div></div>
-      <!--{{ site.data.bio.basics.label }}--><!--<strong>Engineer</strong> <emoji>&#x1F468&#x200D&#x1F527</emoji>, <em>maker</em> <emoji>&#x1F468&#x200D&#x1F3A8</emoji> and c0d3r <emoji>&#x1F468&#x200D&#x1F4BB</emoji>-->
-    </p>
-    <p class="" style="text-align:justify !important;">
-      <!--{{ site.data.bio.basics.summary }}-->
-      <h2 class="header no-bottom">Welcome to my home page!</h2>
-      <br>
-      I am a passionate engineer driven to solve real world problems by means of science, engineering, coding and entrepreneurship.<br> 
-      <br>
-      My areas of interest are <strong>AI</strong>, <strong>robotics</strong> and <strong>IoT</strong>. I am always thinking about exciting challenges on these fields and try to come up with simple solutions to complex problems.
-      Here are some examples of my specific work in these areas:
-      <ul> 
-        <li><a class="hlink" href="{{ site.baseurl}}/projects/ai-robotics">AI for robotics</a></li>
-       <li><a class="hlink" href="{{ site.baseurl}}/projects/deep-learning">Deep learning projects</a></li>
-       <li><a class="hlink" href="{{ site.baseurl}}/projects/classic-ai">Classic AI projects</a></li>
-      </ul>
-      I also enjoy <strong>making</strong> things and working at the intersection of <strong>software</strong> and <strong>hardware</strong>. This journey has taken me to the exploration of a diverse set of topics in which mixed and multidisciplinary skills were always essential. For instance, 
-      <ul> 
-        <li><a class="hlink" href="{{ site.baseurl}}/projects/maglev">Magnetic levitation system</a></li>
-       <li><a class="hlink" href="{{ site.baseurl}}/projects/robot">Robot for surveillance in closed spaces and medical assistance for the elderly</a></li>
-       <li><a class="hlink" href="{{ site.baseurl}}/projects/smartmeter">Smart water meter</a></li>
-       <li><a class="hlink" href="{{ site.baseurl}}/projects/chime">Musical device to create music from motion and spatial gestures</a></li>
-       <li><a class="hlink" href="{{ site.baseurl}}/projects/eolic">Eolic energy generator</a></li>
-       <li><a  class="hlink" href="{{ site.baseurl}}/projects/aerial">Aerial photography with drone</a></li>
-      </ul>
-      Most of these projects have required the integration of knowledge from <strong>mathematics</strong>, 
-      <strong>physics</strong>, <strong>computer science</strong>, <strong>hardware</strong> and <strong>design</strong>.<br> 
-      <br>
-      Please check out my projects, resume and blog sections for more information! If you want to stay in touch, twitter or email are the best places to find me (see below).
-    </p>
-    <!--<p style="font-size:14px !important;"> Interests:
-        {% for interest in site.data.bio.interests %}
-          {{ interest.name }}{% if forloop.last != true %}, {% endif %}
-        {% endfor %}
-    </p>-->
-    <p style="text-align: center;margin-bottom: 20px;">
-        {% include home-network-links.html %}
-    </p>
+    <div class="column" style="text-align: justify; font-size: 15px;">
+      <h1 class="header no-padding-bottom" style="font-size: 44px;margin-bottom: 10px;">{{ site.data.bio.basics.name }}</h1>
+      <p class="" style="font-size: 22px;"> <!--font-variant: all-petite-caps;text-transform:full-width;-->
+        <div class='console-container'><strong>#</strong> <emoji></emoji><span id='text' ></span><div class='console-underscore' id='console'>&#95;</div></div>
+        <!--{{ site.data.bio.basics.label }}--><!--<strong>Engineer</strong> <emoji>&#x1F468&#x200D&#x1F527</emoji>, <em>maker</em> <emoji>&#x1F468&#x200D&#x1F3A8</emoji> and c0d3r <emoji>&#x1F468&#x200D&#x1F4BB</emoji>-->
+      </p>
+      <p class="" style="text-align:justify !important;">
+        <!--{{ site.data.bio.basics.summary }}-->
+        <h2 class="header no-bottom">Welcome to my home page!</h2>
+        <br>
+        I am a passionate engineer driven to solve real world problems by means of science, engineering, coding and entrepreneurship.<br> 
+        <br>
+        My areas of interest are <strong>AI</strong>, <strong>robotics</strong> and <strong>IoT</strong>. I am always thinking about exciting challenges on these fields and try to come up with simple solutions to complex problems.
+        Here are some examples of my specific work in these areas:
+        <ul> 
+          <li><a class="hlink" href="{{ site.baseurl}}/projects/ai-robotics">AI for robotics</a></li>
+        <li><a class="hlink" href="{{ site.baseurl}}/projects/deep-learning">Deep learning projects</a></li>
+        <li><a class="hlink" href="{{ site.baseurl}}/projects/classic-ai">Classic AI projects</a></li>
+        </ul>
+        I also enjoy <strong>making</strong> things and working at the intersection of <strong>software</strong> and <strong>hardware</strong>. This journey has taken me to the exploration of a diverse set of topics in which mixed and multidisciplinary skills were always essential. For instance, 
+        <ul> 
+          <li><a class="hlink" href="{{ site.baseurl}}/projects/maglev">Magnetic levitation system</a></li>
+        <li><a class="hlink" href="{{ site.baseurl}}/projects/robot">Robot for surveillance in closed spaces and medical assistance for the elderly</a></li>
+        <li><a class="hlink" href="{{ site.baseurl}}/projects/smartmeter">Smart water meter</a></li>
+        <li><a class="hlink" href="{{ site.baseurl}}/projects/chime">Musical device to create music from motion and spatial gestures</a></li>
+        <li><a class="hlink" href="{{ site.baseurl}}/projects/eolic">Eolic energy generator</a></li>
+        <li><a  class="hlink" href="{{ site.baseurl}}/projects/aerial">Aerial photography with drone</a></li>
+        </ul>
+        Most of these projects have required the integration of knowledge from <strong>mathematics</strong>, 
+        <strong>physics</strong>, <strong>computer science</strong>, <strong>hardware</strong> and <strong>design</strong>.<br> 
+        <br>
+        Please check out my projects, resume and blog sections for more information! If you want to stay in touch, twitter or email are the best places to find me (see below).
+      </p>
+      <!--<p style="font-size:14px !important;"> Interests:
+          {% for interest in site.data.bio.interests %}
+            {{ interest.name }}{% if forloop.last != true %}, {% endif %}
+          {% endfor %}
+      </p>-->
+      <p style="text-align: center;margin-bottom: 20px;">
+          {% include home-network-links.html %}
+      </p>
 
 
-      <div class = "ui three item menu menu-custom">
-      <a class="bottom-gap" href="{{ site.baseurl }}/projects/">
-        <div class="huge ui animated fade purple button"  tabindex="1">
-          <div class="visible content">
-              Projects <!--({{ num_projects }})--></div>
-          <div class="hidden content">
-              <i class="large terminal icon"></i>
+        <div class = "ui three item menu menu-custom">
+        <a class="bottom-gap" href="{{ site.baseurl }}/projects/">
+          <div class="huge ui animated fade purple button"  tabindex="1">
+            <div class="visible content">
+                Projects <!--({{ num_projects }})--></div>
+            <div class="hidden content">
+                <i class="large terminal icon"></i>
+            </div>
           </div>
-        </div>
-      </a>
-      <a class="bottom-gap" href="{{ site.baseurl }}/bio/">
-        <div class="huge ui animated fade teal button" tabindex="1">
-          <div class="visible content">
-            {{ site.bio-page-label }}</div>
-          <div class="hidden content">
-              <i class="large thumbs up outline icon"></i>
+        </a>
+        <a class="bottom-gap" href="{{ site.baseurl }}/bio/">
+          <div class="huge ui animated fade teal button" tabindex="1">
+            <div class="visible content">
+              {{ site.bio-page-label }}</div>
+            <div class="hidden content">
+                <i class="large thumbs up outline icon"></i>
+            </div>
           </div>
-        </div>
-      </a>
-      <a href="{{ site.baseurl }}/essays/">
-        <div class="huge ui animated fade orange button" tabindex="1">
-          <div class="visible content">
-            Blog ({{ num_essays }})</div>
-          <div class="hidden content">
-            <i class="large pencil alternate icon"></i>
+        </a>
+        <a href="{{ site.baseurl }}/essays/">
+          <div class="huge ui animated fade orange button" tabindex="1">
+            <div class="visible content">
+              Blog ({{ num_essays }})</div>
+            <div class="hidden content">
+              <i class="large pencil alternate icon"></i>
+            </div>
           </div>
-        </div>
-      </a>
+        </a>
+      </div>
+      
+
     </div>
-    
-
   </div>
 </div>
