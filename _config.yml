@@ -22,3 +22,5 @@ theme-bio: theme-bio-builtin-1.html
 markdown: kramdown
 include: [_data]
 
+# Homepage limit posts
+number_of_posts: 5

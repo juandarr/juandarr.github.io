@@ -46,6 +46,15 @@
         <br>
         <div style="margin-bottom: 5px;"></div>
         If something here picked your interest, feel free to check out my projects, resume and blog sections. Also If you want to contact me, twitter or email work best. Cheers! <div style="font-size: 20px;display: inline-block;">🍻</div>
+        
+        <h3 class="posts-item-note" aria-label="Recent Posts">Recent Posts</h3>
+        {%- for post in site.pages limit: site.number_of_posts -%}
+        <article class="post-item">
+          <span class="post-item-date">{{ post.date | date: "%b %d, %Y" }}</span>
+          <a class= "hlink" href="{{ post.url }}">{{ post.title | escape }}</a>
+        </article>
+        {%- endfor -%}
+
       <!--<p style="font-size:14px !important;"> Interests:
           {% for interest in site.data.bio.interests %}
             {{ interest.name }}{% if forloop.last != true %}, {% endif %}
