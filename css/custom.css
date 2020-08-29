@@ -256,7 +256,7 @@ emoji {
 
 
 /* For screen width less than 928px */
-@media only screen and (max-width: 928px) {
+@media only screen and (max-width: 767px) {
   .stackable-custom {
     height: auto;
     width: 80%;
