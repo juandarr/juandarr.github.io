@@ -1,4 +1,7 @@
 /* Custom definitions */
+body {
+	background: ghostwhite;
+}
 
 emoji {
     font-size:150%;
@@ -15,7 +18,8 @@ emoji {
 }
 
 .hlink {
-  color: #00b5adc4 !important
+  color: #00b5adc4 !important;
+  font-weight: bold;
 }
 
 .hlink:hover {
