@@ -1,4 +1,4 @@
-<div style="padding-top: 20px" class="ui container ">
+<div style="padding-top: 20px" class="ui container main-content">
   <div class="ui stackable centered four cards">
       {% assign project_featured = site.pages | where: "type", "project" | group_by: "featured" | sort: "date" | reverse %}
       {% for pages in project_featured %}
