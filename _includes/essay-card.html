@@ -2,6 +2,7 @@
 
 <a  class="card cardjig" style="transform: none;" href="{{ site.baseurl}}{{ include.page.url }}">
   <div class="content">
+    {% include toc.html content=page.content skip_toc=page.skip_toc%}
     <span class="header">{{ include.page.title }}</span>
     <div class="meta">
       <span class="date">{{ include.page.date | date_to_string }}</span>
