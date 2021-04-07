@@ -1,27 +1,29 @@
-<div style="margin-top: 10px;background: #61ffd933;border-radius: 5px 5px 0px 0px;border-style: double solid none solid;" class="ui stackable grid container">
+<div class="main-content">
+  <div style="margin-top: 10px;background: #61ffd933;border-radius: 5px 5px 0px 0px;border-style: double solid none solid;" class="ui stackable grid container">
 
-  <div class="sixteen wide column no-bottom">
-    <h2 class="ui center aligned header no-bottom">{{ site.data.bio.basics.name }}</h2>
+    <div class="sixteen wide column no-bottom">
+      <h2 class="ui center aligned header no-bottom">{{ site.data.bio.basics.name }}</h2>
+    </div>
+
+    <div class="eight wide left aligned column">
+      {% include bio-network-links.html %}
+    </div>
+
+    <div class="eight wide right aligned column">
+      {% include bio-address.html %}
+    </div>
   </div>
 
-  <div class="eight wide left aligned column">
-    {% include bio-network-links.html %}
+  <div style="background: #61ffd933;border-radius: 0px 0px 5px 5px;border-style: none solid double solid;" class="ui stackable grid container">
+    <!--#4CC8C31A-->
+    {% include bio-interests-1.html %}
+    {% include bio-skills-1.html %}
+    {% include bio-education-1.html %}
+    {% include bio-complementary-education-1.html %}
+    {% include bio-work-1.html %}
+    {% include bio-volunteer-1.html %}
+    {% include bio-publications-1.html %}
+    {% include bio-awards-1.html %}
+    {% include bio-references-1.html %}
   </div>
-
-  <div class="eight wide right aligned column">
-    {% include bio-address.html %}
-  </div>
-</div>
-
-<div style="margin-bottom: 20px; background: #61ffd933;border-radius: 0px 0px 5px 5px;border-style: none solid double solid;" class="ui stackable grid container">
-	<!--#4CC8C31A-->
-  {% include bio-interests-1.html %}
-  {% include bio-skills-1.html %}
-  {% include bio-education-1.html %}
-  {% include bio-complementary-education-1.html %}
-  {% include bio-work-1.html %}
-  {% include bio-volunteer-1.html %}
-  {% include bio-publications-1.html %}
-  {% include bio-awards-1.html %}
-  {% include bio-references-1.html %}
 </div>

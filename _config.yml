@@ -23,4 +23,4 @@ markdown: kramdown
 include: [_data]
 
 # Homepage limit posts
-number_of_posts: 5
+number_of_posts: 4
