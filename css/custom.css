@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
+    background: ghostwhite;
 }
 
 #wrapper {
@@ -19,11 +20,6 @@ body {
 .main-content {
     padding: 10px;
     padding-bottom: 60px;
-    /* Height of the footer */
-}
-
-body {
-    background: ghostwhite;
 }
 
 emoji {
@@ -375,4 +371,48 @@ emoji {
 
 .post-item .post-item-title a {
     color: #434648;
+}
+
+
+/* Classes for new blog version*/
+
+.post-card {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.post-card.title {
+    max-width: 500px;
+    color: #272727;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.post-card.details {
+    /**@extend .pull-right;**/
+    text-align: right;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.post-card.subtitle {
+    max-width: 500px;
+}
+
+.no-post {
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.page-title {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.page-subtitle {
+    text-align: center;
+    margin-bottom: 1em;
 }
