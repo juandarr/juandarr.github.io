@@ -5,7 +5,7 @@
           {% assign featuredDateSorted = pages.items | sort: "date" | reverse %}
           {% for page in featuredDateSorted %}
             {% unless page.draft %}
-              {% include project-card-1a.html page=page %}
+              {% include project-card.html page=page %}
             {% endunless %}
           {% endfor %}
       {% endfor %}
