@@ -221,6 +221,10 @@ emoji {
     width: auto !important;
 }
 
+.blog {
+    width: 600px !important;
+}
+
 
 /* For mobile phones */
 
@@ -228,11 +232,6 @@ emoji {
     .ui.container.container-custom {
         display: flow-root;
     }
-    /*
-    .footer-custom {
-        position: relative;
-        margin-top: 20px;
-    }*/
 }
 
 
@@ -281,6 +280,9 @@ emoji {
 @media only screen and (max-width: 767px) {
     .stackable-custom {
         height: auto;
+        width: 80%;
+    }
+    .blog {
         width: 80%;
     }
 }
@@ -338,10 +340,10 @@ emoji {
 /* Content*/
 
 .posts-item-note {
-    font-size: 14px;
-    font-weight: 700;
+    font-size: 12px;
     margin-bottom: 5px;
     color: #0d122b;
+    margin-right: auto;
 }
 
 
@@ -350,7 +352,7 @@ emoji {
 .post-item {
     display: flex;
     padding-top: 5px;
-    padding-bottom: 6px;
+    /*padding-bottom: 6px;*/
 }
 
 .post-item .post-item-date {
@@ -358,61 +360,23 @@ emoji {
     color: #0d122b;
     font-weight: 700;
     padding-right: 10px;
+    font-size: 12px;
 }
 
 .post-item .post-item-title {
     margin: 0;
     border: 0;
     padding: 0;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: normal;
     letter-spacing: 0.1px;
+    margin-right: auto;
 }
 
 .post-item .post-item-title a {
     color: #434648;
 }
 
-
-/* Classes for new blog version*/
-
-.post-card {
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
-
-.post-card.title {
-    max-width: 500px;
-    color: #272727;
-    display: inline-block;
-    font-size: 30px;
-}
-
-.post-card.details {
-    /**@extend .pull-right;**/
-    text-align: right;
-    margin-left: 20px;
-    font-size: 15px;
-}
-
-.post-card.subtitle {
-    max-width: 500px;
-}
-
-.no-post {
-    text-align: center;
-    margin-top: 10px;
-    font-style: italic;
-}
-
-.page-title {
-    text-align: center;
-    font-size: xx-large;
-    font-weight: bold;
-    line-height: 2;
-}
-
-.page-subtitle {
-    text-align: center;
-    margin-bottom: 1em;
+.post-tags {
+    font-size: 12px;
 }
