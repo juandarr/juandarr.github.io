@@ -136,7 +136,7 @@ emoji {
 
 .floating-menu {
     /*font-family: sans-serif;*/
-    background: #a333c869;
+    background-color: #a333c869;
     padding: 15px 5px 15px 5px;
     width: auto;
     z-index: 100;
@@ -159,7 +159,7 @@ emoji {
 }
 
 .floating-menu a {
-    background: linear-gradient( to right, var(--mainColor) 0%, var(--mainColor) 1px, transparent 2px);
+    background-color: linear-gradient( to right, var(--mainColor) 0%, var(--mainColor) 1px, transparent 2px);
     background-repeat: repeat-x;
     background-size: 100%;
     color: white;
@@ -168,7 +168,7 @@ emoji {
 }
 
 .floating-menu a:hover {
-    background: linear-gradient( to right, var(--mainColor) 0%, var(--mainColor) 5px, transparent);
+    background-color: linear-gradient( to right, var(--mainColor) 0%, var(--mainColor) 5px, transparent);
 }
 
 .profile-pic {
@@ -184,14 +184,14 @@ emoji {
 }
 
 .menu-custom {
-    background: none !important;
+    background-color: none !important;
     box-shadow: none !important;
     border: none !important;
     margin-bottom: 40px !important;
 }
 
 .stackable-custom {
-    background: #FFFA9E !important;
+    background-color: #FFFA9E !important;
     font-size: 20px !important;
     font-weight: bold !important;
     width: fit-content;
