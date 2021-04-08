@@ -21,7 +21,7 @@
       <div class='console-container'><strong>#</strong> <emoji></emoji><span id='text' ></span><div class='console-underscore' id='console'>&#95;</div></div>
       
         <!--{{ site.data.bio.basics.summary }}-->
-        <h2 class="header no-bottom" style="margin-bottom:8px !important;">and this is my website</h2>
+        <h2 class="header no-bottom" style="margin-bottom:8px !important;">Welcome to my website</h2>
         I am a passionate engineer driven to solve real world problems by means of science, engineering, coding and entrepreneurship.<br> 
         <div style="margin-bottom: 5px;"></div>
         My areas of interest are <strong>AI</strong>, <strong>robotics</strong> and <strong>IoT</strong>. I am always thinking about exciting challenges on these fields and try to come up with simple solutions to complex problems.
@@ -32,17 +32,6 @@
         <li><a class="hlink" href="{{ site.baseurl}}/projects/classic-ai">Classic AI projects</a></li>
         </ul>
         I also enjoy <strong>making</strong> things and working at the intersection of <strong>software</strong> and <strong>hardware</strong>. To me, this journey is about exploration and having fun. In the past, driven by these two motivations I have explored different areas of knowledge.
-        <!--For instance, 
-        <ul style="margin-bottom: 5px; margin-top: 5px;"> 
-          <li><a class="hlink" href="{{ site.baseurl}}/projects/maglev">Magnetic levitation system</a></li>
-        <li><a class="hlink" href="{{ site.baseurl}}/projects/robot">Robot for surveillance in closed spaces and medical assistance for the elderly</a></li>
-        <li><a class="hlink" href="{{ site.baseurl}}/projects/smartmeter">Smart water meter</a></li>
-        <li><a class="hlink" href="{{ site.baseurl}}/projects/chime">Musical device to create music from motion and spatial gestures</a></li>
-        <li><a class="hlink" href="{{ site.baseurl}}/projects/eolic">Eolic energy generator</a></li>
-        <li><a  class="hlink" href="{{ site.baseurl}}/projects/aerial">Aerial photography with drone</a></li>
-        </ul>
-        Most of these projects have required the integration of knowledge from <strong>mathematics</strong>, 
-        <strong>physics</strong>, <strong>computer science</strong>, <strong>hardware</strong> and <strong>design</strong>.-->
         <br>
         <div style="margin-bottom: 5px;"></div>
         If something here picked your interest, feel free to check out my projects, resume and blog sections. Also If you want to contact me, twitter or email work best. Cheers! <div style="font-size: 20px;display: inline-block;">🍻</div>
@@ -53,45 +42,7 @@
           <span class="post-item-date">{{ post.date | date: "%b %d, %Y" }}</span>
           <a class= "hlink" href="{{ post.url }}">{{ post.title | escape }}</a>
         </article>
-        {%- endfor -%}
-
-      <!--<p style="font-size:14px !important;"> Interests:
-          {% for interest in site.data.bio.interests %}
-            {{ interest.name }}{% if forloop.last != true %}, {% endif %}
-          {% endfor %}
-      </p>-->
-
-      <!--
-      <div class = "ui three item menu menu-custom">
-        <a class="bottom-gap" href="{{ site.baseurl }}/projects/">
-          <div class="huge ui animated fade purple button"  tabindex="1">
-            <div class="visible content">
-                Projects ({{ num_projects }})</div>
-            <div class="hidden content">
-                <i class="large terminal icon"></i>
-            </div>
-          </div>
-        </a>
-        <a class="bottom-gap" href="{{ site.baseurl }}/bio/">
-          <div class="huge ui animated fade teal button" tabindex="1">
-            <div class="visible content">
-              {{ site.bio-page-label }}</div>
-            <div class="hidden content">
-                <i class="large thumbs up outline icon"></i>
-            </div>
-          </div>
-        </a>
-        <a href="{{ site.baseurl }}/essays/">
-          <div class="huge ui animated fade orange button" tabindex="1">
-            <div class="visible content">
-              Blog ({{ num_essays }})</div>
-            <div class="hidden content">
-              <i class="large pencil alternate icon"></i>
-            </div>
-          </div>
-        </a>
-      </div>-->
-      
+        {%- endfor -%}      
 
     </div>
   </div>
