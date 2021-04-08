@@ -8,7 +8,7 @@ body {
 }
 
 body {
-    background-color: ghostwhite;
+    background-color: #f8f8ff;
 }
 
 #wrapper {
@@ -100,7 +100,7 @@ emoji {
     margin: -2px;
     border-top-color: #f2711c !important;
     border-left-color: #00b5ad;
-    border-right-color: blueviolet;
+    border-right-color: #a433c8;
     border-bottom-color: #fefa9e;
 }
 
