@@ -89,6 +89,22 @@ emoji {
     }
 }
 
+.favorite-heart {
+    z-index: 100;
+    background-color: white;
+    position: absolute;
+    padding: 10px;
+    border-radius: 0px !important;
+    border-bottom-right-radius: 10px !important;
+    border-style: solid !important;
+    border-width: 2px;
+    margin: -2px;
+    border-top-color: #f2711c !important;
+    border-left-color: #00b5ad;
+    border-right-color: blueviolet;
+    border-bottom-color: #fefa9e;
+}
+
 .card.pheart:hover .big.red.heart.outline.icon {
     animation: heartbeat 1s infinite;
 }
@@ -167,17 +183,6 @@ emoji {
     margin: 0px 0px 10px 40px;
     width: 100%;
 }
-
-
-/*
-.footer-custom {
-    position: fixed;
-    bottom: 0;
-    padding-top: 5px;
-    padding-bottom: 10px;
-    margin-left: 15px;
-}
-*/
 
 .menu-custom {
     background: none !important;
@@ -259,13 +264,6 @@ emoji {
     .stackable-custom {
         height: 65px;
     }
-    /*.ui.stackable.menu {
-    
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }*/
     .custom-margin {
         margin-left: auto !important;
         margin-right: auto !important;
@@ -325,26 +323,11 @@ emoji {
 .console-container {
     font-family: Khula;
     font-size: 22px;
-    /*margin-left:30px;
-  padding: 14px 14px 14px 14px;*/
     border-style: dashed;
     border-width: 0px;
     margin-bottom: 20px;
     margin-top: 5px;
     margin-left: 30px;
-    /*
-  max-width: 200px;
-  text-align:center;
-  height:200px;
-  width:600px;
-  display:block;
-  position:absolute;
-  color:white;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-  margin:auto;*/
 }
 
 .console-underscore {

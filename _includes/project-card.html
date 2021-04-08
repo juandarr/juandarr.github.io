@@ -1,11 +1,31 @@
-<!-- Used by theme-projects-builtin-1 -->
 
-<div class="card">
-  {% if include.page.image %}
-    <div class="image">
-      <img src="{{ site.baseurl }}/{{ include.page.image }}">
-    </div>
+
+<a class="card pheart imgAnimate" href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl}}{{ include.page.url }}{% endif %}">
+  
+  {% if include.page.featured == true %}
+  <div style="z-index: 100;
+    background-color: ghostwhite;
+    position: absolute;
+    padding: 8px;
+    border-radius: 0px !important;
+    border-bottom-right-radius: 10px !important;
+    border-style: solid !important;
+    border-width: 2px;
+    margin: -2px;
+    border-top-color: #f2711c !important;
+    border-left-color: #00b5ad;
+    border-right-color: blueviolet;
+    border-bottom-color: blueviolet;">
+    <i class="big red heart outline icon" style="position: absolute;z-index: 1;margin: -7px !important;align-content: center;color: black !important;font-size:0.8rem;font-weight:bold;padding-top:1.5px;">
+    </i>
+  </div>
   {% endif %}
+  {% if include.page.image %}
+  <div class="image">
+    <img src="{{ site.baseurl }}/{{ include.page.image }}">
+  </div>
+  {% endif %}
+  
   <div class="content">
     <span class="header">{{ include.page.title }}</span>
     <div class="meta">
@@ -13,21 +33,16 @@
     </div>
 
     <div class="description">
-      {{ include.page.summary }}
+      {{ include.page.summary | truncatewords: 36}}
     </div>
   </div>
 
   <div class="extra content">
     <div class="ui mini labels">
       {% for label in include.page.labels %}
-        <div class="ui basic label">{{ label }}</div>
+      <div class="ui basic label">{{ label }}</div>
       {% endfor %}
     </div>
   </div>
-    {% if page.projecturl %}
-      <a class="ui bottom attached button" href="{{ page.projecturl }}">Read More</a>
-    {% else %}
-      <a class="ui bottom attached button" href="{{ site.baseurl}}{{ include.page.url }}">Read More</a>
-    {% endif %}
 
-</div>
+</a>
