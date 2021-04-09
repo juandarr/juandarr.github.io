@@ -1,6 +1,6 @@
 <div style="padding-top: 20px" class="ui container blog main-content">
 {% assign has_post = false %}
-<h3 class="post-item-title" aria-label="Recent Posts">Thoughts</h3>
+<h3 class="post-item-title" aria-label="Recent Posts">Thoughts and explorations</h3>
 {% assign essay_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}
 {% for post in essay_pages %}
     {% if post.private == true %}
