@@ -24,3 +24,6 @@ include: [_data]
 
 # Homepage limit posts
 number_of_posts: 4
+
+plugins:
+  - jekyll-sitemap
