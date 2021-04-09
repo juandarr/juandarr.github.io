@@ -381,5 +381,6 @@ emoji {
 
 .post-tags {
     font-size: 12px;
-    font-style: italic;
+    font-family: Inconsolata !important;
+    font-weight: 400;
 }
