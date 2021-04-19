@@ -7,8 +7,11 @@
 
 <div class="nonprintable header">
   <nav class="ui borderless stackable menu stackable-custom" style="margin-top: 15px;">
-    <a href="{{ site.baseurl}}/" class="brand item">
-      <img class="ui tiny circular image custom-margin" style="border-style: dashed;border-width: thin;" src="/images/chime/chime-main.jpg"><!--<span>Home<!--{{ site.data.bio.basics.name }}</span>ui avatar image -->
+    <a href="{{ site.baseurl}}/" class="brand item" style="background:none;">
+    <div id="homeimg">
+        <img class="ui tiny circular image custom-margin" style="border-style: dashed;border-width: thin;" src="/images/chime/chime-main-bw.jpg">
+        <img class="ui tiny circular image custom-margin imgtop" style="border-style: dashed;border-width: thin;" src="/images/chime/chime-main-psych.jpg">
+    </div>
     </a>
 
     {% if num_essays > 0 %}
