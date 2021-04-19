@@ -3,7 +3,7 @@
 <h3 class="post-item-title" aria-label="Recent Posts">Thoughts and explorations</h3>
 {% assign essay_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}
 {% for post in essay_pages %}
-    {% if post.private == true %}
+    {% if post.draft == true %}
         {% continue %}
     {% endif %}
     <article class="post-item">
