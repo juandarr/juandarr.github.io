@@ -101,10 +101,12 @@
     <div style="text-align:left;padding-top: 15px;">
     <h3 class="post-item-title" style="font-size:14px !important;" aria-label="Recent Posts">Recent Posts</h3>
         {%- for post in site.pages reversed limit: site.number_of_posts reversed-%}
+        {% if post.draft == false %}
         <article class="post-item" style="font-size: 13px;">
           <span class="post-item-date">{{ post.date | date: "%b %d, %Y" }}</span>
           <a class= "hlink" href="{{ post.url }}">{{ post.title | escape }}</a>
         </article>
+        {% endif %}
         {%- endfor -%}
     </div> 
     </div>
