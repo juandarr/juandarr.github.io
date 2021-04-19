@@ -560,6 +560,8 @@ emoji {
 #homeimg {
     position: relative;
     display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #homeimg .imgtop {
