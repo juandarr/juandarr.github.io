@@ -393,7 +393,7 @@ emoji {
 }
 
 @media(hover: hover) and (any-pointer: coarse) {
-    #svg88:hover #lhand {
+    #svg88 #lhand {
         animation-name: fade;
         animation-duration: 1s;
         animation-iteration-count: infinite;
@@ -418,7 +418,7 @@ emoji {
             opacity: 1;
         }
     }
-    #svg88:hover #guitar {
+    #svg88 #guitar {
         animation-name: shake;
         animation-duration: 2s;
         animation-iteration-count: infinite;
@@ -459,7 +459,7 @@ emoji {
             transform-origin: -0.2% -0.15%;
         }
     }
-    #svg88:hover #head {
+    #svg88 #head {
         animation-name: shakehead;
         animation-duration: 1.5s;
         animation-iteration-count: infinite;
@@ -500,7 +500,7 @@ emoji {
             transform-origin: 2% 0%;
         }
     }
-    #svg88:hover #rhand {
+    #svg88 #rhand {
         animation-name: touchstrings;
         animation-duration: 0.5s;
         animation-iteration-count: infinite;
