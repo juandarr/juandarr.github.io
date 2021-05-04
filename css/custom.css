@@ -396,7 +396,6 @@ emoji {
     animation-name: shake;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-    /*transform-origin: 0% 0%;*/
 }
 
 #svg88:hover #lhand {
@@ -409,49 +408,47 @@ emoji {
     animation-name: shakehead;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
-    /*transform-origin: 0% 0%;*/
 }
 
 #svg88:hover #rhand {
     animation-name: touchstrings;
     animation-duration: 0.5s;
     animation-iteration-count: infinite;
-    /*transform-origin: 0% 0%;*/
 }
 
 @keyframes shake {
     0% {
-        transform-origin: -0.2% -0.15% !important;
+        transform-origin: -0.2% -0.15%;
     }
     10% {
-        transform-origin: -1.0% 0.1% !important;
+        transform-origin: -1.0% 0.1%;
     }
     20% {
-        transform-origin: 0.15% -0.05% !important;
+        transform-origin: 0.15% -0.05%;
     }
     30% {
-        transform-origin: -0.5% -0.08% !important;
+        transform-origin: -0.5% -0.08%;
     }
     40% {
-        transform-origin: 0.1% -0.06% !important;
+        transform-origin: 0.1% -0.06%;
     }
     50% {
-        transform-origin: -1.2% -0.09% !important;
+        transform-origin: -1.2% -0.09%;
     }
     60% {
-        transform-origin: -0.5% -0.5% !important;
+        transform-origin: -0.5% -0.5%;
     }
     70% {
-        transform-origin: -1.0% -0.1% !important;
+        transform-origin: -1.0% -0.1%;
     }
     80% {
-        transform-origin: -0.4% -0.08% !important;
+        transform-origin: -0.4% -0.08%;
     }
     90% {
-        transform-origin: -0.9% -0.05% !important;
+        transform-origin: -0.9% -0.05%;
     }
     100% {
-        transform-origin: -0.2% -0.15% !important;
+        transform-origin: -0.2% -0.15%;
     }
 }
 
