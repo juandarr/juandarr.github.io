@@ -418,47 +418,47 @@ emoji {
 
 @keyframes shake {
     0% {
-        transform: translateX(0);
+
         transform-origin: -0.2% -0.15%;
     }
     10% {
-        transform: translateX(0);
+
         transform-origin: -1.0% 0.1%;
     }
     20% {
-        transform: translateX(0);
+
         transform-origin: 0.15% -0.05%;
     }
     30% {
-        transform: translateX(0);
+
         transform-origin: -0.5% -0.08%;
     }
     40% {
-        transform: translateX(0);    
+
         transform-origin: 0.1% -0.06%;
     }
     50% {
-        transform:translateX(0);
+
         transform-origin: -1.2% -0.09%;
     }
     60% {
-        transform: translateX(0);
+
         transform-origin: -0.5% -0.5%;
     }
     70% {
-  transform: translateX(0);
+
         transform-origin: -1.0% -0.1%;
     }
     80% {
-    transform: translateX(0);
+
         transform-origin: -0.4% -0.08%;
     }
     90% {
-  transform: translateX(0);
+
         transform-origin: -0.9% -0.05%;
     }
     100% {
-  transform: translateX(0);
+
         transform-origin: -0.2% -0.15%;
     }
 }
@@ -486,57 +486,57 @@ emoji {
 
 @keyframes shakehead {
     0% {
-        transform: translateX(0);
+
         transform-origin: 2% 0%;
     }
     10% {
-transform: translateX(0);
+
 
         transform-origin: 3% 1%;
     }
     20% {
-transform: translateX(0);
+
 
         transform-origin: 2% 0%;
     }
     
      30% {
-    transform: translateX(0);
+
 
         transform-origin: 0% 3%;
     }
       40% {
-    transform: translateX(0);
+
 
         transform-origin: 1% 0%;
     }
     50% {
-transform: translateX(0);
+
 
         transform-origin: 2% 1%;
     }
     60% {
-transform: translateX(0);
+
 
         transform-origin: 3% 2%;
     }
     70% {
-transform: translateX(0);
+
 
         transform-origin: 0% 0%;
     }
     80% {
-transform: translateX(0);
+
 
         transform-origin: 3% 1%;
     }
     90% {
-transform: translateX(0);
+
 
         transform-origin: 2% 3%;
     }
     100% {
-transform: translateX(0);
+
 
         transform-origin: 2% 0%;
     }
@@ -544,47 +544,47 @@ transform: translateX(0);
 
 @keyframes touchstrings {
     0% {
-        transform: translateX(0);
+        
 
         transform-origin: 0% 0.5%;
     }
-    10% {transform: translateX(0);
+    10% {
 
         transform-origin: 0% 0.6%;
     }
-    20% {transform: translateX(0);
+    20% {
 
         transform-origin: 0% 0.1%;
     }
-    30% {transform: translateX(0);
+    30% {
 
         transform-origin: 0% -0.1%;
     }
-    40% {transform: translateX(0);
+    40% {
 
         transform-origin: 0% -0.4%;
     }
-    50% {transform: translateX(0);
+    50% {
 
         transform-origin: 0% -0.5%;
     }
-    60% {transform: translateX(0);
+    60% {
 
         transform-origin: 0% -0.3%;
     }
-    70% {transform: translateX(0);
+    70% {
 
         transform-origin: 0% -0.1%;
     }
-    80% {transform: translateX(0);
+    80% {
 
         transform-origin: 0% 0.15%;
     }
-    90% {transform: translateX(0);
+    90% {
 
         transform-origin: 0% 0.3%;
     }
-    100% {transform: translateX(0);
+    100% {
 
         transform-origin: 0% 0.5%;
     }
