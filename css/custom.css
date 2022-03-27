@@ -397,7 +397,6 @@ emoji {
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
-
 #svg88:hover #lhand {
     animation-name: fade;
     animation-duration: 1s;
@@ -405,21 +404,42 @@ emoji {
 }
 
 #svg88:hover #head {
-    animation-name: shakehead;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+  animation-name: shakehead;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+#head {
+  transform-box: view-box;
+  transform-origin: 0px 0px;
 }
 
 #svg88:hover #rhand {
     animation-name: touchstrings;
-    animation-duration: 0.5s;
+    animation-duration: 0.45s;
     animation-iteration-count: infinite;
+}
+
+#rhand {
+  transform-box: view-box;
+  transform-origin: 0px 0px;  
+}
+
+#lhand {
+  transform-box: view-box;
+  transform-origin: 0px 0px;
+}
+
+#guitar {
+  transform-box: view-box;
+  transform-origin: 0px 0px;
 }
 
 @keyframes shake {
     0% {
 
         transform-origin: -0.2% -0.15%;
+        
     }
     10% {
 
@@ -462,22 +482,21 @@ emoji {
         transform-origin: -0.2% -0.15%;
     }
 }
-
 @keyframes fade {
     0% {
         opacity: 1;
     }
     20% {
-        opacity: 0.95;
+        opacity: 0.97;
     }
     40% {
-        opacity: 0.92;
+        opacity: 0.95;
     }
     60% {
-        opacity: 0.90;
+        opacity: 0.94;
     }
     80% {
-        opacity: 0.93;
+        opacity: 0.96;
     }
     100% {
         opacity: 1;
@@ -486,106 +505,88 @@ emoji {
 
 @keyframes shakehead {
     0% {
-
-        transform-origin: 2% 0%;
+        transform: translate(12.2px,0px) matrix(0.75,0,0,0.75,126.32385,55.451331);
     }
     10% {
 
-
-        transform-origin: 3% 1%;
+        transform: translate(15.4px,6.1px) matrix(0.75,0,0,0.75,126.32385,55.451331);
     }
     20% {
-
-
-        transform-origin: 2% 0%;
+        transform: translate(12.2px,0px) matrix(0.75,0,0,0.75,126.32385,55.451331);
     }
     
      30% {
 
+        transform: translate(0px,18.4px) matrix(0.75,0,0,0.75,126.32385,55.451331);
 
-        transform-origin: 0% 3%;
     }
       40% {
 
+        transform: translate(6.1px,0px) matrix(0.75,0,0,0.75,126.32385,55.451331);
 
-        transform-origin: 1% 0%;
     }
     50% {
-
-
-        transform-origin: 2% 1%;
-    }
+        transform: translate(12.2px,6.1px) matrix(0.75,0,0,0.75,126.32385,55.451331);
+}
     60% {
 
+        transform: translate(15.4px,12.2px) matrix(0.75,0,0,0.75,126.32385,55.451331);
 
-        transform-origin: 3% 2%;
     }
     70% {
 
+        transform: translate(0px,0px) matrix(0.75,0,0,0.75,126.32385,55.451331);
 
-        transform-origin: 0% 0%;
     }
     80% {
 
+        transform: translate(15.4px,6.1px) matrix(0.75,0,0,0.75,126.32385,55.451331);
 
-        transform-origin: 3% 1%;
     }
     90% {
 
+        transform: translate(12.2px,18.4px) matrix(0.75,0,0,0.75,126.32385,55.451331);
 
-        transform-origin: 2% 3%;
     }
     100% {
 
+        transform: translate(12.2px,0px) matrix(0.75,0,0,0.75,126.32385,55.451331);
 
-        transform-origin: 2% 0%;
     }
 }
 
 @keyframes touchstrings {
     0% {
-        
-
         transform-origin: 0% 0.5%;
     }
     10% {
-
         transform-origin: 0% 0.6%;
     }
     20% {
-
         transform-origin: 0% 0.1%;
     }
     30% {
-
         transform-origin: 0% -0.1%;
     }
     40% {
-
         transform-origin: 0% -0.4%;
     }
     50% {
-
         transform-origin: 0% -0.5%;
     }
     60% {
-
         transform-origin: 0% -0.3%;
     }
     70% {
-
         transform-origin: 0% -0.1%;
     }
     80% {
-
         transform-origin: 0% 0.15%;
     }
     90% {
-
         transform-origin: 0% 0.3%;
     }
     100% {
-
         transform-origin: 0% 0.5%;
     }
 }
