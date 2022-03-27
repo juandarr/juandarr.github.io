@@ -405,7 +405,7 @@ emoji {
 
 #svg88:hover #head {
   animation-name: shakehead;
-  animation-duration: 1.5s;
+  animation-duration: 2.5s;
   animation-iteration-count: infinite;
 }
 
@@ -416,7 +416,7 @@ emoji {
 
 #svg88:hover #rhand {
     animation-name: touchstrings;
-    animation-duration: 0.45s;
+    animation-duration: 0.5s;
     animation-iteration-count: infinite;
 }
 
@@ -517,7 +517,7 @@ emoji {
     
      30% {
 
-        transform: translate(0px,18.4px) matrix(0.75,0,0,0.75,126.32385,55.451331);
+        transform: translate(0px,15.4px) matrix(0.75,0,0,0.75,126.32385,55.451331);
 
     }
       40% {
@@ -545,7 +545,7 @@ emoji {
     }
     90% {
 
-        transform: translate(12.2px,18.4px) matrix(0.75,0,0,0.75,126.32385,55.451331);
+        transform: translate(12.2px,15.4px) matrix(0.75,0,0,0.75,126.32385,55.451331);
 
     }
     100% {
