@@ -3,15 +3,36 @@
 This is my personal webpage. My goal is to showcase the kind of projects I have worked on in the past and hihglight the kind of experience I am bringing to the table.
 I you want to get in touch just send me a message via Twitter or Gmail.
 
-## TODO 
+## Dependencies
 
-- [x] Define a color palette and stick to it.
-- [x] Improve style of blog page. Consider a better look for the essay card and then the content.
-- [x] Improve description of each project. Text in card should be brief, then explanations must be created from an experienced engineer POV. 
-- [x] Create responsive design to improve experience in a mobile device
-- [x] JD logo.
+### Install Ruby
+
+- In Arch
+  - `sudo pacman -S ruby base-devel`
+- For other OS
+  - [Other linux distro instructions](https://jekyllrb.com/docs/installation/other-linux/)
+
+### Install Jekyll
+
+- `gem install jekyll bundler`
+	- After installation, add Ruby gem binaries to the path of your OS if requested in terminal
+	- Troubleshooting
+		- I had a problem with the gem `webrick`. It was solved installing the gem via `gem install webrick`
+			- [Source of solution](https://programmerah.com/solved-jekyll-install-error-cannot-load-such-file-webrick-loaderror-39104/)
+
+## Usage
+
+Run the following command in the terminal:
 
 
+```bash
+jekyll server --baseurl '' --livereload
+```
+
+If you have created the page with `jekyll new website_name` you need to use instead:
+```bash
+bundle exec jekyll serve --livereload
+```
 
 
 ## Color palette
