@@ -522,7 +522,7 @@ emoji {
     }
       40% {
 
-        transform: translate(6.1px,0px) matrix(0.75,0,0,0.75,126.32385,55.451331);
+        transform: translate(6.1px,7px) matrix(0.75,0,0,0.75,126.32385,55.451331);
 
     }
     50% {
@@ -535,7 +535,7 @@ emoji {
     }
     70% {
 
-        transform: translate(0px,0px) matrix(0.75,0,0,0.75,126.32385,55.451331);
+        transform: translate(6.1px,15.4px) matrix(0.75,0,0,0.75,126.32385,55.451331);
 
     }
     80% {
@@ -550,7 +550,7 @@ emoji {
     }
     100% {
 
-        transform: translate(12.2px,0px) matrix(0.75,0,0,0.75,126.32385,55.451331);
+        transform: translate(6.1px,6.1px) matrix(0.75,0,0,0.75,126.32385,55.451331);
 
     }
 }
