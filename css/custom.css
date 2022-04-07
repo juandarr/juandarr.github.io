@@ -405,8 +405,9 @@ emoji {
 
 #svg88:hover #head {
   animation-name: shakehead;
-  animation-duration: 2.5s;
+  animation-duration: 1.5s;
   animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
 #head {
@@ -504,55 +505,37 @@ emoji {
 }
 
 @keyframes shakehead {
-    0% {
-        transform: translate(12.2px,0px) matrix(0.75,0,0,0.75,126.32385,55.451331);
+     0% {
+        transform: translate(0px,0px) matrix(0.75,0,0,0.75,127.32385,55.451331);
     }
-    10% {
-
-        transform: translate(15.4px,6.1px) matrix(0.75,0,0,0.75,126.32385,55.451331);
-    }
-    20% {
-        transform: translate(12.2px,0px) matrix(0.75,0,0,0.75,126.32385,55.451331);
-    }
-    
-     30% {
-
-        transform: translate(0px,15.4px) matrix(0.75,0,0,0.75,126.32385,55.451331);
-
-    }
-      40% {
-
-        transform: translate(6.1px,7px) matrix(0.75,0,0,0.75,126.32385,55.451331);
-
-    }
-    50% {
-        transform: translate(12.2px,6.1px) matrix(0.75,0,0,0.75,126.32385,55.451331);
-}
-    60% {
-
-        transform: translate(15.4px,12.2px) matrix(0.75,0,0,0.75,126.32385,55.451331);
-
-    }
-    70% {
-
-        transform: translate(6.1px,15.4px) matrix(0.75,0,0,0.75,126.32385,55.451331);
-
-    }
-    80% {
-
-        transform: translate(15.4px,6.1px) matrix(0.75,0,0,0.75,126.32385,55.451331);
-
-    }
-    90% {
-
-        transform: translate(12.2px,15.4px) matrix(0.75,0,0,0.75,126.32385,55.451331);
-
-    }
-    100% {
-
+    15% {
         transform: translate(6.1px,6.1px) matrix(0.75,0,0,0.75,126.32385,55.451331);
-
     }
+    25% {
+        transform: translate(12.2px,12.2px) matrix(0.75,0,0,0.75,126.32385,55.451331);
+    }
+     37.5% {
+        transform: translate(15.4px,6.1px) matrix(0.75,0,0,0.75,126.32385,55.451331);
+    }
+      50% {
+        transform: translate(12.2px,0px) matrix(0.75,0,0,0.75,126.32385,55.451331);
+    }
+    62.5% {
+        transform: translate(15.4px,6.1px) matrix(0.75,0,0,0.76,126.32385,55.451331);
+   }
+    75% {
+
+        transform: translate(12.2px,12.2px) matrix(0.75,0,0,0.75,126.32385,55.451331);
+    }
+    87.5% {
+        transform: translate(15.4px,6.1px) matrix(0.75,0,0,0.75,126.82385,55.451331);
+    }
+    92% {
+         transform: translate(6.1px,0px) matrix(0.75,0,0,0.75,126.32385,55.451331);
+}
+  100% {
+     transform: translate(0px,0px) matrix(0.75,0,0,0.75,126.32385,55.451331);
+}
 }
 
 @keyframes touchstrings {
