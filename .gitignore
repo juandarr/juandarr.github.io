@@ -7,4 +7,5 @@ highres
 favicons
 .jekyll-cache/
 tmp
+essays/template.md
 essays/.obsidian
