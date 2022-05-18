@@ -7,7 +7,7 @@
 
   <title>
     {% if page.title %}
-      {{ page.title }} |
+    {{ page.title }} |
     {% endif %}
     {{ site.title }}
   </title>
@@ -20,6 +20,8 @@
 
   <!-- Load custom CSS for the personal webpage speficific design -->
   <link rel="stylesheet" href="{{ site.baseurl }}/css/custom.css">
-  
+
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
+  <link href="{{site.baseurl}}/feed.xml" type="application/rss+xml" rel="alternate" title="Latest blog posts (atom)" />
 </head>
