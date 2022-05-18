@@ -7,6 +7,10 @@ title: Juan Ríos
 name: "My corner of the universe"
 description: "A blog about tech, computers and dreams"
 url: "https://juandarr.github.io"
+feed_items: 10
+feed_update_period: daily
+feed_update_frequency: 1
+
 # Edit next line so that baseurl is "" if your repo is <username>.github.io
 baseurl: ""
 
@@ -25,4 +29,4 @@ markdown: kramdown
 include: [_data]
 
 # Homepage limit posts
-number_of_posts: 4
+number_of_posts: 6

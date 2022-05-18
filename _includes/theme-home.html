@@ -148,14 +148,16 @@
           <a class="post-item-date hlink" href="{{site.baseurl}}/feed.xml" target="_blank" download="feed.xml"><i
               class="large save icon" style="vertical-align: sub;"></i>RSS</a>
         </div>
-        {%- for post in site.pages reversed limit: site.number_of_posts reversed-%}
-        {% if post.draft == false %}
+        {% assign essay_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}
+        {% for post in essay_pages %}
+        {% if post.draft == true %}
+        {% continue %}
+        {% endif %}
         <article class="post-item" style="font-size: 13px;">
           <span class="post-item-date">{{ post.date | date: "%b %d, %Y" }}</span>
           <a class="hlink" href="{{ post.url }}">{{ post.title | escape }}</a>
         </article>
-        {% endif %}
-        {%- endfor -%}
+        {% endfor %}
       </div>
     </div>
 
