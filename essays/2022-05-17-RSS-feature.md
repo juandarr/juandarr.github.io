@@ -29,10 +29,11 @@ url: https://example.com
 ### 2) Add `feed.xml` to the root
 The Jekyll community has created several ways to include RSS in a blog. Two of those options imply the use of the `xml` (see [Jekyll-rss-feeds Github repository][]) and `json` (see [Jekyll-json-feeds Github repostory][]) formats. I decided to fo the `xml` way and created  a `feed.xml` file at the root of the main folder using the generic template (`feed.xml`) included in the Github repository [jekyll-rss-feeds] by George Mandis.
 
-```markdown
+```xml
 ---
 
 ---
+{% raw %}
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
 xmlns:atom="http://www.w3.org/2005/Atom"
@@ -65,6 +66,7 @@ xmlns:sy="http://purl.org/rss/1.0/modules/syndication/">
 {% endfor %}
 </channel>
 </rss>
+{% endraw %}
 ```
 
 ### 3) Build your site and push
