@@ -4,19 +4,19 @@ layout: essays
 
 <div style="margin-top: 20px; margin-bottom: 20px" class="ui text container main-content">
   <h1>{{ page.title }}</h1>
-  <span class="date">{{ page.date | date_to_string }}</span>
-    <hr>
+  <span class="date">{{ page.date | date_to_rfc822 }}</span>
+  <hr>
   <div class="posts-item-note">
     {% for tag in page.tags %}
-        {% if page.tags.first == tag %}
-            <b>[</b>
-        {% endif %}
-        <a class="hlink post-tags" href="{{ site.baseurl }}/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
-        {% if page.tags.last == tag %}
-            <b>]</b>
-        {% else %}
-            ,
-        {% endif %}
+    {% if page.tags.first == tag %}
+    <b>[</b>
+    {% endif %}
+    <a class="hlink post-tags" href="{{ site.baseurl }}/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
+    {% if page.tags.last == tag %}
+    <b>]</b>
+    {% else %}
+    ,
+    {% endif %}
     {% endfor %}
   </div>
 
