@@ -81,5 +81,5 @@ It is also a good idea to add a `<link>` element in the document `<head>` for br
 I am quite happy with the results. Right now I am uploading this brief article as a post. My commitment is to write my experiences while exploring the world of computers, programming and the open web as often as possible. 
 
 - [RSS for Jekyll blogs](https://joelglovier.com/writing/rss-for-jekyll)
-- [Jekyll-rss-feeds Github repository]: <https://github.com/georgemandis/jekyll-rss-feeds> "Jekyll-rss-feeds Github repository"
-- [Jekyll-json-feeds Github repostory]: <https://github.com/georgemandis/jekyll-json-feeds> "Jekyll-json-feeds Github repostory"
+- [Jekyll-rss-feeds Github repository](<https://github.com/georgemandis/jekyll-rss-feeds> "Jekyll-rss-feeds Github repository")
+- [Jekyll-json-feeds Github repostory](<https://github.com/georgemandis/jekyll-json-feeds> "Jekyll-json-feeds Github repostory")
