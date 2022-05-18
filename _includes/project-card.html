@@ -1,7 +1,6 @@
+<a class="card pheart imgAnimate"
+  href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl}}{{ include.page.url }}{% endif %}">
 
-
-<a class="card pheart imgAnimate" href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl}}{{ include.page.url }}{% endif %}">
-  
   {% if include.page.featured == true %}
   <div style="z-index: 100;
     background-color: ghostwhite;
@@ -10,13 +9,14 @@
     border-radius: 0px !important;
     border-bottom-right-radius: 10px !important;
     border-style: dashed !important;
-    border-width: 1.5px;
+    border-width: 1.5px !important;
     margin: -2px;
     border-top-color: #f2711c !important;
     border-left-color: #00b5ad;
     border-right-color: blueviolet;
     border-bottom-color: blueviolet;">
-    <i class="big red heart outline icon" style="position: absolute;z-index: 1;margin: -7px !important;align-content: center;color: black !important;font-size:0.8rem;font-weight:bold;padding-top:1.5px;">
+    <i class="big red heart outline icon"
+      style="position: absolute;z-index: 1;margin: -7px !important;align-content: center;color: black !important;font-size:0.8rem;font-weight:bold;padding-top:1.5px;">
     </i>
   </div>
   {% endif %}
@@ -25,7 +25,7 @@
     <img src="{{ site.baseurl }}/{{ include.page.image }}">
   </div>
   {% endif %}
-  
+
   <div class="content">
     <span class="header">{{ include.page.title }}</span>
     <div class="meta">

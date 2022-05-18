@@ -7,7 +7,7 @@ subtitle: RSS as a tool for the open web
 author:
   name: Juan Ríos
 date: '2022-05-17 23:00:00 -0500'
-tags: [Open web, RSS, blogging]
+tags: [Open web,rss,blogging]
 ---
 After several weeks of internal deliberation I decided to add RSS to the blog section of my personal website. I have been using RSS for years as a way to quickly glance and filter the news relevant to me from different sources. It is quite useful to save time, since you generally have access to the tittle and a short description of the article, giving you enough information to decide whether such content is worth to read, listen to or explore. It also is quite private, since different sources are generally unaware of our identity while making a request for information. Finally, the flexibility and efficacy of the format is wide. RSS can be used to get information from a wide variety of platforms: YouTube, Reddit, Twitter and of course blogs. This makes it the perfect swiss knife to collect, manage, and explore information from the web in one glance, and continuosly. 
 
