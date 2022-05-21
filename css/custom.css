@@ -1,16 +1,25 @@
 /* Custom definitions */
 
+:root {
+    /* Variables */
+    --background-color-light: #f8f8ff;
+    --background-color-dark: #121215;
+    --text-color-dark: rgba(198, 198, 198, 0.87);
+    --text-color-light: #FFF;
+}
+
 html,
 body {
     margin: 0;
     padding: 0;
     height: 100%;
-}
 
+}
+/*
 body {
-    background-color: #f8f8ff;
+    background-color: var(--background-color-light);
 }
-
+*/
 #wrapper {
     min-height: 100%;
     position: relative;
@@ -596,3 +605,4 @@ emoji {
 #homeimg:hover .imgtop {
     display: inline;
 }
+

@@ -6,7 +6,7 @@ for (i = 0; i < x.length; i++) {
 } 
 
 function jiggle() {
-	var x = document.getElementsByClassName("cardjig");
+  var x = document.getElementsByClassName("cardjig");
     var i;
     for (i = 0; i < x.length; i++) {
       x[i].transition('jiggle');
@@ -16,9 +16,59 @@ function jiggle() {
 var staticGifSuffix = "-static.png";
 var gifSuffix = ".gif";
 
+
+
 $(document).ready(function() {
 
-    //var colors = ['coral', 'cornflowerblue', 'crimson','deepskyblue','gold','darkseagreen'];
+  let backgroundColor;
+  let textColor;
+  let cardBackgroundColor;
+
+  const setTheme = function(theme) {
+
+    if (theme == 'dark') {
+
+      backgroundColor = '#121215';
+      textColor = 'rgba(198, 198, 198, 0.87)';
+      cardBackgroundColor = '#464646';
+    } else {
+
+      backgroundColor = '#f8f8ff';
+      textColor = '#000';
+      cardBackgroundColor = backgroundColor;
+    }
+
+    $('body').css('background-color', backgroundColor);
+    $('body').css('color', textColor);
+    $('.post-item-date').css('color', textColor);
+    $('.posts-item-note').css('color', textColor);
+    $('.header').css('color', textColor);
+    $('.cardBg').css('background-color', cardBackgroundColor);
+    $('.description').css('color', textColor);
+
+  };
+
+  const currentTheme = localStorage.getItem("theme");
+ if (currentTheme == "dark") {
+  setTheme("dark");
+  $('#night_mode')[0].checked = true;
+ }
+  else {
+  setTheme("light");
+  $('#night_mode')[0].checked = false;
+}
+
+$('#night_mode').change(function() {
+if ($(this).is(':checked')) {
+  setTheme("dark");
+  localStorage.setItem("theme", "dark");
+}else {
+  setTheme("light");
+  localStorage.setItem("theme", "light");
+ }
+});
+  
+//var colors = ['coral', 'cornflowerblue', 'crimson','deepskyblue','gold','darkseagreen'];
     //var colors =['#FFF761','#4CC8C3','#B254D0','#FFA761','lightgreen','#e98ebc','#ccf88a','#63cff3'];
     //faded color palette
     var colors = ['#FFF76133','#4CC8C333','#B254D033','#FFA76133'];
@@ -120,4 +170,3 @@ $(document).ready(function() {
  }
 
 });
-
