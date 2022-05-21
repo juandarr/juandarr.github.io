@@ -16,47 +16,49 @@ function jiggle() {
 var staticGifSuffix = "-static.png";
 var gifSuffix = ".gif";
 
+let backgroundColor;
+let textColor;
+let cardBackgroundColor;
 
+const setTheme = function(theme) {
+  if (theme == 'dark') {
+    
+    backgroundColor = '#121215';
+    textColor = 'rgba(198, 198, 198, 0.87)';
+    cardBackgroundColor = '#464646';
+  } else {
+    
+    backgroundColor = '#f8f8ff';
+    textColor = '#000';
+    cardBackgroundColor = backgroundColor
+  }
+
+  $('body').css('background-color', backgroundColor);
+  $('body').css('color', textColor);
+  $('.post-item-date').css('color', textColor);
+  $('.posts-item-note').css('color', textColor);
+  $('.header').css('color', textColor);
+  $('.cardBg').css('background-color', cardBackgroundColor);
+  $('.description').css('color', textColor);
+
+};
+
+
+const currentTheme = localStorage.getItem("theme");
 
 $(document).ready(function() {
 
-  let backgroundColor;
-  let textColor;
-  let cardBackgroundColor;
 
-  const setTheme = function(theme) {
-
-    if (theme == 'dark') {
-
-      backgroundColor = '#121215';
-      textColor = 'rgba(198, 198, 198, 0.87)';
-      cardBackgroundColor = '#464646';
-    } else {
-
-      backgroundColor = '#f8f8ff';
-      textColor = '#000';
-      cardBackgroundColor = backgroundColor;
+  if (currentTheme == "dark") {
+    setTheme("dark");
+    $('#night_mode')[0].checked = true;
+    }
+    else {
+    $('#night_mode')[0].checked = false;
+    setTheme("light");
+    
     }
 
-    $('body').css('background-color', backgroundColor);
-    $('body').css('color', textColor);
-    $('.post-item-date').css('color', textColor);
-    $('.posts-item-note').css('color', textColor);
-    $('.header').css('color', textColor);
-    $('.cardBg').css('background-color', cardBackgroundColor);
-    $('.description').css('color', textColor);
-
-  };
-
-  const currentTheme = localStorage.getItem("theme");
- if (currentTheme == "dark") {
-  setTheme("dark");
-  $('#night_mode')[0].checked = true;
- }
-  else {
-  setTheme("light");
-  $('#night_mode')[0].checked = false;
-}
 
 $('#night_mode').change(function() {
 if ($(this).is(':checked')) {
@@ -107,6 +109,7 @@ if ($(this).is(':checked')) {
   
     });
   
+    try{
     // function([string1, string2],target id,[color1,color2])    
  consoleText(['Engineer', 'Maker', 'C0d3r'], 'text',['#FFA761','#4CC8C3','#B254D0'], ['<emoji>&#x1F468&#x200D&#x1F527</emoji>','<emoji>&#x1F468&#x200D&#x1F3A8</emoji>','<emoji>&#x1F468&#x200D&#x1F4BB</emoji>']);
 
@@ -117,7 +120,7 @@ if ($(this).is(':checked')) {
    var letterCount = 1;
    var x = 1;
    var waiting = false;
-   var target = document.getElementById(id)
+   var target = document.getElementById(id);
    target.setAttribute('style', 'font-size:22px;font-variant: all-petite-caps; font-weight:bold;color:' + colors[0])
    window.setInterval(function() {
  
@@ -167,6 +170,8 @@ if ($(this).is(':checked')) {
        visible = true;
      }
    }, 400)
+ }}catch {
+   console.log('Not in main page');
  }
 
 });
