@@ -22,6 +22,7 @@ let cardBackgroundColor;
 let hyperlinkColor;
 let hyperlinkColorHover;
 let dateColor;
+let gridContainerBackground;
 
 const setTheme = function(theme) {
   if (theme == 'dark') {
@@ -32,6 +33,7 @@ const setTheme = function(theme) {
     hyperlinkColor ='#09c6bdc4 !important';
     hyperlinkColorHover='#aa2fd3 !important';
     dateColor = '#888787'; 
+    gridContainerBackground = '#05608c33';
   } else {
     $("#nm_slider").removeClass( "nm_night" ).addClass( "nm_day" );
     backgroundColor = '#f8f8ff';
@@ -40,6 +42,7 @@ const setTheme = function(theme) {
     hyperlinkColor='#00b5adc4 !important';
     hyperlinkColorHover ='#9627ba !important';
     dateColor ='rgba(0,0,0,.4)';
+    gridContainerBackground = '#61ffd933';
   }
 
   $('#wrapper').css('background-color', backgroundColor);
@@ -54,6 +57,7 @@ const setTheme = function(theme) {
     $(this).css("color", hyperlinkColorHover)
   });
   $('.date').css('color', dateColor);
+  $('.resume').css('background-color', gridContainerBackground);
 };
 
 
@@ -71,22 +75,6 @@ $(document).ready(function() {
     setTheme("light");
     
     }
-
-    $('#night_mode').each(function(){
-      $(this).bind('touchstart', function(){
-          if(this.checked) {
-              this.checked = true;
-          } else {
-              this.checked = false;
-          }
-      }).bind('click', function() {
-        if(this.checked) {
-          this.checked = true;
-      } else {
-          this.checked = false;
-      }
-      });
-  });
 
   
 $('#night_mode').change(function() {

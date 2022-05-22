@@ -254,6 +254,13 @@ emoji {
     margin:auto;
 }
 
+.ui.slider.checkbox input {
+    height: 1.5rem;
+}
+
+.ui.checkbox input[type="checkbox"], .ui.checkbox input[type="radio"] {
+    top: -5px;
+}
 /* For mobile phones */
 
 @media only screen and (max-width: 1580px) {
@@ -316,8 +323,12 @@ emoji {
         width: 90%;
     }
     .nm_slider {
-        padding-bottom: 20px;
+        padding-bottom: 30px;
         padding-top: 10px;
+    }
+
+    .ui.checkbox input[type="checkbox"], .ui.checkbox input[type="radio"] {
+        top: 5px;
     }
 }
 
