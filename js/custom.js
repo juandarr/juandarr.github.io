@@ -19,18 +19,27 @@ var gifSuffix = ".gif";
 let backgroundColor;
 let textColor;
 let cardBackgroundColor;
+let hyperlinkColor;
+let hyperlinkColorHover;
+let dateColor;
 
 const setTheme = function(theme) {
   if (theme == 'dark') {
     
-    backgroundColor = '#121215';
-    textColor = 'rgba(198, 198, 198, 0.87)';
+    backgroundColor = 'rgb(16, 16, 38)';//'#121215';
+    textColor = '#FFF';//'rgba(198, 198, 198, 0.87)';
     cardBackgroundColor = '#464646';
+    hyperlinkColor ='#09c6bdc4 !important';
+    hyperlinkColorHover='#aa2fd3 !important';
+    dateColor = '#888787'; 
   } else {
     
     backgroundColor = '#f8f8ff';
     textColor = '#000';
     cardBackgroundColor = backgroundColor
+    hyperlinkColor='#00b5adc4 !important';
+    hyperlinkColorHover ='#9627ba !important';
+    dateColor ='rgba(0,0,0,.4)';
   }
 
   $('#wrapper').css('background-color', backgroundColor);
@@ -40,7 +49,8 @@ const setTheme = function(theme) {
   $('.header').css('color', textColor);
   $('.cardBg').css('background-color', cardBackgroundColor);
   $('.description').css('color', textColor);
-
+  $('.hlink').css('color', hyperlinkColor);
+  $('.date').css('color', dateColor);
 };
 
 
