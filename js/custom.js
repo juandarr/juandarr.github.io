@@ -33,8 +33,8 @@ const setTheme = function(theme) {
     cardBackgroundColor = backgroundColor
   }
 
-  $('body').css('background-color', backgroundColor);
-  $('body').css('color', textColor);
+  $('#wrapper').css('background-color', backgroundColor);
+  $('#wrapper').css('color', textColor);
   $('.post-item-date').css('color', textColor);
   $('.posts-item-note').css('color', textColor);
   $('.header').css('color', textColor);
