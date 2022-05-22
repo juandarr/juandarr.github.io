@@ -58,6 +58,18 @@ emoji {
     color: #9627ba !important;
 }
 
+.ui.toggle.checkbox .box::after, .ui.toggle.checkbox label::after { 
+    height: 1.4rem;
+}
+
+.ui.toggle.checkbox .box::after, .ui.toggle.checkbox.nm_day label::after { 
+        content: '☀️' !important;
+    }
+.ui.toggle.checkbox .box::after, .ui.toggle.checkbox.nm_night label::after { 
+    content: '🌙' !important;
+}
+
+
 .no-padding-bottom {
     padding-bottom: 0px !important;
 }

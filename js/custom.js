@@ -25,7 +25,7 @@ let dateColor;
 
 const setTheme = function(theme) {
   if (theme == 'dark') {
-    
+    $("#nm_slider").removeClass( "nm_day" ).addClass( "nm_night" );
     backgroundColor = 'rgb(16, 16, 38)';//'#121215';
     textColor = '#FFF';//'rgba(198, 198, 198, 0.87)';
     cardBackgroundColor = '#464646';
@@ -33,7 +33,7 @@ const setTheme = function(theme) {
     hyperlinkColorHover='#aa2fd3 !important';
     dateColor = '#888787'; 
   } else {
-    
+    $("#nm_slider").removeClass( "nm_night" ).addClass( "nm_day" );
     backgroundColor = '#f8f8ff';
     textColor = '#000';
     cardBackgroundColor = backgroundColor
@@ -50,6 +50,9 @@ const setTheme = function(theme) {
   $('.cardBg').css('background-color', cardBackgroundColor);
   $('.description').css('color', textColor);
   $('.hlink').css('color', hyperlinkColor);
+  $('.hlink').hover(function() {
+    $(this).css("color", hyperlinkColorHover)
+  });
   $('.date').css('color', dateColor);
 };
 
