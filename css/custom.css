@@ -238,6 +238,9 @@ emoji {
     width: 600px !important;
 }
 
+.nm_slider {
+    margin:auto;
+}
 
 /* For mobile phones */
 
@@ -285,6 +288,8 @@ emoji {
     .menu-custom {
         margin-bottom: unset !important;
     }
+
+    
 }
 
 
@@ -297,6 +302,10 @@ emoji {
     }
     .blog {
         width: 90%;
+    }
+    .nm_slider {
+        padding-bottom: 20px;
+        padding-top: 10px;
     }
 }
 
