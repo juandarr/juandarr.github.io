@@ -72,7 +72,23 @@ $(document).ready(function() {
     
     }
 
+    $('#night_mode').each(function(){
+      $(this).bind('touchstart', function(){
+          if(this.checked) {
+              this.checked = true;
+          } else {
+              this.checked = false;
+          }
+      }).bind('click', function() {
+        if(this.checked) {
+          this.checked = true;
+      } else {
+          this.checked = false;
+      }
+      });
+  });
 
+  
 $('#night_mode').change(function() {
 if ($(this).is(':checked')) {
   setTheme("dark");
