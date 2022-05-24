@@ -64,19 +64,23 @@ const setTheme = function(theme) {
 
 const currentTheme = localStorage.getItem("theme");
 
-$(document).ready(function() {
-
-
+window.onload = function() {
+  const checkBox = document.getElementById('night_mode');
   if (currentTheme == "dark") {
     setTheme("dark");
-    $('#night_mode')[0].checked = true;
+    checkBox.checked = true;
+    checkBox.setAttribute('checked', 'checked');
   }
   else {
-    $('#night_mode')[0].checked = false;
+    checkBox.checked = false;
+    checkBox.removeAttribute('checked');
     setTheme("light");
 
   }
 
+}
+
+$(document).ready(function() {
 
   $('#night_mode').change(function() {
     if ($(this).is(':checked')) {
