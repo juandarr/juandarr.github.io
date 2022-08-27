@@ -83,3 +83,6 @@ Here is the chosen color palette. It uses teal as the base color. Its complement
 
 This repository was created based on a technical portfolio framework [TechFolio](http://techfolios.github.io). 
 
+---
+
+Juan Rios @ 2022
