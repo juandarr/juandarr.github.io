@@ -27,10 +27,10 @@ let heartColor;
 const setTheme = function(theme) {
   if (theme == 'dark') {
     $("#nm_slider").removeClass("nm_day").addClass("nm_night");
-    backgroundColor = 'rgb(16, 16, 38)';
+    backgroundColor = '#261d45';//'rgb(16, 16, 38)';
     textColor = '#FFF';
     cardBackgroundColor = '#464646';
-    hyperlinkColor = '#09c6bdc4';
+    hyperlinkColor = '#00ffc8';//'#09c6bdc4';
     hyperlinkColorHover = '#aa2fd3';
     dateColor = '#888787';
     gridContainerBackground = '#05608c33';
