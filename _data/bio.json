@@ -27,12 +27,7 @@
       },
       {
         "network": "twitter",
-        "username": "juandarr",
-        "url": "http://twitter.com/juandarr"
-      },
-      {
-        "network": "deskpro",
-        "username":"overcode",
+        "username": "overcode",
         "url": "https://fosstodon.org/@overcode"
       },
       {
