@@ -146,7 +146,7 @@
             aria-label="Recent Posts">
             Recent Posts</h3>
           <a class="post-item-date hlink" href="{{site.baseurl}}/feed.xml" target="_blank" download="feed.xml"><i
-              class="large save icon" style="vertical-align: sub;"></i>RSS</a>
+              class="large rss icon" style="vertical-align: sub;"></i>RSS</a>
         </div>
         {% assign essay_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}
         {% for post in essay_pages %}
