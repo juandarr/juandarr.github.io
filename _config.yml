@@ -23,6 +23,7 @@ theme-home: theme-home.html
 theme-projects: theme-projects.html
 theme-essays: theme-essays.html
 theme-bio: theme-bio.html
+theme-tags: theme-tags.html
 
 # YOU NORMALLY NEVER CHANGE THE FOLLOWING
 markdown: kramdown

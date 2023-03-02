@@ -1,0 +1,18 @@
+<div style="padding-top: 20px" class="ui container blog main-content">
+<ul>
+{% assign essay_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}
+{% for post in essay_pages %}
+    {% if post.draft == true %}
+        {% continue %}
+    {% endif %}
+    {% for tag in post.tags %}
+        <li id="">
+            {{tag}}
+        </li>
+
+        {{ post.date | date:"%Y-%m-%d" }} &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}: {{ post.subtitle }}</a>
+        <br>
+    {% endfor %}
+{% endfor %}
+</ul>
+</div>
