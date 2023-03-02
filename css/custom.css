@@ -45,6 +45,9 @@ emoji {
     transition: 0.2s ease;
 }
 
+.icon {
+    margin: 0.25rem 0.25rem 0 0.15rem;
+}
 
 .hlink {
     color: #00d5a7 !important;
