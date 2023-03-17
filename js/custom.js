@@ -1,18 +1,3 @@
-/*
-var x = document.getElementsByClassName("cardjig");
-var i;
-for (i = 0; i < x.length; i++) {
-  x[i].addEventListener("mouseover", jiggle);
-} 
-
-function jiggle() {
-  var x = document.getElementsByClassName("cardjig");
-    var i;
-    for (i = 0; i < x.length; i++) {
-      x[i].transition('jiggle');
-    } 
-}*/
-
 var staticGifSuffix = "-static.png";
 var gifSuffix = ".gif";
 
@@ -27,10 +12,10 @@ let heartColor;
 const setTheme = function(theme) {
   if (theme == 'dark') {
     $("#nm_slider").removeClass("nm_day").addClass("nm_night");
-    backgroundColor = '#261d45';//'rgb(16, 16, 38)';
+    backgroundColor = '#261d45';
     textColor = '#FFF';
     cardBackgroundColor = '#464646';
-    hyperlinkColor = '#00ffc8';//'#09c6bdc4';
+    hyperlinkColor = '#00ffc8';
     hyperlinkColorHover = '#aa2fd3';
     dateColor = '#888787';
     gridContainerBackground = '#05608c33';
@@ -61,39 +46,36 @@ const setTheme = function(theme) {
   $('.heartColor').css('color', heartColor);
 };
 
-
 const currentTheme = localStorage.getItem("theme");
 
-window.onload = function() {
+// this one is jut to wait for the page to load
+document.addEventListener('DOMContentLoaded', () => {
+
   const checkBox = document.getElementById('night_mode');
   if (currentTheme == "dark") {
-    setTheme("dark");
     checkBox.checked = true;
-    checkBox.setAttribute('checked', 'checked');
+    setTheme("dark");
   }
   else {
     checkBox.checked = false;
-    checkBox.removeAttribute('checked');
     setTheme("light");
-
   }
+});
 
-}
+const changeTheme = () => {
+    let theme;
+    const e = document.getElementById('night_mode');
+    if (e.checked === true) {
+        theme = "dark"; 
+    } else {
+        theme = "light"
+    }
+    setTheme(theme);
+    localStorage.setItem("theme", theme);
+};
 
 $(document).ready(function() {
 
-  $('#night_mode').change(function() {
-    if ($(this).is(':checked')) {
-      setTheme("dark");
-      localStorage.setItem("theme", "dark");
-    } else {
-      setTheme("light");
-      localStorage.setItem("theme", "light");
-    }
-  });
-
-  //var colors = ['coral', 'cornflowerblue', 'crimson','deepskyblue','gold','darkseagreen'];
-  //var colors =['#FFF761','#4CC8C3','#B254D0','#FFA761','lightgreen','#e98ebc','#ccf88a','#63cff3'];
   //faded color palette
   var colors = ['#FFF76133', '#4CC8C333', '#B254D033', '#FFA76133'];
   var color_index = Math.floor(Math.random() * colors.length);
@@ -111,7 +93,6 @@ $(document).ready(function() {
   $('.cardjig').hover(function() {
     $(this).transition({
       animation: 'pulse'
-      //duration   : '1s'
     });
   }, function() { });
 
@@ -130,7 +111,6 @@ $(document).ready(function() {
   });
 
   try {
-    // function([string1, string2],target id,[color1,color2])    
     consoleText(['Engineer', 'Maker', 'C0d3r'], 'text', ['#FFA761', '#4CC8C3', '#B254D0'], ['<emoji>&#x1F468&#x200D&#x1F527</emoji>', '<emoji>&#x1F468&#x200D&#x1F3A8</emoji>', '<emoji>&#x1F468&#x200D&#x1F4BB</emoji>']);
 
     function consoleText(words, id, colors, emojis) {

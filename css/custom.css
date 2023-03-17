@@ -61,19 +61,64 @@ emoji {
 a:hover {
   color: #aa2fd3 !important ;
 }  
-.ui.slider.checkbox .box::after, .ui.slider.checkbox label::after { 
-    height: 1.4rem;
-    width: 2rem !important;
-    padding-top: 0.1rem;
+
+.nm_slider {
+    width: 2.5em;
+    height: 100%;
+    margin: 0;
 }
 
-.ui.slider.checkbox .box::after, .ui.slider.checkbox.nm_day label::after { 
+.ui.checkbox {
+    position: relative;
+    display: flex;
+}
+
+.ui.checkbox input[type="checkbox"] {
+    position: absolute;
+    width: 100%;
+    height:100%;
+}
+
+.ui.checkbox label { 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding:0;
+}
+
+.ui.checkbox label:before {
+    width: 0;
+    height: 0;
+    background: none;
+    border: 0;
+}
+
+.ui.checkbox.nm_day label::before { 
         content: '☀️' !important;
+        position: relative;
+        top: 1em;
+        left: 0em;
+        border: 0 !important;
+        background: none !important;
+        width: auto;
+        height: auto;
+        font-size: 1.5em;
     }
-.ui.slider.checkbox .box::after, .ui.slider.checkbox.nm_night label::after { 
-    content: '🌙' !important;
+.ui.checkbox.nm_night label::after { 
+    content: '🌘' !important;
+    position: relative;
+    top: 0.9em;
+    left: 0em;
+    border: 0 !important;
+    background: none !important;
+    width: auto;
+    height: auto;
+    font-size: 1.5em;
 }
 
+.ui.menu .item {
+    padding: .92857143em 0.8em;
+}
 
 .no-padding-bottom {
     padding-bottom: 0px !important;
@@ -170,7 +215,7 @@ a:hover {
     /*font-family: sans-serif;*/
     background-color: #FFFA9E; 
     padding: 15px 5px 15px 5px;
-    width: auto;
+    width: 15%;
     z-index: 100;
     position: fixed;
     margin-top: 20px;
@@ -194,9 +239,9 @@ a:hover {
     background-color: linear-gradient( to right, var(--mainColor) 0%, var(--mainColor) 1px, transparent 2px);
     background-repeat: repeat-x;
     background-size: 100%;
-    color: white;
     padding-left: 10px;
     text-decoration: none;
+    color: #00b5ad !important;
 }
 
 .floating-menu a:hover {
@@ -260,17 +305,10 @@ a:hover {
     width: 600px !important;
 }
 
-.nm_slider {
-    margin:auto;
-}
 
-.ui.slider.checkbox input {
-    height: 1.5rem;
-}
 
-.ui.checkbox input[type="checkbox"], .ui.checkbox input[type="radio"] {
-    top: -5px;
-}
+
+
 /* For mobile phones */
 
 @media only screen and (max-width: 1580px) {
@@ -335,6 +373,12 @@ a:hover {
     .nm_slider {
         padding-bottom: 30px;
         padding-top: 10px;
+    }
+
+    .ui.checkbox {
+        position: relative;
+        display: flex;
+        align-items: center;
     }
 
     .ui.checkbox input[type="checkbox"], .ui.checkbox input[type="radio"] {
@@ -647,4 +691,3 @@ a:hover {
 #homeimg:hover .imgtop {
     display: inline;
 }
-
