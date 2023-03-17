@@ -9,3 +9,4 @@ favicons
 tmp
 essays/template.md
 essays/.obsidian
+node_modules/

@@ -13,13 +13,14 @@
   </title>
 
   <!-- Load Javascript and CSS for Semantic UI -->
+  <style> {% include critical/critical.css %}</style>
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <script src="{{ site.baseurl }}/css/semantic-ui/semantic.min.js"></script>
   <script src="{{ site.baseurl }}/js/custom.js"></script>
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/semantic-ui/semantic.min.css">
+  <link rel="preload" href="{{ site.baseurl }}/css/semantic-ui/semantic.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
   <!-- Load custom CSS for the personal webpage speficific design -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/custom.css">
+  <link rel="preload" href="{{ site.baseurl }}/css/custom.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 
