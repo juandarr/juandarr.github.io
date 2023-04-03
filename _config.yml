@@ -26,7 +26,7 @@ bio-page-label: Resume
 # Defining your own custom theme variations is easy. See the documentation.
 theme-home: theme-home.html
 theme-projects: theme-projects.html
-theme-essays: theme-essays.html
+theme-posts: theme-posts.html
 theme-bio: theme-bio.html
 theme-tags: theme-tags.html
 

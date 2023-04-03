@@ -1,7 +1,7 @@
 <div style="padding-top: 20px" class="ui container blog main-content">
 <ul>
-{% assign essay_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}
-{% for post in essay_pages %}
+{% assign post_pages = site.pages | where: "type", "post" | sort: "date" | reverse %}
+{% for post in post_pages %}
     {% if post.draft == true %}
         {% continue %}
     {% endif %}
