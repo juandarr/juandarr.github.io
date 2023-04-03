@@ -1,6 +1,6 @@
 ---
-layout: essay
-type: essay
+layout: post
+type: post 
 draft: false
 title: Exploring static website generators
 subtitle: The evolution of the world wide web

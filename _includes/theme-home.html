@@ -1,7 +1,7 @@
 <!-- Home page design with large image to left of bio info. -->
-{% assign essay_pages = site.pages | where: "type", "essay" | where_exp: "page", "page.draft != true" %}
+{% assign post_pages = site.pages | where: "type", "post" | where_exp: "page", "page.draft != true" %}
 {% assign project_pages = site.pages | where: "type", "project" | where_exp: "page", "page.draft != true" %}
-{% assign num_essays = essay_pages.size %}
+{% assign num_posts = post_pages.size %}
 {% assign num_projects = project_pages.size %}
 
 <div style="padding-top: 20px" class="ui container main-content">
@@ -148,8 +148,8 @@
           <a class="post-item-date hlink" href="{{site.baseurl}}/feed.xml" target="_blank" download="feed.xml"><i
               class="large rss icon" style="vertical-align: sub;"></i>RSS</a>
         </div>
-        {% assign essay_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}
-        {% for post in essay_pages %}
+        {% assign post_pages = site.pages | where: "type", "post" | sort: "date" | reverse %}
+        {% for post in post_pages %}
         {% if post.draft == true %}
         {% continue %}
         {% endif %}

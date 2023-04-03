@@ -1,6 +1,6 @@
 ---
-layout: essay
-type: essay
+layout: post 
+type: post
 draft: false
 title: Adding RSS to my personal blog
 subtitle: RSS as a tool for the open web
