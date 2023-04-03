@@ -11,7 +11,10 @@ labels:
   - Perception
   - Planning
   - Control
-summary: A series of projects where I design and implement core subsystems of an autonomous vehicle. These are perception (computer vision, sensor fusion and localization), planning (route planning, prediction, behavior planning, trajectory generation) and control (PID)
+summary: A series of projects where I design and implement core subsystems of 
+an autonomous vehicle. These are perception (computer vision, sensor fusion 
+and localization), planning (route planning, prediction, behavior planning, 
+trajectory generation) and control (PID).
 ---
 ## Computer vision
 
