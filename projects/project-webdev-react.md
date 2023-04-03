@@ -11,10 +11,7 @@ labels:
   - Web
   - HTML
   - CSS
-summary: This collection of projects show case my exploration of web 
-technologies. Some of these projects are also the outcome of the merge of 
-personal interests of mine ( e.g., productivity, text editors, math) and the
-technology I am learning at the moment. 
+summary: This collection of projects show case my exploration of web  technologies. Some of these projects are also the outcome of the merge of  personal interests of mine ( e.g., productivity, text editors, math) and the technology I am learning at the moment. 
 ---
 ## React
 
