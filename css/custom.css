@@ -692,3 +692,9 @@ a:hover {
 #homeimg:hover .imgtop {
     display: inline;
 }
+
+.readtimetag {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
