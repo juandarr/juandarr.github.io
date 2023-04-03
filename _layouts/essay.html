@@ -4,7 +4,11 @@ layout: essays
 
 <div style="margin-top: 20px; margin-bottom: 20px" class="ui text container main-content">
   <h1>{{ page.title }}</h1>
+  <div class="readtimetag">
   <span class="date">{{ page.date | date: "%b %d, %Y %H:%M %Z"}}</span>
+  <!-- read time -->
+  {% include read-time.html content=content prompt=true %}
+</div>
   <hr>
   <div class="posts-item-note">
     {% for tag in page.tags %}
