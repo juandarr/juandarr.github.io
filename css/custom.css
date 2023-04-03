@@ -100,10 +100,13 @@ a:hover {
         left: 0em;
         border: 0 !important;
         background: none !important;
-        width: auto;
-        height: auto;
         font-size: 1.5em;
     }
+
+.ui.checkbox.nm_day label::after { 
+    content: '' !important;
+}
+
 .ui.checkbox.nm_night label::after { 
     content: '🌘' !important;
     position: relative;
@@ -111,8 +114,6 @@ a:hover {
     left: 0em;
     border: 0 !important;
     background: none !important;
-    width: auto;
-    height: auto;
     font-size: 1.5em;
 }
 
