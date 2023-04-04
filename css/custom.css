@@ -69,10 +69,6 @@ a:hover {
     padding-left: 0.2em;
 }
 
-/*.ui.checkbox {
-    position: relative;
-    display: flex;
-}*/
 .ui.checkbox {
     position: relative;
     display: flex;
@@ -89,7 +85,6 @@ a:hover {
 }
 
 .ui.checkbox label { 
-    /*position: absolute;*/
     width: 100%;
     height: 100%;
     padding:0;
@@ -279,8 +274,8 @@ a:hover {
 .stackable-custom {
     background-color: #FFFA9E !important;
     font-size: 20px !important;
-    font-weight: 400 !important;
     width: fit-content;
+    font-weight: unset !important;
     margin-top: 0.8em;
     margin-left: auto !important;
     margin-right: auto !important;
