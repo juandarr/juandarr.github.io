@@ -66,6 +66,7 @@ a:hover {
     width: 2.5em;
     height: 100%;
     margin: 0;
+    padding-left: 0.2em;
 }
 
 .ui.checkbox {
@@ -80,7 +81,7 @@ a:hover {
 }
 
 .ui.checkbox label { 
-    position: absolute;
+    /*position: absolute;*/
     width: 100%;
     height: 100%;
     padding:0;
@@ -96,7 +97,7 @@ a:hover {
 .ui.checkbox.nm_day label::before { 
         content: '☀️' !important;
         position: relative;
-        top: 1em;
+        top: 0em;
         left: 0em;
         border: 0 !important;
         background: none !important;
@@ -110,7 +111,7 @@ a:hover {
 .ui.checkbox.nm_night label::after { 
     content: '🌘' !important;
     position: relative;
-    top: 0.9em;
+    top: 0em;
     left: 0em;
     border: 0 !important;
     background: none !important;
@@ -213,7 +214,6 @@ a:hover {
 }
 
 .floating-menu {
-    /*font-family: sans-serif;*/
     background-color: #FFFA9E; 
     padding: 15px 5px 15px 5px;
     width: 15%;
@@ -273,9 +273,19 @@ a:hover {
     font-size: 20px !important;
     font-weight: bold !important;
     width: fit-content;
+    margin-top: 0.8em;
     margin-left: auto !important;
     margin-right: auto !important;
     height: 65px;
+}
+
+.custom-margin {
+    margin: 0.4em 0.5em !important;
+}
+
+.brand {
+    padding: 0px !important;
+    margin: 0.8em;
 }
 
 .resp-container {
@@ -344,8 +354,9 @@ a:hover {
         height: 65px;
     }
     .custom-margin {
-        margin-left: auto !important;
-        margin-right: auto !important;
+        /*margin-left: auto !important;
+        margin-right: auto !important;*/
+        margin: 0.4em 0.5em !important;
     }
     .ui.menu .active.item {
         border-radius: inherit;
@@ -367,6 +378,9 @@ a:hover {
     .stackable-custom {
         height: auto;
         width: 80%;
+        padding-bottom: 0.4em;
+        padding-left: 0.4em;
+        padding-right: 0.4em;
     }
     .blog {
         width: 90%;
@@ -376,15 +390,33 @@ a:hover {
         padding-top: 10px;
     }
 
+.brand {
+    padding: 0px !important;
+    margin: auto;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+}
+
     .ui.checkbox {
-        position: relative;
+        position: absolute;
         display: flex;
         align-items: center;
+        right: 15%;
+        top: 2.5em;
+        height: 3em;
     }
 
     .ui.checkbox input[type="checkbox"], .ui.checkbox input[type="radio"] {
         top: 5px;
     }
+
+.ui.checkbox.nm_day label::before { 
+        font-size: 2em;
+    }
+
+.ui.checkbox.nm_night label::after { 
+    font-size: 2em;
+}
 }
 
 
