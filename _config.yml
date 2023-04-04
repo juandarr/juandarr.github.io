@@ -32,7 +32,10 @@ theme-tags: theme-tags.html
 
 # YOU NORMALLY NEVER CHANGE THE FOLLOWING
 markdown: kramdown
+highlighter: rouge
 include: [_data]
+kramdown:
+  input: GFM
 
 # Homepage limit posts
 number_of_posts: 6

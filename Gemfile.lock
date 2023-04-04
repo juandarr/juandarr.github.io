@@ -65,6 +65,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (= 4.3.2)
+  rouge
 
 BUNDLED WITH
    2.4.10
