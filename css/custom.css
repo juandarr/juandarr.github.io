@@ -1,4 +1,5 @@
 /* Custom definitions */
+@import "monokai.css";
 
 :root {
     /* Variables */
@@ -32,6 +33,10 @@ body {
 .main-content {
     padding: 10px;
     padding-bottom: 60px;
+}
+
+code {
+    font-size: 0.9em;
 }
 
 emoji {
@@ -286,6 +291,10 @@ a:hover {
     margin: 0.4em 0.5em !important;
 }
 
+.custom-text {
+    font-size: 1rem ;
+}
+
 .brand {
     padding: 0px !important;
     margin: 0.8em;
@@ -477,8 +486,8 @@ a:hover {
 /* Content*/
 
 .posts-item-note {
-    font-size: 12px;
-    margin-bottom: 5px;
+    font-size: 1rem;
+    margin-bottom: 1em;
     color: #0d122b;
     margin-right: auto;
 }
@@ -510,11 +519,11 @@ a:hover {
 }
 
 .post-item .post-item-title a {
-    color: #434648;
+    color: #43464895;
 }
 
 .post-tags {
-    font-size: 12px;
+    font-size: 0.9rem;
     font-family: Inconsolata !important;
     font-weight: 400;
 }
@@ -734,4 +743,9 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-size: 1rem;
+}
+
+.readtime:hover {
+    cursor: help;
 }
