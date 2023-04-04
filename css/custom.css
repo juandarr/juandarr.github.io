@@ -69,9 +69,17 @@ a:hover {
     padding-left: 0.2em;
 }
 
+/*.ui.checkbox {
+    position: relative;
+    display: flex;
+}*/
 .ui.checkbox {
     position: relative;
     display: flex;
+    align-items: center;
+    height: 2.5em;
+    top: 1em;
+    margin-right: 0.4em;
 }
 
 .ui.checkbox input[type="checkbox"] {
@@ -97,8 +105,8 @@ a:hover {
 .ui.checkbox.nm_day label::before { 
         content: '☀️' !important;
         position: relative;
-        top: 1em;
-        left: 0em;
+        top: 0.35em;
+        left: 0.15em;
         border: 0 !important;
         background: none !important;
         font-size: 1.5em;
@@ -111,11 +119,11 @@ a:hover {
 .ui.checkbox.nm_night label::after { 
     content: '🌘' !important;
     position: relative;
-    top: 1em;
-    left: 0em;
+    top: 0.35em;
+    left: 0.15em;
     border: 0 !important;
     background: none !important;
-    font-size: 1.5em;
+    font-size: 1.6em;
 }
 
 .ui.menu .item {
@@ -404,17 +412,20 @@ a:hover {
         right: 15%;
         top: 2.5em;
         height: 3em;
+        margin-right: 0em;
     }
 
 
 .ui.checkbox.nm_day label::before { 
         font-size: 2em;
         top: 0em;
+        left: 0em;
     }
 
 .ui.checkbox.nm_night label::after { 
     font-size: 2em;
     top: 0em;
+    left: 0em;
 }
 }
 
