@@ -97,7 +97,7 @@ a:hover {
 .ui.checkbox.nm_day label::before { 
         content: '☀️' !important;
         position: relative;
-        top: 0em;
+        top: 1em;
         left: 0em;
         border: 0 !important;
         background: none !important;
@@ -111,7 +111,7 @@ a:hover {
 .ui.checkbox.nm_night label::after { 
     content: '🌘' !important;
     position: relative;
-    top: 0em;
+    top: 1em;
     left: 0em;
     border: 0 !important;
     background: none !important;
@@ -271,7 +271,7 @@ a:hover {
 .stackable-custom {
     background-color: #FFFA9E !important;
     font-size: 20px !important;
-    font-weight: bold !important;
+    font-weight: 400 !important;
     width: fit-content;
     margin-top: 0.8em;
     margin-left: auto !important;
@@ -406,16 +406,15 @@ a:hover {
         height: 3em;
     }
 
-    .ui.checkbox input[type="checkbox"], .ui.checkbox input[type="radio"] {
-        top: 5px;
-    }
 
 .ui.checkbox.nm_day label::before { 
         font-size: 2em;
+        top: 0em;
     }
 
 .ui.checkbox.nm_night label::after { 
     font-size: 2em;
+    top: 0em;
 }
 }
 
