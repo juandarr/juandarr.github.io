@@ -213,6 +213,10 @@ a:hover {
     transform: scale(1.3) !important;
 }
 
+.medium-amp1_5:hover {
+    transform: scale(1.5) !important;   
+}
+
 .medium-amp2:hover {
     transform: scale(2.0) !important;
 }
