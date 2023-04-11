@@ -1,7 +1,7 @@
-# Personal portfolio
+# Personal website
 
-This is my personal webpage. My goal is to showcase the kind of projects I have worked on in the past and hihglight the kind of experience I am bringing to the table.
-I you want to get in touch just send me a message via Twitter or Gmail.
+This is my personal website. My goal is to present projects I have worked on in the past and highlight the kind of experience/skills in which I have some sort of mastery.
+I you want to get in touch just send me a message via Mastodon or email.
 
 ## Dependencies
 
@@ -11,8 +11,10 @@ I you want to get in touch just send me a message via Twitter or Gmail.
   - `sudo pacman -S ruby base-devel`
 - For other OS
   - [Other linux distro instructions](https://jekyllrb.com/docs/installation/other-linux/)
+#### Option 1: Bundle
+Once you have ruby, install the `bundle` gem with `gem install bundle`. Then get all the dependencies with: `bundle`.
 
-### Install Jekyll
+#### Option 2: Jekyll
 
 - `gem install jekyll bundler`
 	- After installation, add Ruby gem binaries to the path of your OS if requested in terminal
