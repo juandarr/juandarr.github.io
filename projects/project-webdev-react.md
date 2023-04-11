@@ -127,9 +127,40 @@ target="_blank"><i class="normal github icon"></i>Markdown
 previewer React app.</a></p>
 
 ### More 
+Here are a couple more project from my very beginnings exploring React as a framework. React was used for both projects. The original `create-react` method allowed the
+creation of the apps in the initial version. They have been
+updated to use `vite` instead. 
 Random quote machine and drum machine. 
 
-### Responsive web
+#### Drum machine 
 
-List of responsive projects from the past. 
+<img class="ui medium left floated rounded image chime zoom medium-amp1_5" 
+style="font-size:unset;" src="../images/webdev-react/drum-machine.png">
 
+<p class="pjustify">As part of a frontend development course
+I took in <a class="hlink" 
+href="https://freecodecamp.org" 
+target="_blank">Freecodecamp.org</a> I built a Drum Machine. The machine features
+nine different drum sounds that can be played by clicking on the respective button.
+It is also possible to use the keyboard pressing the desired key, which is the
+label of each pad. A `display` element at the right hand side shows the characterization of each sound in the drum machine world. 
+</p>
+<p class="pjustify">
+You can find more information about the code in <a class="hlink" 
+href="https://github.com/juandarr/drumMachine-react" 
+target="_blank"><i class="normal github icon"></i>Drum  
+Machine React app.</a></p>
+
+#### Random quote generator 
+
+<img class="ui medium right floated rounded image chime zoom medium-amp1_5" 
+style="font-size:unset;" src="../images/webdev-react/quote-generator.png">
+
+<p class="pjustify">This was one of the first projects created with React. First I collected a set of inspirational quotes and created a list with them.
+The list can be accessed at random using the `New quote!` button. Sharing is 
+also possible to share via the Mastodon button.
+</p>
+<p class="pjustify">You can find more information about this project in <a class="hlink" 
+href="https://github.com/juandarr/quoteGenerator-react" 
+target="_blank"><i class="normal github icon"></i>Quote 
+Generator React app.</a></p>
