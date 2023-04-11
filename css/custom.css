@@ -377,9 +377,6 @@ a:hover {
     .ui.menu .active.item {
         border-radius: inherit;
     }
-    .zoom:hover {
-        transform: none !important;
-    }
     .menu-custom {
         margin-bottom: unset !important;
     }
@@ -388,7 +385,7 @@ a:hover {
 }
 
 
-/* For screen width less than 928px */
+/* For screen width less than 767px */
 
 @media only screen and (max-width: 767px) {
     .stackable-custom {
@@ -435,6 +432,9 @@ a:hover {
     top: 0em;
     left: 0em;
 }
+    .zoom:hover {
+        transform: none !important;
+    }
 }
 
 
