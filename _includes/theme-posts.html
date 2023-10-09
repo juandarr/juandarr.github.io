@@ -6,10 +6,12 @@
       style="font-size:18px !important;font-weight:bold;margin-bottom:10px;padding-right:20px;"
       aria-label="Recent Posts">
       Thoughts and explorations</h3>
-    <a class="post-item-date hlink" href="{{site.baseurl}}/feed.xml" target="_blank" download="feed.xml"><i
-        class="large save icon" style="vertical-align: sub;"></i>RSS</a>
+    <a class="post-item-date hlink" href="{{site.baseurl}}/feed.xml"
+      target="_blank" download="feed.xml"><i class="large rss icon"
+        style="vertical-align: sub;"></i>RSS</a>
   </div>
-  {% assign post_pages = site.pages | where: "type", "post" | sort: "date" | reverse %}
+  {% assign post_pages = site.pages | where: "type", "post" | sort: "date" |
+  reverse %}
   {% for post in post_pages %}
   {% if post.draft == true %}
   {% continue %}
@@ -31,7 +33,8 @@
     {% if post.tags %}
     <b>[</b>
     {% for tag in post.tags %}
-    <a class="hlink post-tags" href="{{ site.baseurl }}/tags/#{{ tag }}">{{ tag }}</a>{% if forloop.last == false %},{%
+    <a class="hlink post-tags" href="{{ site.baseurl }}/tags/#{{ tag }}">{{ tag
+      }}</a>{% if forloop.last == false %},{%
     endif %}
     {% endfor %}
     <b>]</b>
