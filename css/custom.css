@@ -753,3 +753,9 @@ a:hover {
 .readtime:hover {
     cursor: help;
 }
+
+/* Styles for markdown images */
+.image_fit {
+    width: -webkit-fill-available;
+    width: -moz-available;
+}
