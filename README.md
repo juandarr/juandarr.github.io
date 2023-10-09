@@ -1,7 +1,7 @@
 # Personal portfolio
 
-This is my personal webpage. My goal is to showcase the kind of projects I have worked on in the past and hihglight the kind of experience I am bringing to the table.
-I you want to get in touch just send me a message via Twitter or Gmail.
+This is my personal website. My goal is to present projects I have worked on in the past and highlight the kind of experience/skills in which I have some sort of mastery.
+I you want to get in touch just send me a message via Twitter, Mastodon or Gmail.
 
 ## Dependencies
 
@@ -12,38 +12,42 @@ I you want to get in touch just send me a message via Twitter or Gmail.
 - For other OS
   - [Other linux distro instructions](https://jekyllrb.com/docs/installation/other-linux/)
 
-### Install Jekyll
+#### Option 1: Bundle
+
+Once you have Ruby, install the `bundle` gem with `gem install bundle`. Then get all the dependencies with: `bundle`.
+
+### Option 2: Jekyll
 
 - `gem install jekyll bundler`
-	- After installation, add Ruby gem binaries to the path of your OS if requested in terminal
-	- Troubleshooting
-		- I had a problem with the gem `webrick`. It was solved installing the gem via `gem install webrick`
-			- [Source of solution](https://programmerah.com/solved-jekyll-install-error-cannot-load-such-file-webrick-loaderror-39104/)
+  - After installation, add Ruby gem binaries to the path of your OS if requested in terminal
+  - Troubleshooting
+    - I had a problem with the gem `webrick`. It was solved installing the gem via `gem install webrick`
+      - [Source of solution](https://programmerah.com/solved-jekyll-install-error-cannot-load-such-file-webrick-loaderror-39104/)
 
 ## Usage
 
 Run the following command in the terminal:
-
 
 ```bash
 jekyll server --baseurl '' --livereload
 ```
 
 If you have created the page with `jekyll new website_name` you need to use instead:
+
 ```bash
 bundle exec jekyll serve --livereload
 ```
 
-
 ## Color palette
 
-Here is the chosen color palette. It uses teal as the base color. Its complementary color (orange) is part of the set. Purple and yellow in its variations are part of the palette too. 
+Here is the chosen color palette. It uses teal as the base color. Its complementary color (orange) is part of the set. Purple and yellow in its variations are part of the palette too.
 
-#####  Color Palette by Paletton.com
-#####  Palette URL: http://paletton.com/#uid=43h1j0kw0DljNJppqFjD8szFqmi
+##### Color Palette by Paletton.com
 
+##### Palette URL: http://paletton.com/#uid=43h1j0kw0DljNJppqFjD8szFqmi
 
-*** Primary color:
+\*\*\* Primary color:
+
 ```CSS
    shade 0 = #00B5AE = rgb(  0,181,174) = rgba(  0,181,174,1) = rgb0(0,0.71,0.682)
    shade 1 = #4CC8C3 = rgb( 76,200,195) = rgba( 76,200,195,1) = rgb0(0.298,0.784,0.765)
@@ -52,7 +56,8 @@ Here is the chosen color palette. It uses teal as the base color. Its complement
    shade 4 = #006C68 = rgb(  0,108,104) = rgba(  0,108,104,1) = rgb0(0,0.424,0.408)
 ```
 
-*** Secondary color (1):
+\*\*\* Secondary color (1):
+
 ```CSS
    shade 0 = #FFF200 = rgb(255,242,  0) = rgba(255,242,  0,1) = rgb0(1,0.949,0)
    shade 1 = #FFF761 = rgb(255,247, 97) = rgba(255,247, 97,1) = rgb0(1,0.969,0.38)
@@ -61,7 +66,8 @@ Here is the chosen color palette. It uses teal as the base color. Its complement
    shade 4 = #B2A900 = rgb(178,169,  0) = rgba(178,169,  0,1) = rgb0(0.698,0.663,0)
 ```
 
-*** Secondary color (2):
+\*\*\* Secondary color (2):
+
 ```CSS
    shade 0 = #9307BF = rgb(147,  7,191) = rgba(147,  7,191,1) = rgb0(0.576,0.027,0.749)
    shade 1 = #B254D0 = rgb(178, 84,208) = rgba(178, 84,208,1) = rgb0(0.698,0.329,0.816)
@@ -69,7 +75,8 @@ Here is the chosen color palette. It uses teal as the base color. Its complement
    shade 3 = #730497 = rgb(115,  4,151) = rgba(115,  4,151,1) = rgb0(0.451,0.016,0.592)
    shade 4 = #5A0376 = rgb( 90,  3,118) = rgba( 90,  3,118,1) = rgb0(0.353,0.012,0.463)
 ```
-*** Complement color:
+
+\*\*\* Complement color:
 
 ```CSS
    shade 0 = #FF7100 = rgb(255,113,  0) = rgba(255,113,  0,1) = rgb0(1,0.443,0)
@@ -81,7 +88,7 @@ Here is the chosen color palette. It uses teal as the base color. Its complement
 
 ## The original framework
 
-This repository was created based on a technical portfolio framework [TechFolio](http://techfolios.github.io). 
+This repository was created based on a technical portfolio framework [TechFolio](http://techfolios.github.io).
 
 ---
 
