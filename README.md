@@ -1,7 +1,7 @@
 # Personal portfolio
 
 This is my personal website. My goal is to present projects I have worked on in the past and highlight the kind of experience/skills in which I have some sort of mastery.
-I you want to get in touch just send me a message via Twitter, Mastodon or Gmail.
+If you want to get in touch just send me a message via Twitter, Mastodon or Gmail.
 
 ## Dependencies
 
@@ -16,7 +16,7 @@ I you want to get in touch just send me a message via Twitter, Mastodon or Gmail
 
 Once you have Ruby, install the `bundle` gem with `gem install bundle`. Then get all the dependencies with: `bundle`.
 
-### Option 2: Jekyll
+#### Option 2: Jekyll
 
 - `gem install jekyll bundler`
   - After installation, add Ruby gem binaries to the path of your OS if requested in terminal
