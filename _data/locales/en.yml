@@ -59,7 +59,7 @@ post:
   pageview_measure: views
   read_time:
     unit: min
-    prompt: read
+    prompt: Read time
   relate_posts: Further Reading
   share: Share
   button:
@@ -77,11 +77,11 @@ post:
 # See: <http://strftime.net/>, <https://day.js.org/docs/en/display/format>
 df:
   post:
-    strftime: '%b %e, %Y'
-    dayjs: 'll'
+    strftime: "%b %e, %Y"
+    dayjs: "ll"
   archives:
-    strftime: '%b'
-    dayjs: 'MMM'
+    strftime: "%b"
+    dayjs: "MMM"
 
 # categories page
 categories:

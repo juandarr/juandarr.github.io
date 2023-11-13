@@ -2,10 +2,10 @@
 
 # REQUIRED CHANGES
 # Edit next line, providing your own name.
-title: Juan Rios 
+title: Juan Rios
 # Edit next line, replacing 'techfolios' with your github username
 name: "My corner of the universe"
-description: "A blog about tech, computers and dreams"
+description: "A blog about tech, computers and ideas"
 url: "https://juandarr.github.io"
 feed_items: 10
 feed_update_period: daily
