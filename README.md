@@ -92,4 +92,4 @@ This repository was created based on a technical portfolio framework [TechFolio]
 
 ---
 
-Juan Rios @ 2022
+Juan Rios @ 2024
