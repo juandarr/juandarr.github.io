@@ -158,10 +158,10 @@
       <div style="text-align:left;padding-top: 15px;">
         <div class="post-item" style="display: block ruby;">
           <h3 class="post-item-title"
-            style="font-size:16px !important;font-weight:bold;margin-bottom:10px;padding-right:20px;margin-right:0px"
+            style="font-weight:bold;margin-bottom:10px;padding-right:20px;margin-right:0px"
             aria-label="Recent Posts">
             Recent Posts</h3>
-          <a class="post-item-date hlink" href="{{site.baseurl}}/feed.xml"
+          <a class="post-item-date rsslink" href="{{site.baseurl}}/feed.xml"
             target="_blank" download="feed.xml"><i class="large rss icon"
               style="vertical-align: sub;"></i>RSS</a>
         </div>
@@ -171,7 +171,7 @@
         {% if post.draft == true %}
         {% continue %}
         {% endif %}
-        <article class="post-item" style="font-size: 13px;">
+        <article class="post-item">
           <span class="post-item-date">{{ post.date | date: "%b %d, %Y"
             }}</span>
           <a class="hlink" href="{{ post.url }}">{{ post.title | escape }}</a>
@@ -181,8 +181,8 @@
     </div>
 
     <div class="column" style="text-align: justify; font-size: 13px;">
-      <h1 class="header no-padding-bottom"
-        style="font-size: 44px;margin-bottom: 0px;">Hi, I'm Juan</h1>
+      <h1 class="header no-padding-bottom" style="margin-bottom: 0px;">Hi, I'm
+        Juan</h1>
       <div class='console-container'><strong>#</strong>
         <emoji></emoji><span id='text'></span>
         <div class='console-underscore' id='console'>&#95;</div>
@@ -191,36 +191,41 @@
       <!--{{ site.data.bio.basics.summary }}-->
       <h2 class="header no-bottom" style="margin-bottom:8px !important;">Welcome
         to my website</h2>
-      I am a passionate engineer who is driven to solve real world problems
-      through science, engineering, coding and
-      entrepreneurship.<br>
-      <div style="margin-bottom: 5px;"></div>
-      My areas of interest are <strong>AI</strong>, <strong>robotics</strong>
-      and <strong>IoT</strong>. I am constantly
-      thinking about exciting challenges on these fields and strive to come up
-      with simple solutions to complex problems.
-      Here are some examples of my specific work in these areas:
-      <ul style="margin-bottom: 5px; margin-top: 5px;">
-        <li><a class="hlink" href="{{ site.baseurl}}/projects/ai-robotics">AI
-            for robotics</a></li>
-        <li><a class="hlink"
-            href="{{ site.baseurl}}/projects/deep-learning">Deep learning
-            projects</a></li>
-        <li><a class="hlink"
-            href="{{ site.baseurl}}/projects/classic-ai">Classic AI projects</a>
-        </li>
-      </ul>
-      I also enjoy <strong>making</strong> things and working at the
-      intersection of <strong>software</strong> and
-      <strong>hardware</strong>. For me, this journey is about exploration and
-      having fun. In the past, I have
-      explored various areas of knowledge driven by these two motivations.
-      <br>
-      <div style="margin-bottom: 5px;"></div>
-      If anything here has piqued your interest, feel free to check out my
-      projects, resume and blog sections. Additionally, If you
-      want to contact me, mastodon or email work best. Cheers! <div
-        style="font-size: 20px;display: inline-block;">🍻
+      <div class="home-content">
+        <p>I am a passionate engineer who is driven to solve real world problems
+          through science, engineering, coding and
+          entrepreneurship.</p>
+        <p>My areas of interest are <strong>AI</strong>,
+          <strong>robotics</strong>
+          and <strong>IoT</strong>. I am constantly
+          thinking about exciting challenges on these fields and strive to come
+          up
+          with simple solutions to complex problems.
+          Here are some examples of my specific work in these areas:
+        <ul style="margin-bottom: 5px; margin-top: 5px;">
+          <li><a class="hlink" href="{{ site.baseurl}}/projects/ai-robotics">AI
+              for robotics</a></li>
+          <li><a class="hlink"
+              href="{{ site.baseurl}}/projects/deep-learning">Deep learning
+              projects</a></li>
+          <li><a class="hlink"
+              href="{{ site.baseurl}}/projects/classic-ai">Classic AI
+              projects</a>
+          </li>
+        </ul>
+        </p>
+        <p>I also enjoy <strong>making</strong> things and working at the
+          intersection of <strong>software</strong> and
+          <strong>hardware</strong>. For me, this journey is about exploration
+          and
+          having fun. In the past, I have
+          explored various areas of knowledge driven by these two motivations.
+          If anything here has piqued your interest, feel free to check out my
+          projects, resume and blog sections. Additionally, If you
+          want to contact me, mastodon or email work best. Cheers!
+          <span style="font-size: 1.8rem;display: inline-block;">🍻
+          </span>
+        </p>
       </div>
     </div>
   </div>
