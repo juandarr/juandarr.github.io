@@ -22,10 +22,12 @@
 <!-- return element -->
 <span class="readtime" data-toggle="tooltip" data-placement="bottom"
   title="{{ words }} {{ site.data.locales[site.lang].post.words }}">
-  {%- if include.prompt -%}
-  {%- assign _prompt_words = read_prompt | number_of_words: 'auto' -%}
-  {%- unless _prompt_words > 1 -%}{{ " " }}{%- endunless -%}{{ read_prompt }}
-  {%- endif -%}:
-  <b>{{- read_time -}}{{" "}}{{-
-    site.data.locales[site.lang].post.read_time.unit -}}</b>
+  <b>
+    {%- if include.prompt -%}
+    {%- assign _prompt_words = read_prompt | number_of_words: 'auto' -%}
+    {%- unless _prompt_words > 1 -%}{{ " " }}{%- endunless -%}{{ read_prompt }}
+    {%- endif -%}:
+  </b>
+  <b><u>{{- read_time -}}{{" "}}{{-
+      site.data.locales[site.lang].post.read_time.unit -}}</b></u>
 </span>

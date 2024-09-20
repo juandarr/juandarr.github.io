@@ -1,16 +1,16 @@
 ---
 layout: post
-type: post 
+type: post
 draft: false
 title: Exploring static website generators
 subtitle: The evolution of the world wide web
 author:
   name: Juan Ríos
-date: '2021-04-07 15:00:00 -0500'
-tags: [HTML, CSS, design]
+date: "2021-04-07 15:00:00 -0500"
+tags: [HTML, CSS, Design]
 ---
 
-During the last week I have been reviewing concepts from the world wide web. HTML was my first topic, then I moved to CSS. They are really delightful topics and I thoroughly enjoyed the experience. I wanted to learn how to build web pages since I was basically a young teenager (14 years old) and now I am literally reliving that dream, both with the autonomy of time and attention direction as well as more abundant resources to do whatever I want. In this short post I will describe the findings of my initial exploration of the world of static website generators. These are software frameworks that allow to generate static websites (mostly based on HTML and CSS) that don't require a web server or a database. For my personal website I am using a [template](https://techfolios.github.io/userguide.html) create by a CSS proffesor of a Hawaian University. The template is based on Jekyll, semantic UI and JSON resume. Since Jekyll is the first framework I explored I will start with that one. 
+During the last week I have been reviewing concepts from the world wide web. HTML was my first topic, then I moved to CSS. They are really delightful topics and I thoroughly enjoyed the experience. I wanted to learn how to build web pages since I was basically a young teenager (14 years old) and now I am literally reliving that dream, both with the autonomy of time and attention direction as well as more abundant resources to do whatever I want. In this short post I will describe the findings of my initial exploration of the world of static website generators. These are software frameworks that allow to generate static websites (mostly based on HTML and CSS) that don't require a web server or a database. For my personal website I am using a [template](https://techfolios.github.io/userguide.html) create by a CSS proffesor of a Hawaian University. The template is based on Jekyll, semantic UI and JSON resume. Since Jekyll is the first framework I explored I will start with that one.
 
 ### Jekyll
 
@@ -30,4 +30,4 @@ Hugo is an alternative to Jekyll I found when reading an article about a guy who
 
 ### Final comments
 
-The world of the internet and computers is something that really excites me and move me forward to learn and explore new topics. During this exploration I improved the blog section of this site and also learn the basic architecture of frameworks of these kind. I also found that frameworks like Jekyll or Hugo impose a lot of restriction during web development since the idea is to develop a web site with basic tools such as HTML and CSS, while avoiding more complicated ones such as JS frameworks, databases or servers. I like the idea a lot. I also understand that the current web is a mess. It is full of noise, JS scripts, ads and complexity. Coming back to the simple side of the web is something that appeals to me.  
+The world of the internet and computers is something that really excites me and move me forward to learn and explore new topics. During this exploration I improved the blog section of this site and also learn the basic architecture of frameworks of these kind. I also found that frameworks like Jekyll or Hugo impose a lot of restriction during web development since the idea is to develop a web site with basic tools such as HTML and CSS, while avoiding more complicated ones such as JS frameworks, databases or servers. I like the idea a lot. I also understand that the current web is a mess. It is full of noise, JS scripts, ads and complexity. Coming back to the simple side of the web is something that appeals to me.

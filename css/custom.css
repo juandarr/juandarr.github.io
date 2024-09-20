@@ -53,11 +53,18 @@ h3 {
   font-size: 14px;
 }
 
+.posts-item-note {
+  font-size: 16px;
+  margin-bottom: 1em;
+  color: #0d122b;
+  margin-right: auto;
+}
+
 .post-item .post-item-title {
   margin: 0;
   border: 0;
   padding: 0;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: normal;
   letter-spacing: 0.1px;
   margin-right: auto;
@@ -72,9 +79,17 @@ h3 {
 }
 
 .post-tags {
-  font-size: 0.9rem;
+  font-size: 13px;
   font-family: Inconsolata !important;
   font-weight: 400;
+}
+
+.custom-text {
+  font-size: 16px;
+}
+
+.date {
+  font-weight: 700;
 }
 /* End */
 
@@ -360,10 +375,6 @@ a:hover {
   margin: 0.4em 0.5em !important;
 }
 
-.custom-text {
-  font-size: 1rem;
-}
-
 .brand {
   padding: 0px !important;
   margin: 0.8em;
@@ -537,15 +548,6 @@ a:hover {
   top: -0.14em;
   left: 10px;
   font-size: 20px;
-}
-
-/* Content*/
-
-.posts-item-note {
-  font-size: 1rem;
-  margin-bottom: 1em;
-  color: #0d122b;
-  margin-right: auto;
 }
 
 /* SVG image custom values */

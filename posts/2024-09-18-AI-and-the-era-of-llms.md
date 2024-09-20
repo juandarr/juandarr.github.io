@@ -7,7 +7,7 @@ subtitle: Technology and change in a time of fast evolution
 author:
   name: Juan Ríos
 date: "2024-09-18 16:02:50 -0500"
-tags: [ai, generative, technology]
+tags: [AI, GenAI, Technology]
 ---
 
 We are in a time where the landscape of technology is changing quite fast. The culprit is none other than the wave of new developments in the field of deep learning, in particular new breakthroughs in the field of large language models with the invention of transformers. I doesn't a go a week without groundbreaking or at least remarkable new results showcasing the new capabilities of sequence token models in the world of text, image, voice and video. At the center of the storm, some of those results seem useful and potentially disruptive. Others are presented as the next big thing without any proof or glimpse of its real implication or utility. It is a chaotic place to be, but fun nonetheless.
