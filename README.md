@@ -86,10 +86,10 @@ The color palette is mostly based in pastel and vibrant colors. Base color is te
    shade 4 = #B24F00 = rgb(178, 79,  0) = rgba(178, 79,  0,1) = rgb0(0.698,0.31,0)
 ```
 
-## The original framework
+## Credits
 
-This repository was created based on a technical portfolio framework [TechFolio](http://techfolios.github.io).
+This repository was initially created using the `technical portfolio framework` [TechFolio](http://techfolios.github.io) as template.
 
 ---
 
-Juan Rios @ 2024
+Juan Rios @ 2025
