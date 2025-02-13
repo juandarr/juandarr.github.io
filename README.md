@@ -1,7 +1,7 @@
-# Personal portfolio
+# My website
 
-This is my personal website. My goal is to present projects I have worked on in the past and highlight the kind of experience/skills in which I have some sort of mastery.
-If you want to get in touch just send me a message via Twitter, Mastodon or Gmail.
+This is my personal website. Here I present some personal projects, thoughts on my blogs and information about how to find me. In particular I hightlight things I have worked on in the past in the `projects` section and elaborate on the areas/fields in which I have some sort of mastery.
+If you want to get in touch just send me a message via Twitter(X), Mastodon or Gmail.
 
 ## Dependencies
 
@@ -40,7 +40,7 @@ bundle exec jekyll serve --livereload
 
 ## Color palette
 
-Here is the chosen color palette. It uses teal as the base color. Its complementary color (orange) is part of the set. Purple and yellow in its variations are part of the palette too.
+The color palette is mostly based in pastel and vibrant colors. Base color is teal. Orange is used as the complementary color. Purple and yellow in their hue/brightness variations are part of the palette too.
 
 ##### Color Palette by Paletton.com
 
