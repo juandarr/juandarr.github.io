@@ -42,9 +42,9 @@ bundle exec jekyll serve --livereload
 
 The color palette is mostly based in pastel and vibrant colors. Base color is teal. Orange is used as the complementary color. Purple and yellow in their hue/brightness variations are part of the palette too.
 
-##### Color Palette by Paletton.com
+### Color Palette by Paletton.com
 
-##### Palette URL: http://paletton.com/#uid=43h1j0kw0DljNJppqFjD8szFqmi
+#### Palette URL: http://paletton.com/#uid=43h1j0kw0DljNJppqFjD8szFqmi
 
 \*\*\* Primary color:
 
@@ -85,6 +85,12 @@ The color palette is mostly based in pastel and vibrant colors. Base color is te
    shade 3 = #E46500 = rgb(228,101,  0) = rgba(228,101,  0,1) = rgb0(0.894,0.396,0)
    shade 4 = #B24F00 = rgb(178, 79,  0) = rgba(178, 79,  0,1) = rgb0(0.698,0.31,0)
 ```
+
+#### Samples
+
+![Color palette: circles shapes](./images/palette-circles.png){: .image_fit}
+
+![Color palette: fabric](./images/palette-fabric.png){: .image_fit}
 
 ## Credits
 
