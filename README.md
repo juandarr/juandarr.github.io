@@ -88,9 +88,9 @@ The color palette is mostly based in pastel and vibrant colors. Base color is te
 
 #### Samples
 
-![Color palette: circles shapes](./images/palette-circles.png){: .image_fit}
+![Color palette: circles shapes](./images/palette-circles.png)
 
-![Color palette: fabric](./images/palette-fabric.png){: .image_fit}
+![Color palette: fabric](./images/palette-fabric.png)
 
 ## Credits
 
